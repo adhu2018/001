@@ -1,34 +1,34 @@
 [
   {
-    "bookSourceGroup": "修改",
-    "bookSourceName": "#笔趣阁~baquge.cc",
-    "bookSourceUrl": "https://www.baquge.cc",
-    "enable": true,
-    "httpUserAgent": "",
+    "bookSourceGroup": "自制书源; 次等",
+    "bookSourceName": "#笔趣阁",
+    "bookSourceUrl": "https://www.xbaquge.com",
+    "enable": false,
+    "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
     "loginUrl": "",
-    "ruleBookAuthor": "class.box_con.0@id.info@tag.p.0@text",
-    "ruleBookContent": "id.content@html#（百\\s*度.*）|（ 百 度 搜 7书网 7qiShu.Com ）",
-    "ruleBookKind": "",
-    "ruleBookLastChapter": "",
-    "ruleBookName": "class.box_con.0@id.info@tag.h1.0@text",
+    "ruleBookAuthor": "id.info@tag.p.0@text#.+者：",
+    "ruleBookContent": "id.content@textNodes#[『』ΔΩㄟ┡ん]*\\s*新(?=[^大空建人年春节课科技变加浪闻生的故网页版本了鲜书])\\s*[『』ΔΩㄟ┡ん]*.*\\s*笔(?=[^峰尖头记迹])\\s*[『』ΔΩㄟ┡ん]*.*\\s*趣(?=[^味])\\s*[『』ΔΩㄟ┡ん]*.*\\s*阁(?=[^楼]).*\\s*.*\\s*.*ＣＯＭ",
+    "ruleBookKind": "id.info@tag.p.1@text#.+态：",
+    "ruleBookLastChapter": "id.info@tag.p.-1@tag.a@text",
+    "ruleBookName": "id.info@tag.h1@text",
     "ruleBookUrlPattern": "",
-    "ruleChapterList": "id.list@tag.dd",
+    "ruleChapterList": "id.list@tag.dl@tag.dd",
     "ruleChapterName": "tag.a@text",
     "ruleChapterUrl": "",
     "ruleChapterUrlNext": "",
-    "ruleContentUrl": "tag.a.0@href",
+    "ruleContentUrl": "tag.a@href",
     "ruleContentUrlNext": "",
-    "ruleCoverUrl": "id.fmimg@tag.img.0@src",
+    "ruleCoverUrl": "id.fmimg@tag.img@src",
     "ruleFindUrl": "",
-    "ruleIntroduce": "id.intro@tag.p@text",
+    "ruleIntroduce": "id.intro@html",
     "ruleSearchAuthor": "class.result-game-item-info-tag.0@tag.span.1@text",
     "ruleSearchCoverUrl": "",
     "ruleSearchKind": "class.result-game-item-info-tag.1@tag.span.1@text",
     "ruleSearchLastChapter": "class.result-game-item-info-tag.3@tag.a.0@text",
-    "ruleSearchList": "class.result-item",
-    "ruleSearchName": "class.result-item-title.0@tag.a.0@text",
-    "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
-    "ruleSearchUrl": "https://www.baquge.cc/search.php?keyword=searchKey&page=searchPage",
+    "ruleSearchList": "class.result-game-item-detail",
+    "ruleSearchName": "class.result-item-title result-game-item-title@tag.a@tag.span@text",
+    "ruleSearchNoteUrl": "class.result-item-title result-game-item-title@tag.a@href",
+    "ruleSearchUrl": "https://www.xbaquge.com/search.php?keyword=searchKey",
     "serialNumber": 0,
     "weight": 0
   },
@@ -2868,12 +2868,11 @@
     "weight": 2232
   },
   {
-    "bookSourceGroup": "普通; 失效",
+    "bookSourceGroup": "失效",
     "bookSourceName": "3Z小说网",
     "bookSourceUrl": "http://m.3zxs.com",
     "enable": false,
     "httpUserAgent": "",
-    "lastUpdateTime": 1554802344568,
     "loginUrl": "",
     "ruleBookAuthor": "",
     "ruleBookContent": "id.nr1@textNodes",
@@ -5180,7 +5179,7 @@
     "ruleSearchNoteUrl": "tag.dt@tag.a@href",
     "ruleSearchUrl": "https://www.upuxs.com/search.php?q=searchKey",
     "serialNumber": 736,
-    "weight": 1710
+    "weight": 1720
   },
   {
     "bookSourceGroup": "",
@@ -11948,7 +11947,7 @@
     "ruleSearchNoteUrl": "tag.a@href",
     "ruleSearchUrl": "https://m.fnzw.com/novel.php?action=search@searchkey=searchKey|char=gbk&searchtype=novelname",
     "serialNumber": 729,
-    "weight": 1234
+    "weight": 1266
   },
   {
     "bookSourceGroup": "占坑",
@@ -18967,17 +18966,17 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "优",
+    "bookSourceGroup": "优; 修复",
     "bookSourceName": "奇快小说",
     "bookSourceUrl": "https://www.7kzw.com",
     "enable": true,
     "httpUserAgent": "",
     "loginUrl": "",
-    "ruleBookAuthor": "",
+    "ruleBookAuthor": "id.info@tag.p.0@tag.a@text",
     "ruleBookContent": "id.content@html#\\s第.*章\\s|天才一秒记住(本站地址：.奇快中文网.\\shttps://www.7kzw.com/)?(最快更新！)?无广告！|章节错误.点此报送.免注册..|报送后维护人员会在两分钟内校正章节内容.请耐心等待。|比例70.*",
     "ruleBookKind": "",
-    "ruleBookLastChapter": "",
-    "ruleBookName": "",
+    "ruleBookLastChapter": "id.info@tag.p.3@tag.a@text",
+    "ruleBookName": "id.info@tag.h1@text",
     "ruleBookUrlPattern": "",
     "ruleChapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
     "ruleChapterName": "tag.a@text",
@@ -18985,9 +18984,9 @@
     "ruleChapterUrlNext": "",
     "ruleContentUrl": "tag.a@href",
     "ruleContentUrlNext": "",
-    "ruleCoverUrl": "",
+    "ruleCoverUrl": "id.fmimg@tag.img@src",
     "ruleFindUrl": "",
-    "ruleIntroduce": "",
+    "ruleIntroduce": "id.intro@text",
     "ruleSearchAuthor": "class.s4@text",
     "ruleSearchCoverUrl": "",
     "ruleSearchKind": "",
@@ -18997,7 +18996,7 @@
     "ruleSearchNoteUrl": "class.s2@tag.a@href",
     "ruleSearchUrl": "https://www.7kzw.com/index.php?s=/web/index/search@name=searchKey",
     "serialNumber": 525,
-    "weight": 1133
+    "weight": 0
   },
   {
     "bookSourceGroup": "优",
@@ -22791,7 +22790,7 @@
     "ruleSearchNoteUrl": "class.bookname@tag.a@href|tag.a@href",
     "ruleSearchUrl": "http://m.shumil.com/search.php?searchkey=searchKey|char=gbk&page=searchPage",
     "serialNumber": 725,
-    "weight": 268
+    "weight": 308
   },
   {
     "bookSourceGroup": "发现; 修复",
