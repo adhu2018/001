@@ -16439,7 +16439,7 @@
     "weight": 18
   },
   {
-    "bookSourceGroup": "优选💯; 发现不完整",
+    "bookSourceGroup": "优选💯",
     "bookSourceName": "龙空-优书网 ♨️",
     "bookSourceUrl": "http://www.yousuu.com",
     "enable": true,
@@ -16458,7 +16458,7 @@
     "ruleContentUrl": "href",
     "ruleContentUrlNext": "",
     "ruleCoverUrl": "",
-    "ruleFindUrl": "龙空精选集::http://www.yousuu.com/topshow/digest&&\n龙空新书推荐::http://www.yousuu.com/topshow/digestnew&&\n三日内完结P1::http://www.yousuu.com/category/all?update=1&status=2&sort=rate&&\n三日内完结P2::http://www.yousuu.com/category/all?update=1&status=2&sort=rate&page=2&&\n七日内完结P1::http://www.yousuu.com/category/all?update=2&status=2&sort=rate&&\n七日内完结P2::http://www.yousuu.com/category/all?update=2&status=2&sort=rate&page=2&&\n一月内完结P1::http://www.yousuu.com/category/all?update=3&status=2&sort=rate&&\n一月内完结P2::http://www.yousuu.com/category/all?update=3&status=2&sort=rate&page=2&&\n半年内完结P1::http://www.yousuu.com/category/all?update=4&status=2&sort=rate&&\n半年内完结P2::http://www.yousuu.com/category/all?update=4&status=2&sort=rate&page=2&&\n总字数排行P1::http://www.yousuu.com/category/all?&sort=word&&\n总字数排行P2::http://www.yousuu.com/category/all?&sort=word&page=2&&\n[男频]屠版文辑录::http://www.yousuu.com/booklist/55276447090681c30ca70e9e&&\n[男频]赤戟养肥区II ::http://www.yousuu.com/booklist/56138a7a325a886d596d7e8c&&\n[男频]天落歌2019 追书单::http://www.yousuu.com/booklist/5c35afa92b5a2e83617d788a",
+    "ruleFindUrl": "龙空精选集::http://www.yousuu.com/topshow/digest&&\n龙空新书推荐::http://www.yousuu.com/topshow/digestnew&&\n三日内完结P1::http://www.yousuu.com/category/all?update=1&status=2&sort=rate&&\n三日内完结P2::http://www.yousuu.com/category/all?update=1&status=2&sort=rate&page=2&&\n七日内完结P1::http://www.yousuu.com/category/all?update=2&status=2&sort=rate&&\n七日内完结P2::http://www.yousuu.com/category/all?update=2&status=2&sort=rate&page=2&&\n一月内完结P1::http://www.yousuu.com/category/all?update=3&status=2&sort=rate&&\n一月内完结P2::http://www.yousuu.com/category/all?update=3&status=2&sort=rate&page=2&&\n半年内完结P1::http://www.yousuu.com/category/all?update=4&status=2&sort=rate&&\n半年内完结P2::http://www.yousuu.com/category/all?update=4&status=2&sort=rate&page=2&&\n总字数排行P1::http://www.yousuu.com/category/all?&sort=word&&\n总字数排行P2::http://www.yousuu.com/category/all?&sort=word&page=2&&\n[男频]屠版文辑录::http://www.yousuu.com/booklist/55276447090681c30ca70e9e&&\n[男频]赤戟养肥区II ::http://www.yousuu.com/booklist/56138a7a325a886d596d7e8c&&\n[男频]天落歌2019 追书单::http://www.yousuu.com/booklist/5c35afa92b5a2e83617d788a&&玄幻奇幻::http://www.yousuu.com/category/fantasy&&仙侠武侠::http://www.yousuu.com/category/wuxia&&现代都市::http://www.yousuu.com/category/city&&历史军事::http://www.yousuu.com/category/history&&游戏竞技::http://www.yousuu.com/category/game&&科幻灵异::http://www.yousuu.com/category/future&&同人短篇::http://www.yousuu.com/category/doujin&&古代言情::http://www.yousuu.com/category/love&&现代言情::http://www.yousuu.com/category/romance&&玄幻言情::http://www.yousuu.com/category/fantasylove&&文学艺术::http://www.yousuu.com/category/literature&&②二次元::http://www.yousuu.com/category/niji",
     "ruleIntroduce": "class.panel-body.0@text",
     "ruleSearchAuthor": "class.yshover@tag.td.1@text|class.abstract.0@text#.字.*",
     "ruleSearchCoverUrl": "tag.img@src",
@@ -16469,7 +16469,7 @@
     "ruleSearchNoteUrl": "class.title@tag.a.0@href|class.yshover@tag.td.0@tag.a@href",
     "ruleSearchUrl": "http://www.yousuu.com/search/searchKey/type=all&page=searchPage-1",
     "serialNumber": 564,
-    "weight": 40
+    "weight": 0
   },
   {
     "bookSourceGroup": "",
