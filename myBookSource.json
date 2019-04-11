@@ -26642,7 +26642,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "优+",
+    "bookSourceGroup": "优+; 修复",
     "bookSourceName": "小说82",
     "bookSourceUrl": "http://m.xs82.net",
     "enable": true,
@@ -26656,7 +26656,7 @@
     "ruleBookUrlPattern": "",
     "ruleChapterList": "id.chapterlist@tag.a!0",
     "ruleChapterName": "tag.a@text",
-    "ruleChapterUrl": "class.btn@tag.a@href",
+    "ruleChapterUrl": "class.recommend@tag.h2.1@tag.a@href",
     "ruleChapterUrlNext": "",
     "ruleContentUrl": "tag.a@href",
     "ruleContentUrlNext": "",
@@ -26672,7 +26672,7 @@
     "ruleSearchNoteUrl": "tag.a@href",
     "ruleSearchUrl": "http://m.xs82.net/s.php@keyword=searchKey",
     "serialNumber": 925,
-    "weight": 487
+    "weight": 0
   },
   {
     "bookSourceGroup": "搜不到书; 失效",
