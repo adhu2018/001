@@ -3263,7 +3263,7 @@
     "weight": 106
   },
   {
-    "bookSourceGroup": "qa455355",
+    "bookSourceGroup": "qa455355; 发现",
     "bookSourceName": "58小说网",
     "bookSourceUrl": "http://m.5858xs.com",
     "enable": true,
@@ -3282,7 +3282,7 @@
     "ruleContentUrl": "tag.a@href",
     "ruleContentUrlNext": "",
     "ruleCoverUrl": "class.block_img2@tag.img@src",
-    "ruleFindUrl": "",
+    "ruleFindUrl": "玄幻魔法::http://m.5858xs.com/xiaoshuosort1/0/1.html&&武侠修真::http://m.5858xs.com/xiaoshuosort2/0/1.html&&都市言情::http://m.5858xs.com/xiaoshuosort3/0/1.html&&历史军事::http://m.5858xs.com/xiaoshuosort4/0/1.html&&侦探推理::http://m.5858xs.com/xiaoshuosort5/0/1.html&&网游动漫::http://m.5858xs.com/xiaoshuosort6/0/1.html&&科幻小说::http://m.5858xs.com/xiaoshuosort7/0/1.html&&恐怖灵异::http://m.5858xs.com/xiaoshuosort8/0/1.html&&其他小说::http://m.5858xs.com/xiaoshuosort9/0/1.html&&日点击榜::http://m.5858xs.com/xiaoshuotopdayvisit/0/1.html&&周点击榜::http://m.5858xs.com/xiaoshuotopweekvisit/0/1.html&&月点击榜::http://m.5858xs.com/xiaoshuotopmouthvisit/0/1.html&&总点击榜::http://m.5858xs.com/xiaoshuotopallvisit/0/1.html&&总收藏榜::http://m.5858xs.com/xiaoshuotopgoodnum/0/1.html&&字数排行::http://m.5858xs.com/xiaoshuotopsize/0/1.html&&日推荐榜::http://m.5858xs.com/xiaoshuotopdayvote/0/1.html&&周推荐榜::http://m.5858xs.com/xiaoshuotopweekvote/0/1.html&&月推荐榜::http://m.5858xs.com/xiaoshuotopmouthvote/0/1.html&&总推荐榜::http://m.5858xs.com/xiaoshuotopallvote/0/1.html&&最新入库::http://m.5858xs.com/xiaoshuotoppostdate/0/1.html&&最近更新::http://m.5858xs.com/xiaoshuotoplastupdate/0/1.html",
     "ruleIntroduce": "class.intro_info@text",
     "ruleSearchAuthor": "tag.a.2@text",
     "ruleSearchCoverUrl": "",
@@ -3293,7 +3293,7 @@
     "ruleSearchNoteUrl": "tag.a.1@href",
     "ruleSearchUrl": "http://m.5858xs.com/so.php@searchtype=articlename&searchkey=searchKey&submit=|char=gbk",
     "serialNumber": 651,
-    "weight": 7
+    "weight": 0
   },
   {
     "bookSourceGroup": "",
