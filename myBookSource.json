@@ -96,7 +96,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.biduo.cc/search.php?keyword=searchKey&page=searchPage",
     "serialNumber": 663,
-    "weight": 103
+    "weight": 113
   },
   {
     "bookSourceGroup": "修改; 失效",
@@ -295,7 +295,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.xbiquge6.com/search.php?keyword=searchKey",
     "serialNumber": 684,
-    "weight": 59
+    "weight": 68
   },
   {
     "bookSourceGroup": "修改",
@@ -460,7 +460,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.xs222.tw/search.php?keyword=searchKey&page=searchPage-1",
     "serialNumber": 425,
-    "weight": 75
+    "weight": 84
   },
   {
     "bookSourceGroup": "修改",
@@ -592,7 +592,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.fenghuaju.cc/search.php?searchkey=searchKey&page=searchPage|char=gbk",
     "serialNumber": 630,
-    "weight": 245
+    "weight": 254
   },
   {
     "bookSourceGroup": "修改",
@@ -658,7 +658,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.fhxs1.com/modules/article/search.php?keyword=searchKey",
     "serialNumber": 731,
-    "weight": 818
+    "weight": 828
   },
   {
     "bookSourceGroup": "修改",
@@ -691,7 +691,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.biyuwu.cc/search.php?keyword=searchKey",
     "serialNumber": 682,
-    "weight": 58
+    "weight": 67
   },
   {
     "bookSourceGroup": "",
@@ -857,7 +857,7 @@
     "ruleSearchNoteUrl": "class.item-pic.0@tag.h3.0@tag.a.0@href|class.book-link@tag.a.1@href",
     "ruleSearchUrl": "http://www.5lewen.com/modules/article/search.php?searchkey=searchKey&page=searchPage|char=gbk",
     "serialNumber": 808,
-    "weight": 0
+    "weight": 8
   },
   {
     "bookSourceGroup": "修改",
@@ -890,7 +890,7 @@
     "ruleSearchNoteUrl": "class.pic@tag.a@href",
     "ruleSearchUrl": "http://www.lewen123.com/modules/article/search.php?searchkey=searchKey|char=gbk",
     "serialNumber": 692,
-    "weight": 69
+    "weight": 78
   },
   {
     "bookSourceGroup": "修改; 劣质书源; 取消勾选",
@@ -1297,7 +1297,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.wenxuemi6.com/search.php?keyword=searchKey&page=searchPage",
     "serialNumber": 668,
-    "weight": 94
+    "weight": 103
   },
   {
     "bookSourceGroup": "优",
@@ -1327,7 +1327,7 @@
     "ruleSearchNoteUrl": "class.neirong1@tag.a.0@href",
     "ruleSearchUrl": "https://www.22ff.org/s/searchKey/searchPage/",
     "serialNumber": 515,
-    "weight": 1005
+    "weight": 1014
   },
   {
     "bookSourceGroup": "",
@@ -1447,7 +1447,7 @@
     "ruleSearchNoteUrl": "class.n2@tag.a.0@href",
     "ruleSearchUrl": "https://www.yawen365.com/search.htm?keyword=searchKey&pn=searchPage",
     "serialNumber": 688,
-    "weight": 309
+    "weight": 319
   },
   {
     "bookSourceGroup": "修改",
@@ -1580,7 +1580,7 @@
     "ruleSearchNoteUrl": "tag.dd.0@tag.h3.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.zhaishuyuan.com/search/?s=searchKey|char=gbk",
     "serialNumber": 776,
-    "weight": 78
+    "weight": 87
   },
   {
     "bookSourceGroup": "优; 修改",
@@ -1613,7 +1613,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.bimo.cc/search.aspx?keyword=searchKey&page=searchPage",
     "serialNumber": 677,
-    "weight": 92
+    "weight": 101
   },
   {
     "bookSourceGroup": "还欠一车书源但偏偏不想还的千年搞事轮; 失效",
@@ -1841,7 +1841,7 @@
     "ruleSearchNoteUrl": "class.odd@tag.a.0@href",
     "ruleSearchUrl": "http://www.15xsw.net/modules/article/search.php?searchkey=searchKey|char=gbk",
     "serialNumber": 675,
-    "weight": 182
+    "weight": 190
   },
   {
     "bookSourceGroup": "修改",
@@ -1874,7 +1874,7 @@
     "ruleSearchNoteUrl": "class.odd@tag.a.0@href",
     "ruleSearchUrl": "http://www.15xsw.com/modules/article/search.php?searchkey=searchKey|char=gbk",
     "serialNumber": 969,
-    "weight": 165
+    "weight": 173
   },
   {
     "bookSourceGroup": "修改",
@@ -1941,7 +1941,7 @@
     "ruleSearchNoteUrl": "class.name.0@href",
     "ruleSearchUrl": "http://m.166xs.com/modules/article/search.php@searchkey=searchKey&page=searchPage|char=gbk",
     "serialNumber": 680,
-    "weight": 166
+    "weight": 175
   },
   {
     "bookSourceGroup": "",
@@ -2226,7 +2226,7 @@
     "ruleSearchNoteUrl": "class.pt-cover@tag.a.0@href",
     "ruleSearchUrl": "http://m.1909.tv/search.html?searchkey=searchKey",
     "serialNumber": 12,
-    "weight": 9
+    "weight": 18
   },
   {
     "bookSourceGroup": "XPath; 劣质书源！！; 取消勾选",
@@ -2292,7 +2292,7 @@
     "ruleSearchNoteUrl": "//div[@class=\"pt-ll-l\"]/a/@href",
     "ruleSearchUrl": "http://www.1909.tv/search.html?searchtype=novelname&searchkey=searchKey",
     "serialNumber": 596,
-    "weight": 135
+    "weight": 144
   },
   {
     "bookSourceGroup": "",
@@ -2510,7 +2510,7 @@
     "ruleSearchNoteUrl": "class.even.0@tag.a.0@href|tag.td.2@tag.a.0@href",
     "ruleSearchUrl": "https://www.fpzw.com/modules/article/search.php?searchtype=keywords&searchkey=searchKey&page=searchPage|char=gbk",
     "serialNumber": 16,
-    "weight": 0
+    "weight": 9
   },
   {
     "bookSourceGroup": "发现; 待修复",
@@ -2657,7 +2657,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href",
     "ruleSearchUrl": "http://m.31xs.org/search.php?keywords=searchKey|char=gbk",
     "serialNumber": 705,
-    "weight": 516
+    "weight": 534
   },
   {
     "bookSourceGroup": "书源少",
@@ -2960,7 +2960,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href",
     "ruleSearchUrl": "http://www.44wxw.com/novel/search?s1=0&keyword=searchKey",
     "serialNumber": 565,
-    "weight": 0
+    "weight": 9
   },
   {
     "bookSourceGroup": "优",
@@ -3199,7 +3199,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href",
     "ruleSearchUrl": "https://www.566xs.com/plus/search.php?q=searchKey",
     "serialNumber": 467,
-    "weight": 81
+    "weight": 90
   },
   {
     "bookSourceGroup": "发现; 修改",
@@ -3293,7 +3293,7 @@
     "ruleSearchNoteUrl": "class.result-item-title result-game-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.58xs.tw/search.php?keyword=searchKey&page=searchPage",
     "serialNumber": 463,
-    "weight": 102
+    "weight": 106
   },
   {
     "bookSourceGroup": "qa455355",
@@ -3326,7 +3326,7 @@
     "ruleSearchNoteUrl": "tag.a.1@href",
     "ruleSearchUrl": "http://m.5858xs.com/so.php@searchtype=articlename&searchkey=searchKey&submit=|char=gbk",
     "serialNumber": 651,
-    "weight": 0
+    "weight": 7
   },
   {
     "bookSourceGroup": "",
@@ -3627,7 +3627,7 @@
     "ruleSearchNoteUrl": "tag.dt@tag.a@href|href",
     "ruleSearchUrl": "http://www.78xs.co/modules/article/search.php@searchkey=searchKey|char=gbk",
     "serialNumber": 35,
-    "weight": 66
+    "weight": 73
   },
   {
     "bookSourceGroup": "",
@@ -3693,7 +3693,7 @@
     "ruleSearchNoteUrl": "class.btns@tag.a@href",
     "ruleSearchUrl": "http://www.800wxw.com/search?searchtype=all&searchkey=searchKey&submit=all|char=gbk",
     "serialNumber": 691,
-    "weight": 20
+    "weight": 29
   },
   {
     "bookSourceGroup": "修改",
@@ -3852,7 +3852,7 @@
     "ruleSearchNoteUrl": "class.li-mid@class.clearfix@tag.h4@tag.a@href",
     "ruleSearchUrl": "https://www.85novel.com/search.php?k=searchKey&charset=gb",
     "serialNumber": 466,
-    "weight": 119
+    "weight": 127
   },
   {
     "bookSourceGroup": "优",
@@ -3948,7 +3948,7 @@
     "ruleSearchNoteUrl": "class.block_txt.0@tag.h2.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.88dushu.com/search/so.php?q=searchKey&page=searchPage|char=utf-8",
     "serialNumber": 718,
-    "weight": 338
+    "weight": 356
   },
   {
     "bookSourceGroup": "搜不到书",
@@ -4172,7 +4172,7 @@
     "ruleSearchNoteUrl": "tag.a@href",
     "ruleSearchUrl": "http://www.999wx.com/Book/Search.aspx?SearchKey=searchKey&SearchClass=1|char=gbk",
     "serialNumber": 40,
-    "weight": 85
+    "weight": 95
   },
   {
     "bookSourceGroup": "修改",
@@ -4704,7 +4704,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "http://zwda.com/search.php?keyword=searchKey&page=searchPage",
     "serialNumber": 706,
-    "weight": 588
+    "weight": 597
   },
   {
     "bookSourceGroup": "优",
@@ -4734,7 +4734,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.zwda.com/search.php?keyword=searchKey&page=searchPage",
     "serialNumber": 542,
-    "weight": 419
+    "weight": 428
   },
   {
     "bookSourceGroup": "",
@@ -5239,7 +5239,7 @@
     "ruleSearchNoteUrl": "tag.h3.0@tag.a@href",
     "ruleSearchUrl": "http://www.uuxs.la/modules/article/search.php?searchkey=searchKey|char=gbk",
     "serialNumber": 441,
-    "weight": 2676
+    "weight": 3176
   },
   {
     "bookSourceGroup": "",
@@ -5731,7 +5731,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href",
     "ruleSearchUrl": "http://www.20wx.com/home/search@action=search&q=searchKey",
     "serialNumber": 584,
-    "weight": 141
+    "weight": 150
   },
   {
     "bookSourceGroup": "优+",
@@ -5918,7 +5918,7 @@
     "ruleSearchNoteUrl": "class.bookname@tag.a.0@href",
     "ruleSearchUrl": "http://www.23xsw.cc/s.php?s=17934470774457639775&ie=gbk&q=searchKey|char=gbk",
     "serialNumber": 572,
-    "weight": 216
+    "weight": 224
   },
   {
     "bookSourceGroup": "发现",
@@ -5947,7 +5947,7 @@
     "ruleSearchNoteUrl": "class.bookname@tag.a.0@href|class.s2@tag.a@href",
     "ruleSearchUrl": "https://www.23xsw.cc/s.php?s=17934470774457639775&ie=gbk&q=searchKey|char=gbk",
     "serialNumber": 710,
-    "weight": 470
+    "weight": 479
   },
   {
     "bookSourceGroup": "",
@@ -5976,7 +5976,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.aibookba.com/modules/article/search.php@searchkey=searchKey&searchtype=articlename&page=searchPage-1|char=gbk",
     "serialNumber": 612,
-    "weight": 107
+    "weight": 115
   },
   {
     "bookSourceGroup": "发现",
@@ -6430,7 +6430,7 @@
     "ruleSearchNoteUrl": "class.block_txt.0@tag.h2.0@tag.a.0@href|class.sm@tag.a@href",
     "ruleSearchUrl": "https://www.88dush.com/search/so.php?q=searchKey&page=searchPage|char=utf-8",
     "serialNumber": 579,
-    "weight": 184
+    "weight": 192
   },
   {
     "bookSourceGroup": "",
@@ -6459,7 +6459,7 @@
     "ruleSearchNoteUrl": "class.block_txt@tag.h2@tag.a@href",
     "ruleSearchUrl": "https://www.88dushu.com/search/so.php?search_field=0&q=searchKey",
     "serialNumber": 715,
-    "weight": 326
+    "weight": 334
   },
   {
     "bookSourceGroup": "搜不到书",
@@ -6521,7 +6521,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a@href|class.btopt@tag.a@href",
     "ruleSearchUrl": "http://www.88xiaoshuo.com/modules/article/search.php?searchkey=searchKey|char=gbk&page=2",
     "serialNumber": 830,
-    "weight": 64
+    "weight": 69
   },
   {
     "bookSourceGroup": "优",
@@ -6549,7 +6549,7 @@
     "ruleSearchNoteUrl": "class.result-game-item-pic-link@href",
     "ruleSearchUrl": "http://www.8jzw.cc/search.php?keyword=searchKey&page=searchPage",
     "serialNumber": 580,
-    "weight": 116
+    "weight": 126
   },
   {
     "bookSourceGroup": "搜不到书",
@@ -6740,7 +6740,7 @@
     "ruleSearchNoteUrl": "tag.dt.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.81xzw.com/home/search@action=search&q=searchKey",
     "serialNumber": 603,
-    "weight": 117
+    "weight": 125
   },
   {
     "bookSourceGroup": "",
@@ -6801,7 +6801,7 @@
     "ruleSearchNoteUrl": "class.result-item-title result-game-item-title@tag.a.0@href",
     "ruleSearchUrl": "https://m.zwdu.com/search.php?keyword=searchKey&page=searchPage",
     "serialNumber": 658,
-    "weight": 77
+    "weight": 86
   },
   {
     "bookSourceGroup": "",
@@ -6858,7 +6858,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.zwdu.com/search.php?keyword=searchKey&page=searchPage",
     "serialNumber": 629,
-    "weight": 87
+    "weight": 96
   },
   {
     "bookSourceGroup": "",
@@ -7015,7 +7015,7 @@
     "ruleSearchNoteUrl": "href",
     "ruleSearchUrl": "https://baike.baidu.com/item/searchKey",
     "serialNumber": 0,
-    "weight": 0
+    "weight": 9
   },
   {
     "bookSourceGroup": "",
@@ -7111,7 +7111,7 @@
     "ruleSearchNoteUrl": "class.result-item-title result-game-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "http://zhannei.baidu.com/cse/search?s=17324186585475304934&q=searchKey|char=gbk",
     "serialNumber": 80,
-    "weight": 10
+    "weight": 20
   },
   {
     "bookSourceGroup": "",
@@ -7144,7 +7144,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a@href",
     "ruleSearchUrl": "https://baishuzhai.com/searchbook.php?keyword=searchKey",
     "serialNumber": 645,
-    "weight": 76
+    "weight": 84
   },
   {
     "bookSourceGroup": "优+; 发现; 修改",
@@ -7682,7 +7682,7 @@
     "ruleSearchNoteUrl": "class.s2.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.bbiquge.com/modules/article/search.php?searchkey=searchKey&page=searchPage|char=gbk",
     "serialNumber": 588,
-    "weight": 133
+    "weight": 141
   },
   {
     "bookSourceGroup": "优",
@@ -7980,7 +7980,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.xxbiquge.com/search.php?keyword=searchKey",
     "serialNumber": 721,
-    "weight": 578
+    "weight": 596
   },
   {
     "bookSourceGroup": "",
@@ -8156,7 +8156,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.biquwu.cc/search.php?keyword=searchKey&page=searchPage",
     "serialNumber": 722,
-    "weight": 205
+    "weight": 214
   },
   {
     "bookSourceGroup": "",
@@ -8305,7 +8305,7 @@
     "ruleSearchNoteUrl": "tag.td.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.biquku.la/modules/article/search.php@searchkey=searchKey",
     "serialNumber": 605,
-    "weight": 114
+    "weight": 124
   },
   {
     "bookSourceGroup": "优+",
@@ -8430,7 +8430,7 @@
     "ruleSearchNoteUrl": "class.s2.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.bxwx3.org/search.aspx?bookname=searchKey|char=gbk",
     "serialNumber": 707,
-    "weight": 608
+    "weight": 617
   },
   {
     "bookSourceGroup": "",
@@ -8459,7 +8459,7 @@
     "ruleSearchNoteUrl": "class.s2.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.bxwx666.org/search.aspx?bookname=searchKey|char=gbk",
     "serialNumber": 532,
-    "weight": 441
+    "weight": 450
   },
   {
     "bookSourceGroup": "",
@@ -9257,7 +9257,7 @@
     "ruleSearchNoteUrl": "class.s2.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.dhzw.org/modules/article/search.php@searchkey=searchKey&page=searchPage|char=gbk",
     "serialNumber": 689,
-    "weight": 67
+    "weight": 74
   },
   {
     "bookSourceGroup": "发现; 修复",
@@ -9541,7 +9541,7 @@
     "ruleSearchNoteUrl": "class.s2.0@tag.a@href",
     "ruleSearchUrl": "https://www.dawenxue.net/modules/article/search.php@searchkey=searchKey&searchtype=keywords",
     "serialNumber": 625,
-    "weight": 70
+    "weight": 78
   },
   {
     "bookSourceGroup": "失效",
@@ -10726,7 +10726,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href",
     "ruleSearchUrl": "http://www.lnwow.com/Book/Search.aspx?SearchKey=searchKey&SearchClass=1|char=gbk",
     "serialNumber": 593,
-    "weight": 125
+    "weight": 135
   },
   {
     "bookSourceGroup": "",
@@ -11620,7 +11620,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.fenghuaju.cc/search.php?searchkey=searchKey|char=gbk",
     "serialNumber": 702,
-    "weight": 625
+    "weight": 644
   },
   {
     "bookSourceGroup": "",
@@ -11800,7 +11800,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.fhxsw.org/modules/article/search.php?keyword=searchKey",
     "serialNumber": 738,
-    "weight": 998
+    "weight": 1007
   },
   {
     "bookSourceGroup": "",
@@ -11988,7 +11988,7 @@
     "ruleSearchNoteUrl": "tag.a@href",
     "ruleSearchUrl": "https://m.fnzw.com/novel.php?action=search@searchkey=searchKey|char=gbk&searchtype=novelname",
     "serialNumber": 729,
-    "weight": 1266
+    "weight": 1281
   },
   {
     "bookSourceGroup": "占坑",
@@ -12358,7 +12358,7 @@
     "ruleSearchNoteUrl": "class.odd@tag.a.0@href|href",
     "ruleSearchUrl": "http://www.guanchangxiaoshuo.org/modules/article/search.php?searchkey=searchKey|char=gbk",
     "serialNumber": 152,
-    "weight": 167
+    "weight": 175
   },
   {
     "bookSourceGroup": "优",
@@ -12386,7 +12386,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.3dllc.cc/search.php?keyword=searchKey",
     "serialNumber": 714,
-    "weight": 406
+    "weight": 415
   },
   {
     "bookSourceGroup": "优",
@@ -12416,7 +12416,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.3dllc.com/search.php?keyword=searchKey&page=searchPage",
     "serialNumber": 708,
-    "weight": 465
+    "weight": 483
   },
   {
     "bookSourceGroup": "失效",
@@ -13773,7 +13773,7 @@
     "ruleSearchNoteUrl": "tag.h3@tag.a.0@href",
     "ruleSearchUrl": "http://www.jingpinshucheng.com/index.php?c=book&a=search&keywords=searchKey",
     "serialNumber": 835,
-    "weight": 28
+    "weight": 37
   },
   {
     "bookSourceGroup": "",
@@ -14747,7 +14747,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.kanshula.com/search.do?keyword=searchKey&page=searchPage",
     "serialNumber": 610,
-    "weight": 95
+    "weight": 104
   },
   {
     "bookSourceGroup": "优",
@@ -15146,7 +15146,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a@href",
     "ruleSearchUrl": "https://www.konlan.org/modules/article/search.php?searchtype=all&searchkey=searchKey|char=gbk",
     "serialNumber": 619,
-    "weight": 152
+    "weight": 160
   },
   {
     "bookSourceGroup": "失效",
@@ -15522,7 +15522,7 @@
     "ruleSearchNoteUrl": "class.c_subject.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.laiyetxt.com/modules/article/search.php?searchkey=searchKey&submit=搜索|char=gbk",
     "serialNumber": 191,
-    "weight": 9
+    "weight": 17
   },
   {
     "bookSourceGroup": "优",
@@ -15551,7 +15551,7 @@
     "ruleSearchNoteUrl": "class.c_subject.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.laiyetxt.com/modules/article/search.php?searchkey=searchKey&submit=搜索|char=gbk",
     "serialNumber": 192,
-    "weight": 19
+    "weight": 36
   },
   {
     "bookSourceGroup": "优",
@@ -15817,7 +15817,7 @@
     "ruleSearchNoteUrl": "class.pic@tag.a@href",
     "ruleSearchUrl": "http://www.lwxiaoshuo.com/modules/article/search.php?searchkey=searchKey|char=gbk",
     "serialNumber": 693,
-    "weight": 72
+    "weight": 89
   },
   {
     "bookSourceGroup": "",
@@ -16024,7 +16024,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href",
     "ruleSearchUrl": "https://m.xiaoshuoli.com/s3s.php?keyword=searchKey",
     "serialNumber": 886,
-    "weight": 96
+    "weight": 105
   },
   {
     "bookSourceGroup": "",
@@ -16505,7 +16505,7 @@
     "ruleSearchNoteUrl": "class.title@tag.a.0@href|class.yshover@tag.td.0@tag.a@href",
     "ruleSearchUrl": "http://www.yousuu.com/search/searchKey/type=all&page=searchPage-1",
     "serialNumber": 564,
-    "weight": 0
+    "weight": 10
   },
   {
     "bookSourceGroup": "",
@@ -16969,7 +16969,7 @@
     "ruleSearchNoteUrl": "tag.h3.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.luoqiu.cc/modules/article/search.php?searchkey=searchKey|char=gbk",
     "serialNumber": 632,
-    "weight": 105
+    "weight": 112
   },
   {
     "bookSourceGroup": "发现",
@@ -17122,7 +17122,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.mpxiaoshuo.com/modules/article/search.php@searchkey=searchKey&submit=搜索|char=gbk",
     "serialNumber": 659,
-    "weight": 180
+    "weight": 189
   },
   {
     "bookSourceGroup": "搜不到书",
@@ -17527,7 +17527,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href",
     "ruleSearchUrl": "http://www.mianhuatang520.com/search.aspx?bookname=searchKey|char=gbk",
     "serialNumber": 740,
-    "weight": 26
+    "weight": 35
   },
   {
     "bookSourceGroup": "优",
@@ -18263,7 +18263,7 @@
     "ruleSearchNoteUrl": "id.htmlBox@tag.a.0@href",
     "ruleSearchUrl": "https://wap.mywenxue.com/Book/Search.aspx?id=searchKey&SearchClass=1",
     "serialNumber": 635,
-    "weight": 94
+    "weight": 103
   },
   {
     "bookSourceGroup": "",
@@ -18791,7 +18791,7 @@
     "ruleSearchNoteUrl": "id.CListTitle@tag.a.0@href",
     "ruleSearchUrl": "https://www.vodtw.com/Book/Search.aspx@SearchFromB=all&SearchClass=1&SearchKey=searchKey|char=gbk",
     "serialNumber": 613,
-    "weight": 115
+    "weight": 124
   },
   {
     "bookSourceGroup": "失效",
@@ -19197,7 +19197,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href",
     "ruleSearchUrl": "http://www.qishu.cc/search.asp?word=searchKey&m=2&ChannelID=0&page=searchPage|char=gbk",
     "serialNumber": 858,
-    "weight": 31
+    "weight": 46
   },
   {
     "bookSourceGroup": "发现",
@@ -19286,7 +19286,7 @@
     "ruleSearchNoteUrl": "class.result-game-item-pic.0@tag.a.0@href",
     "ruleSearchUrl": "http://zhannei.baidu.com/cse/search?q=searchKey&s=138931866088806926&page=searchPage-1",
     "serialNumber": 848,
-    "weight": 10
+    "weight": 20
   },
   {
     "bookSourceGroup": "",
@@ -19319,7 +19319,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href",
     "ruleSearchUrl": "https://m.xs74.com/novel.php?action=search&searchkey=searchKey&page=searchPage|char=gbk",
     "serialNumber": 650,
-    "weight": 118
+    "weight": 127
   },
   {
     "bookSourceGroup": "搜不到书",
@@ -19510,7 +19510,7 @@
     "ruleSearchNoteUrl": "class.article@tag.a@href",
     "ruleSearchUrl": "https://m.qqxs.la/modules/article/waps.php?searchtype=articlename&searchkey=searchKey&t_btnsearch=|char=gbk",
     "serialNumber": 0,
-    "weight": 0
+    "weight": 8
   },
   {
     "bookSourceGroup": "",
@@ -19663,7 +19663,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "http://zhannei.baidu.com/cse/search?s=1125103683281780482&q=searchKey&p=searchPage-1",
     "serialNumber": 251,
-    "weight": 10
+    "weight": 20
   },
   {
     "bookSourceGroup": "",
@@ -19696,7 +19696,7 @@
     "ruleSearchNoteUrl": "tag.dd@tag.a.0@href",
     "ruleSearchUrl": "https://www.23qb.com/search.php?searchkey=searchKey|char=gbk",
     "serialNumber": 607,
-    "weight": 82
+    "weight": 89
   },
   {
     "bookSourceGroup": "书源少",
@@ -20188,7 +20188,7 @@
     "ruleSearchNoteUrl": "class.l_4@tag.h2.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.qiuyuge.org/modules/article/search.php@searchtype=articlename&searchkey=searchKey|char=gbk",
     "serialNumber": 261,
-    "weight": 46
+    "weight": 50
   },
   {
     "bookSourceGroup": "",
@@ -20337,7 +20337,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a@href",
     "ruleSearchUrl": "http://www.7kankan.com/modules/article/sosearch.php?searchkey=searchKey|char=gbk",
     "serialNumber": 474,
-    "weight": 72
+    "weight": 81
   },
   {
     "bookSourceGroup": "搜不到书; 失效",
@@ -20483,7 +20483,7 @@
     "ruleSearchNoteUrl": "tag.h3@tag.a@href",
     "ruleSearchUrl": "http://www.quanben5.com/index.php?c=book&a=search&keywords=searchKey&page=searchPage|char=utf-8",
     "serialNumber": 264,
-    "weight": 24
+    "weight": 33
   },
   {
     "bookSourceGroup": "",
@@ -20749,7 +20749,7 @@
     "ruleSearchNoteUrl": "class.s2.0@tag.a@href",
     "ruleSearchUrl": "https://www.ranwena.com/modules/article/search.php?searchtype=keywords&ie=gbk&searchkey=searchKey|char=gbk",
     "serialNumber": 269,
-    "weight": 73
+    "weight": 81
   },
   {
     "bookSourceGroup": "优+",
@@ -21867,7 +21867,7 @@
     "ruleSearchNoteUrl": "tag.dl@tag.dt@tag.a@href|class.bookimg@tag.a@href",
     "ruleSearchUrl": "https://www.smxs.cc/search.php?q=searchKey",
     "serialNumber": 697,
-    "weight": 0
+    "weight": 9
   },
   {
     "bookSourceGroup": "",
@@ -22561,7 +22561,7 @@
     "ruleSearchNoteUrl": "class.s2@tag.a@href",
     "ruleSearchUrl": "https://sou.xanbhx.com/search?siteid=shuhuangla&t=920895234054625192&q=searchKey",
     "serialNumber": 576,
-    "weight": 107
+    "weight": 117
   },
   {
     "bookSourceGroup": "优",
@@ -22591,7 +22591,7 @@
     "ruleSearchNoteUrl": "tag.a@href",
     "ruleSearchUrl": "https://m.shuhuang.la/SearchBook.php?q=searchKey&s=2498552838240092087",
     "serialNumber": 634,
-    "weight": 61
+    "weight": 70
   },
   {
     "bookSourceGroup": "优",
@@ -22775,7 +22775,7 @@
     "ruleSearchNoteUrl": "tag.a.1@href",
     "ruleSearchUrl": "https://www.shumilou.net/modules/article/search.php?searchkey=searchKey|char=gbk",
     "serialNumber": 604,
-    "weight": 94
+    "weight": 102
   },
   {
     "bookSourceGroup": "书源少; 失效",
@@ -23017,7 +23017,7 @@
     "ruleSearchNoteUrl": "class.r420@href|tag.a@href",
     "ruleSearchUrl": "http://www.shushu8.com/bookso.php?kw=searchKey|char=gbk",
     "serialNumber": 590,
-    "weight": 111
+    "weight": 120
   },
   {
     "bookSourceGroup": "搜不到书; 失效",
@@ -23113,7 +23113,7 @@
     "ruleSearchNoteUrl": "tag.td.1@tag.a.0@href",
     "ruleSearchUrl": "http://www.shu05.com/modules/article/search.php?searchkey=searchKey|char=gbk",
     "serialNumber": 750,
-    "weight": 195
+    "weight": 204
   },
   {
     "bookSourceGroup": "搜不到书",
@@ -23392,7 +23392,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href",
     "ruleSearchUrl": "http://m.siluke.cc/SearchBook.php?keyword=searchKey",
     "serialNumber": 624,
-    "weight": 116
+    "weight": 125
   },
   {
     "bookSourceGroup": "优+",
@@ -23854,7 +23854,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.suimeng.la/modules/article/search.php?searchkey=searchKey|char=gbk&page=searchPage",
     "serialNumber": 550,
-    "weight": 503
+    "weight": 512
   },
   {
     "bookSourceGroup": "优选",
@@ -23887,7 +23887,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a@href",
     "ruleSearchUrl": "https://www.suimeng.la/modules/article/search.php?searchkey=searchKey|char=gbk",
     "serialNumber": 709,
-    "weight": 765
+    "weight": 773
   },
   {
     "bookSourceGroup": "",
@@ -24173,7 +24173,7 @@
     "ruleSearchNoteUrl": "class.result-item-title result-game-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.23txt.com/search.php?keyword=searchKey",
     "serialNumber": 720,
-    "weight": 481
+    "weight": 490
   },
   {
     "bookSourceGroup": "",
@@ -24202,7 +24202,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.23txt.com/search.php?keyword=searchKey&page=searchPage",
     "serialNumber": 543,
-    "weight": 406
+    "weight": 415
   },
   {
     "bookSourceGroup": "酷友询问",
@@ -25051,7 +25051,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.wenxuemi.com/search.php?keyword=searchKey&page=searchPage",
     "serialNumber": 713,
-    "weight": 414
+    "weight": 423
   },
   {
     "bookSourceGroup": "",
@@ -25362,18 +25362,21 @@
     "ruleSearchNoteUrl": "",
     "ruleSearchUrl": "http://m.530p.com/s/searchKey",
     "serialNumber": 640,
-    "weight": 89
+    "weight": 99
   },
   {
-    "bookSourceGroup": "优",
+    "bookSourceGroup": "修改",
     "bookSourceName": "无弹窗小说网",
     "bookSourceUrl": "https://www.22ff.com",
     "enable": true,
     "httpUserAgent": "",
-    "lastUpdateTime": 1544973778175,
+    "loginUrl": "",
     "ruleBookAuthor": "class.main.1@tag.tbody.0@class.tc@text",
-    "ruleBookContent": "id.chapter_content@tag.p@text",
+    "ruleBookContent": "id.chapter_content@tag.p@text#\\[\\[\\[.+\\]\\]\\]|\\[搜索最新更新尽在www.+com\\]|www.txtxiazai.org|\\[WWW.ZhuiXiaoShuo.com\\]|\\[WWW.ZhuixiaoShuo.COM\\]",
+    "ruleBookKind": "",
+    "ruleBookLastChapter": "",
     "ruleBookName": "class.main.1@class.tname@text",
+    "ruleBookUrlPattern": "",
     "ruleChapterList": "class.neirong@class.clc!0",
     "ruleChapterName": "tag.a.0@text",
     "ruleChapterUrl": "",
@@ -25382,7 +25385,7 @@
     "ruleContentUrlNext": "",
     "ruleCoverUrl": "class.main.1@class.fw@tag.img.0@src",
     "ruleFindUrl": "",
-    "ruleIntroduce": "class.main.1@tag.tbody.0@tag.td.9@text",
+    "ruleIntroduce": "class.main.1@tag.tbody.0@tag.td.9@textNodes#【内容简介】",
     "ruleSearchAuthor": "class.neirong4@tag.a.0@text",
     "ruleSearchCoverUrl": "",
     "ruleSearchKind": "",
@@ -25392,7 +25395,7 @@
     "ruleSearchNoteUrl": "class.neirong1@tag.a.0@href",
     "ruleSearchUrl": "https://www.22ff.com/s_searchKey",
     "serialNumber": 701,
-    "weight": 922
+    "weight": 0
   },
   {
     "bookSourceGroup": "优",
@@ -25453,7 +25456,7 @@
     "ruleSearchNoteUrl": "class.qq_g@tag.a.0@href",
     "ruleSearchUrl": "http://www.555x.org/search.html@searchkey=searchKey",
     "serialNumber": 325,
-    "weight": 157
+    "weight": 167
   },
   {
     "bookSourceGroup": "发现; 修改",
@@ -25486,7 +25489,7 @@
     "ruleSearchNoteUrl": "tag.td.0@tag.a@href|tag.h3@tag.a@href",
     "ruleSearchUrl": "http://www.61ww.com/modules/article/search.php?searchkey=searchKey&page=searchPage|char=gbk",
     "serialNumber": 757,
-    "weight": 147
+    "weight": 156
   },
   {
     "bookSourceGroup": "发现",
@@ -25515,7 +25518,7 @@
     "ruleSearchNoteUrl": "class.qq_g@tag.a.0@href",
     "ruleSearchUrl": "http://www.txt97.com/search/result/searchtype/complex/searchkey/searchKey/page/searchPage",
     "serialNumber": 326,
-    "weight": 52
+    "weight": 61
   },
   {
     "bookSourceGroup": "优",
@@ -25639,7 +25642,7 @@
     "ruleSearchNoteUrl": "class.col-xs-3.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.gxwztv.com/search.htm?keyword=searchKey&pn=searchPage-1",
     "serialNumber": 912,
-    "weight": 156
+    "weight": 165
   },
   {
     "bookSourceGroup": "优",
@@ -25669,17 +25672,21 @@
     "ruleSearchNoteUrl": "class.col-xs-3.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.gxwztv.com/search.htm?keyword=searchKey&pn=searchPage-1",
     "serialNumber": 913,
-    "weight": 1455
+    "weight": 1465
   },
   {
-    "bookSourceGroup": "优+",
+    "bookSourceGroup": "优",
     "bookSourceName": "梧州中文台⑥",
     "bookSourceUrl": "http://www.wzzw.la",
     "enable": true,
     "httpUserAgent": "",
+    "loginUrl": "",
     "ruleBookAuthor": "class.col-xs-12 list-group-item no-border.0@tag.small.0@text",
     "ruleBookContent": "id.txtContent@textNodes",
+    "ruleBookKind": "",
+    "ruleBookLastChapter": "",
     "ruleBookName": "class.active.0@text",
+    "ruleBookUrlPattern": "",
     "ruleChapterList": "id.chapters-list@tag.a",
     "ruleChapterName": "text",
     "ruleChapterUrl": "class.list-group-item tac.0@tag.a.0@href",
@@ -25698,7 +25705,7 @@
     "ruleSearchNoteUrl": "class.col-xs-3.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.wzzw.la/search.htm?keyword=searchKey&pn=searchPage-1",
     "serialNumber": 437,
-    "weight": 5399
+    "weight": 0
   },
   {
     "bookSourceGroup": "优; 失效",
@@ -26037,7 +26044,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href|class.title@tag.a.0@href",
     "ruleSearchUrl": "https://m.xiashutxt.com/search.html?searchtype=all&searchkey=searchKey&page=searchPage",
     "serialNumber": 644,
-    "weight": 95
+    "weight": 105
   },
   {
     "bookSourceGroup": "",
@@ -27160,7 +27167,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href",
     "ruleSearchUrl": "http://m.xiaoshuozu.com/s.php?ie=gbk&s=3166108066185075505&q=searchKey|char=gbk",
     "serialNumber": 599,
-    "weight": 113
+    "weight": 122
   },
   {
     "bookSourceGroup": "优",
@@ -27335,7 +27342,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.xxbiquge.com/search.php?keyword=searchKey",
     "serialNumber": 717,
-    "weight": 387
+    "weight": 396
   },
   {
     "bookSourceGroup": "",
@@ -27422,7 +27429,7 @@
     "ruleSearchNoteUrl": "tag.a@href",
     "ruleSearchUrl": "http://m.mianhuatang.co/s.php@keyword=searchKey&t=1",
     "serialNumber": 349,
-    "weight": 19
+    "weight": 29
   },
   {
     "bookSourceGroup": "发现",
@@ -27484,7 +27491,7 @@
     "ruleSearchNoteUrl": "tag.a@href",
     "ruleSearchUrl": "http://www.motanwx.com/plus/search.php?q=searchKey|char=gbk",
     "serialNumber": 438,
-    "weight": 37
+    "weight": 43
   },
   {
     "bookSourceGroup": "书源少; 失效",
@@ -27586,42 +27593,47 @@
     "weight": 408
   },
   {
-    "bookSourceGroup": "优",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "新书包网",
     "bookSourceUrl": "http://www.xinshubao.net",
     "enable": true,
     "httpUserAgent": "",
-    "ruleBookAuthor": "id.info@tag.p.0@text#作者：",
-    "ruleBookContent": "id.content@textNodes",
-    "ruleBookName": "id.info@tag.h1.0@text",
-    "ruleChapterList": "class._chapter@tag.li",
-    "ruleChapterName": "tag.a@text",
+    "loginUrl": "",
+    "ruleBookAuthor": "",
+    "ruleBookContent": "",
+    "ruleBookKind": "",
+    "ruleBookLastChapter": "",
+    "ruleBookName": "",
+    "ruleBookUrlPattern": "",
+    "ruleChapterList": "",
+    "ruleChapterName": "",
     "ruleChapterUrl": "",
     "ruleChapterUrlNext": "",
-    "ruleContentUrl": "tag.a@href",
-    "ruleCoverUrl": "id.fmimg@tag.img.0@src",
+    "ruleContentUrl": "",
+    "ruleContentUrlNext": "",
+    "ruleCoverUrl": "",
     "ruleFindUrl": "",
-    "ruleIntroduce": "id.intro@tag.p.0@text",
-    "ruleSearchAuthor": "class.result-game-item-info-tag.0@tag.span.1@text",
-    "ruleSearchCoverUrl": "tag.img.0@src",
-    "ruleSearchKind": "class.result-game-item-info-tag.1@tag.span.1@text",
-    "ruleSearchLastChapter": "class.result-game-item-info-tag.3@tag.a.0@text",
-    "ruleSearchList": "class.result-item",
-    "ruleSearchName": "class.result-game-item-detail.0@tag.h3.0@text",
-    "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
-    "ruleSearchUrl": "http://zhannei.baidu.com/cse/search?q=searchKey&s=4151288846087963019",
+    "ruleIntroduce": "",
+    "ruleSearchAuthor": "",
+    "ruleSearchCoverUrl": "",
+    "ruleSearchKind": "",
+    "ruleSearchLastChapter": "",
+    "ruleSearchList": "",
+    "ruleSearchName": "",
+    "ruleSearchNoteUrl": "",
+    "ruleSearchUrl": "",
     "serialNumber": 350,
-    "weight": 2365
+    "weight": 0
   },
   {
-    "bookSourceGroup": "qa455355",
-    "bookSourceName": "新书包网",
+    "bookSourceGroup": "qa455355; 修复中",
+    "bookSourceName": "新书包网手机版（正文获取有问题）",
     "bookSourceUrl": "https://k.xinshubao.net",
     "enable": true,
     "httpUserAgent": "Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/012.002; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.0 Mobile Safari/533.4 3gpp-gba",
     "loginUrl": "",
     "ruleBookAuthor": "class.block_txt@tag.p.0@text#作者：",
-    "ruleBookContent": "class.nr_nr@textNodes",
+    "ruleBookContent": "class.nr_nr@textNodes#\\s+\\.\\s",
     "ruleBookKind": "class.block_txt@tag.p.1@text#分类：",
     "ruleBookLastChapter": "class.block_txt@tag.p.3@tag.a@text",
     "ruleBookName": "class.block_txt@tag.h2@text",
@@ -27629,9 +27641,9 @@
     "ruleChapterList": "class.block list@tag.li",
     "ruleChapterName": "tag.a@text",
     "ruleChapterUrl": "class.tc@tag.a@href|class.dem@tag.a.1@href",
-    "ruleChapterUrlNext": "class.page@tag.a.0@href",
+    "ruleChapterUrlNext": "text.下一页@href",
     "ruleContentUrl": "tag.a@href",
-    "ruleContentUrlNext": "class.nr_page@tag.a.2@href",
+    "ruleContentUrlNext": "text.下一章@href|class.nr_page@tag.a.2@href",
     "ruleCoverUrl": "class.block_img@tag.img@src",
     "ruleFindUrl": "",
     "ruleIntroduce": "class.intro@text",
@@ -27915,7 +27927,7 @@
     "ruleSearchNoteUrl": "class.searchTopic.0@tag.a@href",
     "ruleSearchUrl": "http://www.3uww.cc/search.html?searchtype=novelname&searchkey=searchKey",
     "serialNumber": 639,
-    "weight": 97
+    "weight": 105
   },
   {
     "bookSourceGroup": "搜不到书; 失效",
@@ -27973,7 +27985,7 @@
     "ruleSearchNoteUrl": "class.n2@tag.a.0@href",
     "ruleSearchUrl": "https://www.yaerwen.com/search.htm?keyword=searchKey",
     "serialNumber": 698,
-    "weight": 3452
+    "weight": 3461
   },
   {
     "bookSourceGroup": "",
@@ -28088,7 +28100,7 @@
     "ruleSearchNoteUrl": "class.n2@tag.a.0@href",
     "ruleSearchUrl": "https://www.ymoxuan.com/search.htm?keyword=searchKey",
     "serialNumber": 535,
-    "weight": 398
+    "weight": 408
   },
   {
     "bookSourceGroup": "优",
@@ -28146,7 +28158,7 @@
     "ruleSearchNoteUrl": "class.n2.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.ymoxuan.com/search.htm?keyword=searchKey",
     "serialNumber": 703,
-    "weight": 584
+    "weight": 594
   },
   {
     "bookSourceGroup": "失效",
@@ -29099,7 +29111,7 @@
     "ruleSearchNoteUrl": "tag.td.1@tag.a.0@href",
     "ruleSearchUrl": "https://www.ujxs.com/modules/article/search.php@searchkey=searchKey&searchtype=articlename&page=searchPage|char=gbk",
     "serialNumber": 671,
-    "weight": 162
+    "weight": 172
   },
   {
     "bookSourceGroup": "",
@@ -29514,7 +29526,7 @@
     "ruleSearchNoteUrl": "class.htitle@tag.h2.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.yunlaige.com/modules/article/search.php@searchkey=searchKey|char=gbk&action=login",
     "serialNumber": 377,
-    "weight": 0
+    "weight": 9
   },
   {
     "bookSourceGroup": "",
@@ -29659,7 +29671,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a.0@href|tag.td.1@tag.a@href|tag.a.1@href",
     "ruleSearchUrl": "https://www.ab74.com/modules/article/search.php@searchkey=searchKey&page=1|char=gbk",
     "serialNumber": 381,
-    "weight": 27
+    "weight": 37
   },
   {
     "bookSourceGroup": "优",
@@ -29791,7 +29803,7 @@
     "ruleSearchNoteUrl": "tag.dt@tag.a.0@href|class.three@tag.a.0@href",
     "ruleSearchUrl": "https://m.zhaishuyuan.com/search/@s=searchKey|char=gbk",
     "serialNumber": 940,
-    "weight": 27
+    "weight": 36
   },
   {
     "bookSourceGroup": "",
@@ -29977,7 +29989,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href",
     "ruleSearchUrl": "https://www.zhetian.org/search.html?searchtype=novelname&searchkey=searchKey",
     "serialNumber": 943,
-    "weight": 442
+    "weight": 450
   },
   {
     "bookSourceGroup": "优",
@@ -30007,7 +30019,7 @@
     "ruleSearchNoteUrl": "class.bookname.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.zbzw.la/s.php?ie=gbk&s=4619765769851182557&q=searchKey",
     "serialNumber": 557,
-    "weight": 241
+    "weight": 249
   },
   {
     "bookSourceGroup": "优",
@@ -30037,7 +30049,7 @@
     "ruleSearchNoteUrl": "class.bookname@tag.a.0@href",
     "ruleSearchUrl": "http://www.zbzw.la/s.php?ie=gbk&s=4619765769851182557&q=searchKey|char=gbk",
     "serialNumber": 712,
-    "weight": 404
+    "weight": 412
   },
   {
     "bookSourceGroup": "꧁落༺寞༒尘༻世꧂",
@@ -30251,7 +30263,7 @@
     "ruleSearchNoteUrl": "class.intro@tag.h1@tag.a@href",
     "ruleSearchUrl": "http://www.pig87.com/list-search-search-searchKey-p-searchPage.html",
     "serialNumber": 388,
-    "weight": 0
+    "weight": 9
   },
   {
     "bookSourceGroup": "qa455355",
@@ -30768,7 +30780,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.zhuishu.tw/search.aspx?keyword=searchKey&page=searchPage",
     "serialNumber": 704,
-    "weight": 504
+    "weight": 513
   },
   {
     "bookSourceGroup": "优",
@@ -30798,7 +30810,7 @@
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.zhuishu.tw/search.aspx?keyword=searchKey&page=searchPage",
     "serialNumber": 711,
-    "weight": 993
+    "weight": 1010
   },
   {
     "bookSourceGroup": "搜不到书; 失效",
