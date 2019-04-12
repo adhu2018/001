@@ -9483,7 +9483,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "搜不到书; 失效",
+    "bookSourceGroup": "修复中",
     "bookSourceName": "大书包小说②",
     "bookSourceUrl": "http://www.dashubao.net",
     "enable": false,
@@ -9572,7 +9572,7 @@
     "weight": 232
   },
   {
-    "bookSourceGroup": "搜不到书; 失效",
+    "bookSourceGroup": "修复中",
     "bookSourceName": "耽美啦小说",
     "bookSourceUrl": "http://www.danmeila.com",
     "enable": false,
@@ -10002,7 +10002,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "搜不到书; 失效",
+    "bookSourceGroup": "占坑",
     "bookSourceName": "第一版主网",
     "bookSourceUrl": "http://www.diyibanzhuw.com",
     "enable": false,
