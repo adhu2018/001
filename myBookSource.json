@@ -12795,7 +12795,7 @@
     "weight": 10
   },
   {
-    "bookSourceGroup": "搜不到书; 失效",
+    "bookSourceGroup": "占坑",
     "bookSourceName": "好看小说",
     "bookSourceUrl": "http://www.haokansx.com",
     "enable": false,
@@ -12825,7 +12825,7 @@
     "weight": 2453
   },
   {
-    "bookSourceGroup": "搜不到书",
+    "bookSourceGroup": "占坑",
     "bookSourceName": "好书吧",
     "bookSourceUrl": "http://www.hsba.cc",
     "enable": false,
@@ -12883,35 +12883,6 @@
     "ruleSearchUrl": "https://www.72book.com/so?searchkey=searchKey|char=gbk",
     "serialNumber": 10522,
     "weight": 10036
-  },
-  {
-    "bookSourceGroup": "搜不到书",
-    "bookSourceName": "荷包网",
-    "bookSourceUrl": "http://m.hebaow.net",
-    "enable": false,
-    "httpUserAgent": "",
-    "ruleBookAuthor": "class.btitle@tag.i.0@text",
-    "ruleBookContent": "id.contents@textNodes",
-    "ruleBookName": "class.btitle@tag.h1.0@text",
-    "ruleChapterList": "id.at@tag.td",
-    "ruleChapterName": "tag.a@text",
-    "ruleChapterUrl": "",
-    "ruleChapterUrlNext": "",
-    "ruleContentUrl": "tag.a.0@href",
-    "ruleContentUrlNext": "",
-    "ruleCoverUrl": "class.pic.0@tag.img.0@src",
-    "ruleFindUrl": "",
-    "ruleIntroduce": "class.js@text",
-    "ruleSearchAuthor": "class.odd.1@text|class.btitle@tag.i.0@text",
-    "ruleSearchCoverUrl": "class.pic.0@tag.img.0@src",
-    "ruleSearchKind": "",
-    "ruleSearchLastChapter": "class.even.0@tag.a.0@text|class.fl@tag.a.0@text",
-    "ruleSearchList": "class.grid@tag.tr!0|class.info",
-    "ruleSearchName": "class.odd.0@text|class.btitle@tag.h1.0@text",
-    "ruleSearchNoteUrl": "class.odd.0@tag.a.0@href",
-    "ruleSearchUrl": "http://m.hebaow.net/modules/article/search.php?searchtype=articlename&searchkey=searchKey&page=searchPage|char=gbk",
-    "serialNumber": 160,
-    "weight": 0
   },
   {
     "bookSourceGroup": "",
