@@ -1021,7 +1021,7 @@
     "ruleSearchNoteUrl": "class.waps_name.0@tag.a.0@href",
     "ruleSearchUrl": "https://m.prwx.com/novel.php?action=search@searchkey=searchKey&page=searchPage|char=gbk",
     "serialNumber": 753,
-    "weight": 2329
+    "weight": 2357
   },
   {
     "bookSourceGroup": "优",
@@ -4422,7 +4422,7 @@
     "ruleSearchNoteUrl": "tag.h3@tag.a.0@href",
     "ruleSearchUrl": "https://bookset.me/search/searchKey",
     "serialNumber": 45,
-    "weight": 0
+    "weight": 9
   },
   {
     "bookSourceGroup": "",
@@ -6984,7 +6984,7 @@
     "ruleSearchNoteUrl": "href",
     "ruleSearchUrl": "https://baike.baidu.com/item/searchKey",
     "serialNumber": 0,
-    "weight": 9
+    "weight": 24
   },
   {
     "bookSourceGroup": "",
@@ -9682,16 +9682,15 @@
   {
     "bookSourceGroup": "发现; 修改",
     "bookSourceName": "稻草人书屋",
-    "bookSourceUrl": "http://www.daocaorenshuwu.com",
-    "enable": false,
+    "bookSourceUrl": "https://www.daocaorenshuwu.com",
+    "enable": true,
     "httpUserAgent": "",
-    "lastUpdateTime": 1555059620245,
     "loginUrl": "",
     "ruleBookAuthor": "",
-    "ruleBookContent": "id.cont-text@tag.p@text|id.cont-text@tag.div@text#内容来自.*|www.*|daocao.*|copy.*|稻草人.*",
+    "ruleBookContent": "id.cont-text@textNodes|id.cont-text@tag.div@text#内容来自.*|www.*|daocao.*|copy.*|稻草人.*",
     "ruleBookKind": "",
     "ruleBookLastChapter": "",
-    "ruleBookName": "",
+    "ruleBookName": "class.book-name@tag.a@text",
     "ruleBookUrlPattern": "",
     "ruleChapterList": "id.all-chapter@class.col-md-6 item",
     "ruleChapterName": "tag.a@text",
@@ -9711,7 +9710,7 @@
     "ruleSearchNoteUrl": "tag.h4@tag.a.0@href|tag.td.0@tag.a.0@href|tag.td.1@tag.a.0@href",
     "ruleSearchUrl": "http://www.daocaorenshuwu.com/plus/search.php?keyword=searchKey&pagesize=20&TotalResult=22&PageNo=searchPage",
     "serialNumber": 10431,
-    "weight": 26
+    "weight": 0
   },
   {
     "bookSourceGroup": "搜不到书",
@@ -16668,6 +16667,39 @@
     "weight": 0
   },
   {
+    "bookSourceGroup": "qa455355",
+    "bookSourceName": "\u0001龙腾小说网",
+    "bookSourceUrl": "https://m.ltxswang.com",
+    "enable": true,
+    "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+    "loginUrl": "",
+    "ruleBookAuthor": "class.author@text#www.ltxswang.com|/",
+    "ruleBookContent": "class.content@textNodes|id.nb@textNodes#新店开业,亏本冲销量：淘宝搜索（荔枝蜜）筛选价格区间2-2元选择深圳发货的那家店。",
+    "ruleBookKind": "",
+    "ruleBookLastChapter": "class.lastchapter@tag.a@text#更新：",
+    "ruleBookName": "class.article@tag.li.0@tag.h1@text",
+    "ruleBookUrlPattern": "",
+    "ruleChapterList": "class.chapters@tag.ul@tag.li.!0",
+    "ruleChapterName": "tag.mip-link@text",
+    "ruleChapterUrl": "text.章节列表@href@js:result.replace(\"/w\\.\",\"/m\\.\")",
+    "ruleChapterUrlNext": "",
+    "ruleContentUrl": "tag.mip-link@href",
+    "ruleContentUrlNext": "text.下一页@href",
+    "ruleCoverUrl": "class.fm@tag.mip-img@src",
+    "ruleFindUrl": "",
+    "ruleIntroduce": "class.intro@text",
+    "ruleSearchAuthor": "tag.span@text#/",
+    "ruleSearchCoverUrl": "",
+    "ruleSearchKind": "tag.a.0@text#\\[|\\]",
+    "ruleSearchLastChapter": "",
+    "ruleSearchList": "class.result@tag.li",
+    "ruleSearchName": "tag.a.1@text",
+    "ruleSearchNoteUrl": "tag.a.1@href",
+    "ruleSearchUrl": "https://m.ltxswang.com/s.php@submit=&type=articlename&s=searchKey",
+    "serialNumber": 0,
+    "weight": 0
+  },
+  {
     "bookSourceGroup": "发现; 待修复",
     "bookSourceName": "龙腾小说网",
     "bookSourceUrl": "https://www.wanren8.co",
@@ -19492,7 +19524,7 @@
     "ruleSearchNoteUrl": "tag.a@href",
     "ruleSearchUrl": "https://m.qidian.com/search?kw=searchKey",
     "serialNumber": 574,
-    "weight": 117
+    "weight": 126
   },
   {
     "bookSourceGroup": "正版; 发现; 待修复",
@@ -22895,7 +22927,7 @@
     "ruleSearchNoteUrl": "class.bookname@tag.a@href|tag.a@href",
     "ruleSearchUrl": "http://m.shumil.com/search.php?searchkey=searchKey|char=gbk&page=searchPage",
     "serialNumber": 725,
-    "weight": 318
+    "weight": 343
   },
   {
     "bookSourceGroup": "发现; 修复",
@@ -26044,7 +26076,7 @@
     "ruleSearchNoteUrl": "tag.a@href",
     "ruleSearchUrl": "https://www.ximalaya.com/search/album/searchKey",
     "serialNumber": 332,
-    "weight": 0
+    "weight": 9
   },
   {
     "bookSourceGroup": "",
@@ -28935,7 +28967,7 @@
     "ruleSearchNoteUrl": "@json:http://api.easou.com/api/bookapp/bookSummary.m?nid={$.nid}&gid={$.gid}&sort=1&size=10000&returnType=110&session_id=-nEua-HnRcZlOf2ovVVOOzJ&gsort=1&showj=1&ad=0&cid=eef_easou_book&version=002&os=android&udid=1FD1EC34C1A1DD11DD61A603B9369449&appverion=1064&ch=blf1298_11982_011&session_id=-nEua-HnRcZlOf2ovVVOOzJ&lastClock=0&dzh=1&scp=0&appid=10001&utype=0&rtype=1&pushid=1a0018970afa6c9bc74&ptype=4&birt=1548574906221&instime=1548574868198@put:{gid:$.gid}",
     "ruleSearchUrl": "http://api.easou.com/api/bookapp/searchdzh.m?word=searchKey&type=0&page_id=1&count=20&sort_type=0&subclass=0&datasource=0&showj=1&wc=0&catalog=0&bookStatus=0&cid=eef_easou_book&version=002&os=android&udid=1FD1EC34C1A1DD11DD61A603B9369449&appverion=1064&ch=blf1298_11982_011&session_id=-nEua-HnRcZlOf2ovVVOOzJ&lastClock=0&dzh=1&scp=0&appid=10001&utype=0&rtype=1&pushid=1a0018970afa6c9bc74&ptype=4&birt=1548574906221&instime=1548574868198",
     "serialNumber": 447,
-    "weight": 139
+    "weight": 159
   },
   {
     "bookSourceGroup": "发现",
