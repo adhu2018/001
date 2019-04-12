@@ -1,6 +1,6 @@
 [
   {
-    "bookSourceGroup": "adhu2018; 次等",
+    "bookSourceGroup": "qa455355; 次等",
     "bookSourceName": "#笔趣阁",
     "bookSourceUrl": "https://www.xbaquge.com",
     "enable": false,
@@ -1679,7 +1679,7 @@
     "weight": 160
   },
   {
-    "bookSourceGroup": "adhu2018; 章节有问题; 劣质书源！！; 占坑",
+    "bookSourceGroup": "qa455355; 章节有问题; 劣质书源！！; 占坑",
     "bookSourceName": "123读",
     "bookSourceUrl": "https://m.123du.cc",
     "enable": false,
@@ -1745,7 +1745,7 @@
     "weight": 37
   },
   {
-    "bookSourceGroup": "adhu2018; 发现",
+    "bookSourceGroup": "qa455355; 发现",
     "bookSourceName": "156中文网",
     "bookSourceUrl": "http://m.156zw.net",
     "enable": true,
@@ -3296,7 +3296,7 @@
     "weight": 102
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "58小说网",
     "bookSourceUrl": "http://m.5858xs.com",
     "enable": true,
@@ -3569,7 +3569,7 @@
     "weight": 2635
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "72文学",
     "bookSourceUrl": "http://m.72wx.com",
     "enable": true,
@@ -3888,7 +3888,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018; 待修复",
+    "bookSourceGroup": "qa455355; 待修复",
     "bookSourceName": "86书城",
     "bookSourceUrl": "http://m.shu69.com",
     "enable": false,
@@ -4552,7 +4552,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018; 未完成",
+    "bookSourceGroup": "qa455355; 未完成",
     "bookSourceName": "eBook",
     "bookSourceUrl": "http://m.redsaa.cn",
     "enable": false,
@@ -4899,7 +4899,7 @@
     "weight": 141
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "NBA小说网",
     "bookSourceUrl": "http://www.nbaxiaoshuo.com",
     "enable": true,
@@ -5391,7 +5391,7 @@
     "weight": 2517
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "阿甘小说网(日常抽风)",
     "bookSourceUrl": "https://m.8535.org",
     "enable": true,
@@ -5581,7 +5581,7 @@
     "weight": 255
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "爱豆看书",
     "bookSourceUrl": "https://wap.26ksw.com",
     "enable": true,
@@ -5643,7 +5643,7 @@
     "weight": 2651
   },
   {
-    "bookSourceGroup": "adhu2018; 未完成",
+    "bookSourceGroup": "qa455355; 未完成",
     "bookSourceName": "爱看书吧",
     "bookSourceUrl": "http://m.aikanshu8.com",
     "enable": false,
@@ -6985,7 +6985,7 @@
     "weight": 414
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "百度百科",
     "bookSourceUrl": "https://baike.baidu.com",
     "enable": true,
@@ -7309,6 +7309,39 @@
     "weight": 118
   },
   {
+    "bookSourceGroup": "qa455355",
+    "bookSourceName": "笔趣阁",
+    "bookSourceUrl": "http://www.bqg5200.com",
+    "enable": true,
+    "httpUserAgent": "",
+    "loginUrl": "",
+    "ruleBookAuthor": "id.smallcons@tag.span.0@text",
+    "ruleBookContent": "id.content@textNodes",
+    "ruleBookKind": "id.smallcons@tag.span.1@tag.a@text",
+    "ruleBookLastChapter": "id.smallcons@tag.span.2@text",
+    "ruleBookName": "class.tabstit@tag.a.3@text",
+    "ruleBookUrlPattern": "",
+    "ruleChapterList": "id.readerlist@tag.ul@tag.li",
+    "ruleChapterName": "tag.a@text",
+    "ruleChapterUrl": "",
+    "ruleChapterUrlNext": "",
+    "ruleContentUrl": "tag.a@href",
+    "ruleContentUrlNext": "",
+    "ruleCoverUrl": "",
+    "ruleFindUrl": "",
+    "ruleIntroduce": "",
+    "ruleSearchAuthor": "class.result-game-item-info-tag.0@tag.span.1@text",
+    "ruleSearchCoverUrl": "class.result-game-item-pic@tag.a@tag.img@src",
+    "ruleSearchKind": "class.result-game-item-info-tag.1@tag.span.1@text",
+    "ruleSearchLastChapter": "class.result-game-item-info-tag.2@tag.span.1@text",
+    "ruleSearchList": "class.result-item result-game-item",
+    "ruleSearchName": "class.result-item-title result-game-item-title@tag.a@text",
+    "ruleSearchNoteUrl": "class.result-item-title result-game-item-title@tag.a@href",
+    "ruleSearchUrl": "http://zhannei.baidu.com/cse/search?s=17194782488582577862&entry=1&ie=0&nsid=0&ie=0&q=searchKey|char=gbk",
+    "serialNumber": 0,
+    "weight": 0
+  },
+  {
     "bookSourceGroup": "优",
     "bookSourceName": "笔趣阁",
     "bookSourceUrl": "https://www.biqugexsw.com",
@@ -7405,7 +7438,7 @@
     "weight": 952
   },
   {
-    "bookSourceGroup": "adhu2018; 劣质书源; 失效",
+    "bookSourceGroup": "qa455355; 劣质书源; 失效",
     "bookSourceName": "笔趣阁(搜索间隔30s）",
     "bookSourceUrl": "http://www.xbiquge.cc",
     "enable": false,
@@ -13521,7 +13554,7 @@
     "weight": 626
   },
   {
-    "bookSourceGroup": "adhu2018; 占坑",
+    "bookSourceGroup": "qa455355; 占坑",
     "bookSourceName": "杰米哒小说网（正文不完整）",
     "bookSourceUrl": "http://www.xs63.com",
     "enable": false,
@@ -14377,7 +14410,7 @@
     "weight": 130
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "卡夜阁",
     "bookSourceUrl": "https://www.kayege.com",
     "enable": true,
@@ -14410,7 +14443,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "卡夜阁手机版",
     "bookSourceUrl": "https://m.kayege.com",
     "enable": true,
@@ -14510,7 +14543,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018; 未完成",
+    "bookSourceGroup": "qa455355; 未完成",
     "bookSourceName": "看看书",
     "bookSourceUrl": "http://www.kankanshu.cc",
     "enable": false,
@@ -14750,7 +14783,7 @@
     "weight": 360
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "看书网",
     "bookSourceUrl": "https://www.kanshu.com",
     "enable": true,
@@ -14783,7 +14816,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "看书网（半成品）",
     "bookSourceUrl": "http://so.kanshu.com",
     "enable": true,
@@ -16119,7 +16152,7 @@
     "weight": 20
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "良久小说下载网",
     "bookSourceUrl": "https://m.txt909.com",
     "enable": true,
@@ -16725,7 +16758,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "发现; adhu2018",
+    "bookSourceGroup": "发现; qa455355",
     "bookSourceName": "撸小说电脑-手机版更完美",
     "bookSourceUrl": "http://www.luxs.cc",
     "enable": true,
@@ -16758,7 +16791,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018; 发现",
+    "bookSourceGroup": "qa455355; 发现",
     "bookSourceName": "撸小说手机",
     "bookSourceUrl": "http://m.luxs.cc",
     "enable": true,
@@ -18479,7 +18512,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "暖才文学网",
     "bookSourceUrl": "http://m.nuancaiwx.cc",
     "enable": true,
@@ -18573,7 +18606,7 @@
     "weight": 9
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "爬书网手机版",
     "bookSourceUrl": "http://www.pashuw.com",
     "enable": true,
@@ -18886,7 +18919,7 @@
     "weight": 1094
   },
   {
-    "bookSourceGroup": "adhu2018; 待修复",
+    "bookSourceGroup": "qa455355; 待修复",
     "bookSourceName": "七猫小说大全",
     "bookSourceUrl": "https://mbook.km.com",
     "enable": false,
@@ -19352,7 +19385,7 @@
     "weight": 1262
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "棋子小说",
     "bookSourceUrl": "http://www.qizi.la",
     "enable": true,
@@ -19447,7 +19480,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "千千小说",
     "bookSourceUrl": "https://m.qqxs.la",
     "enable": true,
@@ -20748,7 +20781,7 @@
     "weight": 2551
   },
   {
-    "bookSourceGroup": "adhu2018; 次等",
+    "bookSourceGroup": "qa455355; 次等",
     "bookSourceName": "人人阅读",
     "bookSourceUrl": "https://m.rrtxt.com",
     "enable": false,
@@ -21675,7 +21708,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "神笔屋",
     "bookSourceUrl": "https://www.shenbiwu.com",
     "enable": true,
@@ -21771,7 +21804,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018; 待修复",
+    "bookSourceGroup": "qa455355; 待修复",
     "bookSourceName": "神马搜索",
     "bookSourceUrl": "https://m.sm.cn",
     "enable": false,
@@ -21804,7 +21837,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "神马小说",
     "bookSourceUrl": "https://www.smxs.cc",
     "enable": true,
@@ -22039,7 +22072,7 @@
     "weight": 345
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "手牵手小说网",
     "bookSourceUrl": "https://m.sqsxs.com",
     "enable": true,
@@ -22290,7 +22323,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "书包网手机版",
     "bookSourceUrl": "http://m.shubao0.cc",
     "enable": false,
@@ -22590,7 +22623,7 @@
     "weight": 143
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "书客吧",
     "bookSourceUrl": "https://m.shukeba.com",
     "enable": true,
@@ -23017,7 +23050,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018; 待修复",
+    "bookSourceGroup": "qa455355; 待修复",
     "bookSourceName": "书屋楼",
     "bookSourceUrl": "http://m.shuwulou.com",
     "enable": false,
@@ -23953,7 +23986,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "唐三中文网",
     "bookSourceUrl": "http://m.tangsanshu.com",
     "enable": true,
@@ -24294,7 +24327,7 @@
     "weight": 8
   },
   {
-    "bookSourceGroup": "adhu2018; 发现",
+    "bookSourceGroup": "qa455355; 发现",
     "bookSourceName": "天涯书库",
     "bookSourceUrl": "https://www.tianyabooks.com",
     "enable": true,
@@ -25726,7 +25759,7 @@
     "weight": 20
   },
   {
-    "bookSourceGroup": "adhu2018; 网络导入",
+    "bookSourceGroup": "qa455355; 网络导入",
     "bookSourceName": "武林中文网",
     "bookSourceUrl": "http://m.50zw.co",
     "enable": true,
@@ -25820,7 +25853,7 @@
     "weight": 2364
   },
   {
-    "bookSourceGroup": "adhu2018; 待修复",
+    "bookSourceGroup": "qa455355; 待修复",
     "bookSourceName": "舞若小说网",
     "bookSourceUrl": "https://m.wuruo.com",
     "enable": false,
@@ -26490,7 +26523,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "小书包网",
     "bookSourceUrl": "https://m.xshubao.org",
     "enable": true,
@@ -27581,7 +27614,7 @@
     "weight": 2365
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "新书包网",
     "bookSourceUrl": "https://k.xinshubao.net",
     "enable": true,
@@ -29323,7 +29356,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018; 仅发现; 待修复",
+    "bookSourceGroup": "qa455355; 仅发现; 待修复",
     "bookSourceName": "御宅屋",
     "bookSourceUrl": "https://www.ainan.cc",
     "enable": false,
@@ -29418,7 +29451,7 @@
     "weight": 46
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "阅读悦（半成品）",
     "bookSourceUrl": "http://www.yueduyue.com",
     "enable": true,
@@ -30221,7 +30254,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "adhu2018",
+    "bookSourceGroup": "qa455355",
     "bookSourceName": "逐浪",
     "bookSourceUrl": "https://m.zhulang.com",
     "enable": true,
