@@ -723,7 +723,7 @@
     "ruleSearchNoteUrl": "class.s2@tag.a@href",
     "ruleSearchUrl": "https://www.hunhun520.com/novel.php?action=search&searchtype=articlename&searchkey=searchKey|char=gbk",
     "serialNumber": 733,
-    "weight": 547
+    "weight": 556
   },
   {
     "bookSourceGroup": "",
@@ -1053,7 +1053,7 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a.0@href",
     "ruleSearchUrl": "https://www.7dsw.com/modules/article/search.php?searchkey=searchKey&page=searchPage|char=gbk",
     "serialNumber": 730,
-    "weight": 1136
+    "weight": 1144
   },
   {
     "bookSourceGroup": "",
@@ -7443,6 +7443,39 @@
     "weight": 119
   },
   {
+    "bookSourceGroup": "qa455355",
+    "bookSourceName": "笔趣阁",
+    "bookSourceUrl": "https://www.xbiquge.cc",
+    "enable": true,
+    "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+    "loginUrl": "",
+    "ruleBookAuthor": "id.info@tag.p.0@text",
+    "ruleBookContent": "id.content@textNodes#笔趣阁\\s*www.xbiquge.cc，最快更新.+最新章节！",
+    "ruleBookKind": "",
+    "ruleBookLastChapter": "id.info@tag.p.3@text",
+    "ruleBookName": "id.info@tag.h1@text",
+    "ruleBookUrlPattern": "",
+    "ruleChapterList": "id.list@tag.dl@tag.dd",
+    "ruleChapterName": "tag.a@text",
+    "ruleChapterUrl": "",
+    "ruleChapterUrlNext": "",
+    "ruleContentUrl": "tag.a@href",
+    "ruleContentUrlNext": "",
+    "ruleCoverUrl": "id.fmimg@tag.img@src",
+    "ruleFindUrl": "",
+    "ruleIntroduce": "id.intro@html",
+    "ruleSearchAuthor": "class.s4@text",
+    "ruleSearchCoverUrl": "",
+    "ruleSearchKind": "class.s1@text",
+    "ruleSearchLastChapter": "class.s3@tag.a@texr",
+    "ruleSearchList": "class.novelslistss@tag.li",
+    "ruleSearchName": "class.s2@tag.a@text",
+    "ruleSearchNoteUrl": "class.s2@tag.a@href",
+    "ruleSearchUrl": "https://www.xbiquge.cc/modules/article/search.php?searchkey=searchKey|char=gbk",
+    "serialNumber": 10383,
+    "weight": 0
+  },
+  {
     "bookSourceGroup": "",
     "bookSourceName": "笔趣阁.qu",
     "bookSourceUrl": "https://www.qu.la",
@@ -7507,40 +7540,6 @@
     "ruleSearchUrl": "https://wap.x4399.com/s.php@keyword=searchKey&t=1",
     "serialNumber": 745,
     "weight": 952
-  },
-  {
-    "bookSourceGroup": "qa455355; 劣质书源",
-    "bookSourceName": "笔趣阁(搜索间隔30s）",
-    "bookSourceUrl": "http://www.xbiquge.cc",
-    "enable": false,
-    "httpUserAgent": "",
-    "lastUpdateTime": 1555059605339,
-    "loginUrl": "",
-    "ruleBookAuthor": "id.info@tag.p.0@text",
-    "ruleBookContent": "id.content@html",
-    "ruleBookKind": "",
-    "ruleBookLastChapter": "id.info@tag.p.3@text",
-    "ruleBookName": "id.info@tag.h1@text",
-    "ruleBookUrlPattern": "",
-    "ruleChapterList": "id.list@tag.dl@tag.dd",
-    "ruleChapterName": "tag.a@text",
-    "ruleChapterUrl": "",
-    "ruleChapterUrlNext": "",
-    "ruleContentUrl": "tah.a@href",
-    "ruleContentUrlNext": "",
-    "ruleCoverUrl": "id.fmimg@tag.img@src",
-    "ruleFindUrl": "",
-    "ruleIntroduce": "id.intro@html",
-    "ruleSearchAuthor": "class.s4@text",
-    "ruleSearchCoverUrl": "",
-    "ruleSearchKind": "class.s1@text",
-    "ruleSearchLastChapter": "class.s3@tag.a@texr",
-    "ruleSearchList": "class.novelslistss@tag.li",
-    "ruleSearchName": "class.s2@tag.a@text",
-    "ruleSearchNoteUrl": "class.s2@tag.a@href",
-    "ruleSearchUrl": "http://www.xbiquge.cc/modules/article/search.php?searchkey=searchKey|char=gbk",
-    "serialNumber": 10383,
-    "weight": 0
   },
   {
     "bookSourceGroup": "优",
@@ -12079,7 +12078,7 @@
     "ruleSearchNoteUrl": "tag.a@href",
     "ruleSearchUrl": "https://m.fnzw.com/novel.php?action=search@searchkey=searchKey|char=gbk&searchtype=novelname",
     "serialNumber": 729,
-    "weight": 1352
+    "weight": 1369
   },
   {
     "bookSourceGroup": "占坑",
@@ -13464,7 +13463,7 @@
     "ruleSearchNoteUrl": "class.s2@tag.a@href",
     "ruleSearchUrl": "http://www.hunhun520.com/novel.php?action=search&searchtype=articlename&searchkey=searchKey|char=gbk",
     "serialNumber": 737,
-    "weight": 1355
+    "weight": 1364
   },
   {
     "bookSourceGroup": "仅发现",
@@ -15445,9 +15444,13 @@
     "bookSourceUrl": "https://www.kuaiyankanshu.net",
     "enable": true,
     "httpUserAgent": "",
+    "loginUrl": "",
     "ruleBookAuthor": "",
-    "ruleBookContent": "id.chaptercontent@textNodes",
+    "ruleBookContent": "id.chaptercontent@textNodes#千千小说网 ，最快更新快穿之拯救黑化boss最新章节！|爱看小说的你，怎能不关注这个公众号，V信搜索：rdww444 或 热度网文，一起畅聊网文吧~",
+    "ruleBookKind": "",
+    "ruleBookLastChapter": "",
     "ruleBookName": "",
+    "ruleBookUrlPattern": "",
     "ruleChapterList": "class.hide@tag.li",
     "ruleChapterName": "tag.a@text",
     "ruleChapterUrl": "class.pticon pticon-leanpub@tag.a.0@href",
@@ -15466,7 +15469,7 @@
     "ruleSearchNoteUrl": "class.pt-ll-l@tag.a.0@href",
     "ruleSearchUrl": "https://www.kuaiyankanshu.net/search/result.html?searchtype=novelname&searchkey=searchKey",
     "serialNumber": 444,
-    "weight": 1493
+    "weight": 0
   },
   {
     "bookSourceGroup": "",
@@ -19291,7 +19294,7 @@
     "ruleSearchNoteUrl": "class.s2@tag.a@href",
     "ruleSearchUrl": "https://www.qsw.la/modules/article/search.php?searchkey=searchKey&page=searchPage|char=gbk",
     "serialNumber": 561,
-    "weight": 441
+    "weight": 551
   },
   {
     "bookSourceGroup": "修复; 发现",
@@ -23010,7 +23013,7 @@
     "ruleSearchNoteUrl": "class.bookname@tag.a@href|tag.a@href",
     "ruleSearchUrl": "http://m.shumil.com/search.php?searchkey=searchKey|char=gbk&page=searchPage",
     "serialNumber": 725,
-    "weight": 937
+    "weight": 944
   },
   {
     "bookSourceGroup": "发现; 修复",
@@ -26548,7 +26551,7 @@
     "ruleSearchNoteUrl": "$._id@js:\"http://api.zhuishushenqi.com/atoc?view=summary&book=\" + result",
     "ruleSearchUrl": "http://api.zhuishushenqi.com/book/fuzzy-search?query=searchKey",
     "serialNumber": 724,
-    "weight": 1132
+    "weight": 1242
   },
   {
     "bookSourceGroup": "搜不到书; 失效",
