@@ -3489,7 +3489,7 @@
     "bookSourceGroup": "发现; 待修复",
     "bookSourceName": "60看书",
     "bookSourceUrl": "http://www.60kanshu.com",
-    "enable": true,
+    "enable": false,
     "httpUserAgent": "",
     "loginUrl": "",
     "ruleBookAuthor": "",
@@ -24842,15 +24842,18 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "发现",
+    "bookSourceGroup": "发现; 修改",
     "bookSourceName": "桐树",
     "bookSourceUrl": "https://m.tongshu.net",
     "enable": true,
     "httpUserAgent": "",
-    "lastUpdateTime": 1555059999658,
+    "loginUrl": "",
     "ruleBookAuthor": "class.block_txt2.0@tag.p.1@tag.a.0@text|id.info@tag.p.0@txt",
     "ruleBookContent": "id.nr1@textNodes|id.content@textNodes",
+    "ruleBookKind": "",
+    "ruleBookLastChapter": "",
     "ruleBookName": "class.block_txt2.0@tag.h2.0@text|id.info@tag.h1.0@txt",
+    "ruleBookUrlPattern": "",
     "ruleChapterList": "class.chapter.0@tag.li|id.list",
     "ruleChapterName": "tag.a@text|tag.dd@txt!0:1:2:3:4:5:6:7",
     "ruleChapterUrl": "class.ablum_read.0@tag.a.1@href",
@@ -24862,14 +24865,14 @@
     "ruleIntroduce": "class.intro_info.0@text|id.intro.0@txt",
     "ruleSearchAuthor": "tag.a.2@text",
     "ruleSearchCoverUrl": "",
-    "ruleSearchKind": "tag.a.0@text",
+    "ruleSearchKind": "tag.a.0@text#\\[|\\]",
     "ruleSearchLastChapter": "",
     "ruleSearchList": "class.cover@tag.p",
     "ruleSearchName": "tag.a.1@text",
     "ruleSearchNoteUrl": "tag.a.1@href",
     "ruleSearchUrl": "https://m.tongshu.net/s.php@type=articlename&s=searchKey|char=gbk",
     "serialNumber": 10879,
-    "weight": 80
+    "weight": 0
   },
   {
     "bookSourceGroup": "",
@@ -26550,15 +26553,18 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "失效",
+    "bookSourceGroup": "失效; 发现; 待修复",
     "bookSourceName": "闲云馆",
     "bookSourceUrl": "https://www.9xyg.com",
-    "enable": true,
+    "enable": false,
     "httpUserAgent": "",
-    "lastUpdateTime": 1552401132345,
+    "loginUrl": "",
     "ruleBookAuthor": "",
     "ruleBookContent": "$id.content@html",
+    "ruleBookKind": "",
+    "ruleBookLastChapter": "",
     "ruleBookName": "",
+    "ruleBookUrlPattern": "",
     "ruleChapterList": "class.mulu@tag.li",
     "ruleChapterName": "tag.a@text",
     "ruleChapterUrl": "",
@@ -26577,7 +26583,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href",
     "ruleSearchUrl": "https://www.9xyg.com/home/search@action=search&q=searchKey",
     "serialNumber": 10863,
-    "weight": 8
+    "weight": 0
   },
   {
     "bookSourceGroup": "搜不到书; 失效",
