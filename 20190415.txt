@@ -22722,7 +22722,7 @@
     "weight": 617
   },
   {
-    "bookSourceGroup": "꧁落༺寞༒尘༻世꧂; 修复",
+    "bookSourceGroup": "꧁落༺寞༒尘༻世꧂; 修复; 发现",
     "bookSourceName": "在线中文网",
     "bookSourceUrl": "http://zxzw.com",
     "enable": true,
@@ -23651,7 +23651,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "正版; 修改",
+    "bookSourceGroup": "正版; 修改; 发现",
     "bookSourceName": "纵横中文网",
     "bookSourceUrl": "http://www.zongheng.com",
     "enable": true,
@@ -23684,7 +23684,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "发现",
     "bookSourceName": "作品集",
     "bookSourceUrl": "http://zuopinj.com",
     "enable": true,
