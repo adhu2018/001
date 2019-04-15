@@ -3486,14 +3486,18 @@
     "weight": 25
   },
   {
-    "bookSourceGroup": "发现",
+    "bookSourceGroup": "发现; 待修复",
     "bookSourceName": "60看书",
     "bookSourceUrl": "http://www.60kanshu.com",
     "enable": true,
     "httpUserAgent": "",
+    "loginUrl": "",
     "ruleBookAuthor": "",
     "ruleBookContent": "id.content@html",
+    "ruleBookKind": "",
+    "ruleBookLastChapter": "",
     "ruleBookName": "",
+    "ruleBookUrlPattern": "",
     "ruleChapterList": "id.chapterlist@tag.li",
     "ruleChapterName": "tag.a@text",
     "ruleChapterUrl": "",
@@ -3512,7 +3516,7 @@
     "ruleSearchNoteUrl": "tag.td.0@tag.a@href|tag.dd.0@tag.a@href",
     "ruleSearchUrl": "http://www.60kanshu.com/modules/article/search.php@searchkey=searchKey&searchtype=articlename&page=searchPage|char=gbk",
     "serialNumber": 492,
-    "weight": 47
+    "weight": 0
   },
   {
     "bookSourceGroup": "",
@@ -9605,15 +9609,18 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "修复中; 失效",
+    "bookSourceGroup": "失效; 待修复",
     "bookSourceName": "大书包小说②",
     "bookSourceUrl": "http://www.dashubao.net",
     "enable": false,
     "httpUserAgent": "",
-    "lastUpdateTime": 1555059620203,
+    "loginUrl": "",
     "ruleBookAuthor": "class.ml_title@tag.sp.0@text",
     "ruleBookContent": "class.yd_text2@textNodes",
+    "ruleBookKind": "",
+    "ruleBookLastChapter": "",
     "ruleBookName": "class.ml_title@tag.h1@text",
+    "ruleBookUrlPattern": "",
     "ruleChapterList": "class.ml_main@tag.dl@tag.dd",
     "ruleChapterName": "tag.a@text",
     "ruleChapterUrl": "",
@@ -9694,12 +9701,11 @@
     "weight": 232
   },
   {
-    "bookSourceGroup": "修复中; 失效",
+    "bookSourceGroup": "待修复; 失效",
     "bookSourceName": "耽美啦小说",
     "bookSourceUrl": "http://www.danmeila.com",
     "enable": false,
     "httpUserAgent": "",
-    "lastUpdateTime": 1555059619171,
     "loginUrl": "",
     "ruleBookAuthor": "class.info@tag.a.0@text",
     "ruleBookContent": "id.J_article_con@textNodes",
