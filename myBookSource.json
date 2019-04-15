@@ -2517,6 +2517,39 @@
     "weight": 0
   },
   {
+    "bookSourceGroup": "qa455355",
+    "bookSourceName": "2K中文网",
+    "bookSourceUrl": "https://m.2kzw.com",
+    "enable": true,
+    "httpUserAgent": "",
+    "loginUrl": "",
+    "ruleBookAuthor": "id.info@tag.p.0@text|class.book-rand-a@text#作者：",
+    "ruleBookContent": "class.nr_nr@html#【本章节首发-爱-有-声-小说网,请记住网址（.Aiyousheng.）】",
+    "ruleBookKind": "class.book-meta.0@text|class.con_top@tag.a.1@text",
+    "ruleBookLastChapter": "id.list@tag.dl@tag.li@tag.dd.0@text",
+    "ruleBookName": "id.info@tag.h1@text|class.book-title.0@text",
+    "ruleBookUrlPattern": "",
+    "ruleChapterList": "class.chapter-li jsChapter",
+    "ruleChapterName": "tag.a@text",
+    "ruleChapterUrl": "text.目录@href",
+    "ruleChapterUrlNext": "",
+    "ruleContentUrl": "tag.a@href",
+    "ruleContentUrlNext": "text.下一页@href",
+    "ruleCoverUrl": "id.fmimg@tag.img@src|class.book-layout@tag.img@src",
+    "ruleFindUrl": "",
+    "ruleIntroduce": "class.book-summary@tag.content@text",
+    "ruleSearchAuthor": "class.odd.1@text",
+    "ruleSearchCoverUrl": "",
+    "ruleSearchKind": "class.odd.2@text&class.even.2@text",
+    "ruleSearchLastChapter": "class.even.0@tag.a@text",
+    "ruleSearchList": "class.grid@tag.tbody@tag.tr!0",
+    "ruleSearchName": "class.odd.0@tag.a@text",
+    "ruleSearchNoteUrl": "class.odd.0@tag.a@href@js:result.replace(\"www\",\"m\")",
+    "ruleSearchUrl": "https://www.2kzw.com/modules/article/search.php@searchkey=searchKey&searchtype=articlename|char=gbk",
+    "serialNumber": 0,
+    "weight": 0
+  },
+  {
     "bookSourceGroup": "",
     "bookSourceName": "31小说",
     "bookSourceUrl": "http://www.31xs.net",
@@ -23061,7 +23094,7 @@
     "ruleSearchNoteUrl": "class.bookname@tag.a@href|tag.a@href",
     "ruleSearchUrl": "http://m.shumil.com/search.php?searchkey=searchKey|char=gbk&page=searchPage",
     "serialNumber": 725,
-    "weight": 944
+    "weight": 953
   },
   {
     "bookSourceGroup": "发现; 修复",
@@ -26601,7 +26634,7 @@
     "ruleSearchNoteUrl": "$._id@js:\"http://api.zhuishushenqi.com/atoc?view=summary&book=\" + result",
     "ruleSearchUrl": "http://api.zhuishushenqi.com/book/fuzzy-search?query=searchKey",
     "serialNumber": 724,
-    "weight": 1242
+    "weight": 1752
   },
   {
     "bookSourceGroup": "搜不到书; 失效",
@@ -31034,10 +31067,10 @@
     "weight": 252
   },
   {
-    "bookSourceGroup": "发现",
+    "bookSourceGroup": "发现; 次等",
     "bookSourceName": "追书神器💯",
     "bookSourceUrl": "http://www.zhuishushenqi.com",
-    "enable": true,
+    "enable": false,
     "httpUserAgent": "",
     "loginUrl": "",
     "ruleBookAuthor": "class.sup@tag.a@text",
@@ -31064,7 +31097,7 @@
     "ruleSearchNoteUrl": "tag.a@href",
     "ruleSearchUrl": "https://www.zhuishushenqi.com/search?val=searchKey",
     "serialNumber": 622,
-    "weight": 102
+    "weight": 0
   },
   {
     "bookSourceGroup": "发现; 失效",
