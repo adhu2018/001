@@ -18717,7 +18717,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "烏雲; 修改",
+    "bookSourceGroup": "烏雲; 修复",
     "bookSourceName": "努努书坊[无搜索]",
     "bookSourceUrl": "https://www.kanunu8.com",
     "enable": true,
@@ -18742,7 +18742,7 @@
     "ruleSearchCoverUrl": "",
     "ruleSearchKind": "",
     "ruleSearchLastChapter": "",
-    "ruleSearchList": "@css:table a[href^=/book],a[href^=/files/chinese/2],a[href^=/files/terrorist/2],a[href^=/files/xunhuan/2]",
+    "ruleSearchList": "@css:table a[href^=/book],a[href^=/files/chinese/2],a[href^=/files/terrorist/2],a[href^=/files/xunhuan/2],a[href^=/files/dushi/2],a[href^=/files/yqxs/2]",
     "ruleSearchName": "@css:a@text",
     "ruleSearchNoteUrl": "@css:a@href",
     "ruleSearchUrl": "-",
