@@ -396,14 +396,14 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "修改; 劣质书源; 取消勾选",
-    "bookSourceName": "17书屋",
+    "bookSourceGroup": "修改; 发现; 劣质书源; 取消勾选; 检验",
+    "bookSourceName": "17书屋🔞",
     "bookSourceUrl": "http://www.17shuwu.com",
-    "enable": true,
+    "enable": false,
     "httpUserAgent": "",
     "loginUrl": "",
     "ruleBookAuthor": "",
-    "ruleBookContent": "id.BookText@textNodes#\\&amp\\;emsp\\;\\&amp\\;emsp\\;",
+    "ruleBookContent": "id.BookText@textNodes#\\&amp\\;emsp\\;\\&amp\\;emsp\\;|您可以在百度上搜索：",
     "ruleBookKind": "",
     "ruleBookLastChapter": "",
     "ruleBookName": "",
@@ -429,19 +429,24 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "优+",
+    "bookSourceGroup": "优+; 待修复",
     "bookSourceName": "18小说",
     "bookSourceUrl": "https://m.18xs.org",
-    "enable": true,
+    "enable": false,
     "httpUserAgent": "",
+    "loginUrl": "",
     "ruleBookAuthor": "",
     "ruleBookContent": "id.chaptercontent@textNodes",
+    "ruleBookKind": "",
+    "ruleBookLastChapter": "",
     "ruleBookName": "",
+    "ruleBookUrlPattern": "",
     "ruleChapterList": "id.chapterlist@tag.a!0",
     "ruleChapterName": "tag.a@text",
     "ruleChapterUrl": "class.btn@tag.a@href",
     "ruleChapterUrlNext": "",
     "ruleContentUrl": "tag.a@href",
+    "ruleContentUrlNext": "",
     "ruleCoverUrl": "class.synopsisArea_detail@tag.img@src",
     "ruleFindUrl": "",
     "ruleIntroduce": "class.review@text",
@@ -454,7 +459,7 @@
     "ruleSearchNoteUrl": "tag.a@href",
     "ruleSearchUrl": "https://m.18xs.org/s.php@keyword=searchKey",
     "serialNumber": 0,
-    "weight": 2837
+    "weight": 0
   },
   {
     "bookSourceGroup": "",
@@ -490,10 +495,10 @@
     "weight": 28
   },
   {
-    "bookSourceGroup": "XPath; 劣质书源; 取消勾选",
+    "bookSourceGroup": "XPath; 劣质书源; 取消勾选; 待修复",
     "bookSourceName": "1909[by༺༒Deleterޓﻬ༻]",
     "bookSourceUrl": "http://www.1909.tv",
-    "enable": true,
+    "enable": false,
     "httpUserAgent": "",
     "loginUrl": "",
     "ruleBookAuthor": "",
@@ -523,10 +528,10 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "༺༒六月ޓﻬ༻",
-    "bookSourceName": "1909tv（修复）",
+    "bookSourceGroup": "༺༒六月ޓﻬ༻; 待修复",
+    "bookSourceName": "1909tv",
     "bookSourceUrl": "https://www.1909.tv",
-    "enable": true,
+    "enable": false,
     "httpUserAgent": "",
     "loginUrl": "",
     "ruleBookAuthor": "",
@@ -589,14 +594,18 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "待修复",
     "bookSourceName": "19楼书包网",
     "bookSourceUrl": "http://www.aishula.com",
     "enable": true,
     "httpUserAgent": "",
+    "loginUrl": "",
     "ruleBookAuthor": "",
     "ruleBookContent": "id.booktext@textNodes",
+    "ruleBookKind": "",
+    "ruleBookLastChapter": "",
     "ruleBookName": "",
+    "ruleBookUrlPattern": "",
     "ruleChapterList": "id.Content@tag.dd",
     "ruleChapterName": "tag.a@text",
     "ruleChapterUrl": "class.body@tag.a.1@href",
@@ -615,15 +624,14 @@
     "ruleSearchNoteUrl": "class.odd.0@tag.a.0@href",
     "ruleSearchUrl": "http://www.aishula.com/modules/article/search.php?searchkey=searchKey&searchtype=articlename&page=searchPage|char=gbk",
     "serialNumber": 0,
-    "weight": 20
+    "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "发现; 待修复",
     "bookSourceName": "19小说🔞",
     "bookSourceUrl": "http://www.19xse.com",
     "enable": true,
     "httpUserAgent": "",
-    "lastUpdateTime": 1555251998143,
     "loginUrl": "",
     "ruleBookAuthor": "",
     "ruleBookContent": "id.booktext@textNodes",
@@ -649,7 +657,7 @@
     "ruleSearchNoteUrl": "class.odd@tag.a.0@href|tag.a@href",
     "ruleSearchUrl": "http://www.19xse.com/modules/article/search.php?searchkey=searchKey|char=gbk",
     "serialNumber": 0,
-    "weight": 236
+    "weight": 0
   },
   {
     "bookSourceGroup": "优",
