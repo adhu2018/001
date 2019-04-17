@@ -5320,40 +5320,7 @@
     "weight": 24
   },
   {
-    "bookSourceGroup": "",
-    "bookSourceName": "百合小说",
-    "bookSourceUrl": "https://www.baihexs.com",
-    "enable": true,
-    "httpUserAgent": "",
-    "loginUrl": "",
-    "ruleBookAuthor": "",
-    "ruleBookContent": "id.content@textNodes#感谢阅.*",
-    "ruleBookKind": "",
-    "ruleBookLastChapter": "",
-    "ruleBookName": "",
-    "ruleBookUrlPattern": "",
-    "ruleChapterList": "id.readerlist@tag.li!0",
-    "ruleChapterName": "tag.a@text",
-    "ruleChapterUrl": "id.reader@tag.a@href",
-    "ruleChapterUrlNext": "",
-    "ruleContentUrl": "tag.a@href",
-    "ruleContentUrlNext": "",
-    "ruleCoverUrl": "id.bookimg@tag.img.0@src",
-    "ruleFindUrl": "",
-    "ruleIntroduce": "id.bookintro@text",
-    "ruleSearchAuthor": "class.odd.1@text",
-    "ruleSearchCoverUrl": "",
-    "ruleSearchKind": "",
-    "ruleSearchLastChapter": "class.even.0@tag.a@text",
-    "ruleSearchList": "class.grid searall@tag.tr!0",
-    "ruleSearchName": "class.odd.0@tag.a@text",
-    "ruleSearchNoteUrl": "class.odd.0@tag.a@href",
-    "ruleSearchUrl": "https://www.baihexs.com/modules/article/search.php?searchkey=searchKey&searchtype=articlename|char=gbk",
-    "serialNumber": 0,
-    "weight": 48
-  },
-  {
-    "bookSourceGroup": "发现",
+    "bookSourceGroup": "发现; 检验",
     "bookSourceName": "百合小说",
     "bookSourceUrl": "https://m.baihexs.com",
     "enable": true,
@@ -5383,7 +5350,7 @@
     "ruleSearchNoteUrl": "class.block_txt2.0@tag.p.0@tag.a.0@href|tag.a.1@href",
     "ruleSearchUrl": "https://m.baihexs.com/modules/article/waps.php@searchkey=searchKey&page=searchPage|char=gbk",
     "serialNumber": 0,
-    "weight": 24
+    "weight": 0
   },
   {
     "bookSourceGroup": "修复; 检验",
@@ -16124,8 +16091,8 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "qa455355; 发现",
-    "bookSourceName": "撸小说手机",
+    "bookSourceGroup": "qa455355; 发现; 检验",
+    "bookSourceName": "撸小说",
     "bookSourceUrl": "http://m.luxs.cc",
     "enable": true,
     "httpUserAgent": "",
