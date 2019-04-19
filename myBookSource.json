@@ -15970,10 +15970,10 @@
     "weight": 2432
   },
   {
-    "bookSourceGroup": "修改",
+    "bookSourceGroup": "修改; 发现; 待修复",
     "bookSourceName": "蚂蚁阅读",
     "bookSourceUrl": "http://www.mayitxt.com",
-    "enable": true,
+    "enable": false,
     "httpUserAgent": "",
     "loginUrl": "",
     "ruleBookAuthor": "",
@@ -16004,9 +16004,9 @@
   },
   {
     "bookSourceGroup": "发现; 待修复",
-    "bookSourceName": "蚂蚁阅读",
+    "bookSourceName": "蚂蚁阅读手机版",
     "bookSourceUrl": "http://m.mayitxt.com",
-    "enable": true,
+    "enable": false,
     "httpUserAgent": "",
     "loginUrl": "",
     "ruleBookAuthor": "",
@@ -27120,8 +27120,8 @@
     "weight": 241
   },
   {
-    "bookSourceGroup": "群内复制",
-    "bookSourceName": "新热门小说[叶子]",
+    "bookSourceGroup": "优; 叶子",
+    "bookSourceName": "新热门小说",
     "bookSourceUrl": "https://www.xinremenxs.com",
     "enable": true,
     "httpUserAgent": "",
@@ -27140,7 +27140,7 @@
     "ruleContentUrlNext": "",
     "ruleCoverUrl": "class.book_cover@tag.img@src",
     "ruleFindUrl": "",
-    "ruleIntroduce": "id.intro@text",
+    "ruleIntroduce": "id.intro@text#Tags.*下载等服务。",
     "ruleSearchAuthor": "class.s4@text",
     "ruleSearchCoverUrl": "",
     "ruleSearchKind": "class.s1@text",
@@ -27150,7 +27150,7 @@
     "ruleSearchNoteUrl": "class.s2@tag.a@href",
     "ruleSearchUrl": "https://www.xinremenxs.com/search.html@searchtype=all&searchkey=searchKey",
     "serialNumber": 0,
-    "weight": 408
+    "weight": 0
   },
   {
     "bookSourceGroup": "qa455355; 占坑; 失效",
