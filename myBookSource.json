@@ -29012,15 +29012,18 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "失效",
+    "bookSourceGroup": "iam纯二",
     "bookSourceName": "悠久小说网",
     "bookSourceUrl": "https://www.ujxs.com",
     "enable": true,
     "httpUserAgent": "",
-    "lastUpdateTime": 1555488939366,
+    "loginUrl": "",
     "ruleBookAuthor": "id.author.0@tag.a.0@text",
-    "ruleBookContent": "id.content@textNodes",
+    "ruleBookContent": "class.read-content@textNodes",
+    "ruleBookKind": "",
+    "ruleBookLastChapter": "",
     "ruleBookName": "id.bookinfo.0@class.bookright.0@tag.h1.0@text#作者.*",
+    "ruleBookUrlPattern": "",
     "ruleChapterList": "id.readerlist@tag.ul@tag.li@tag.a",
     "ruleChapterName": "text#[a-zA-Z\\.]{5,30}",
     "ruleChapterUrl": "class.newrap.0@tag.strong.0@tag.a.0@href",
@@ -29039,7 +29042,7 @@
     "ruleSearchNoteUrl": "tag.td.1@tag.a.0@href",
     "ruleSearchUrl": "https://www.ujxs.com/modules/article/search.php@searchkey=searchKey&searchtype=articlename&page=searchPage|char=gbk",
     "serialNumber": 10910,
-    "weight": 172
+    "weight": 0
   },
   {
     "bookSourceGroup": "",
