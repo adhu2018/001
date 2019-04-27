@@ -21,7 +21,7 @@
     "ruleCoverUrl": "class.block_img2@tag,img@src",
     "ruleChapterUrl": "class.book_more@tag.a@href",
     "ruleChapterList": "class.chapter@tag.li",
-    "ruleChapterUrlNext": "class.onclick.1@href",
+    "ruleChapterUrlNext": "text.下一页@href|class.onclick.1@href",
     "ruleChapterName": "tag.a@text",
     "ruleContentUrl": "tag.a@href",
     "ruleBookContent": "id.nr1@textNodes#\\(本章完\\)",
