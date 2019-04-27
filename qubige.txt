@@ -1,7 +1,7 @@
 {
     "bookSourceName": "趣笔阁",
     "bookSourceGroup": "qa455355",
-    "bookSourceUrl": "https://m.qubige.com/",
+    "bookSourceUrl": "https://m.qubige.com",
     "loginUrl": "",
     "ruleFindUrl": "",
     "ruleSearchUrl": "https://m.qubige.com/s/so.php?type=articlename&s=searchKey|char=gbk",
