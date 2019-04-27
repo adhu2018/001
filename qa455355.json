@@ -297,7 +297,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 待修复; 失效",
+  "bookSourceGroup": "qa455355; 待修复",
   "bookSourceName": "86书城",
   "bookSourceUrl": "http://m.shu69.com",
   "enable": false,
@@ -330,7 +330,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 未完成; 失效",
+  "bookSourceGroup": "qa455355; 未完成",
   "bookSourceName": "eBook",
   "bookSourceUrl": "http://m.redsaa.cn",
   "enable": false,
@@ -396,10 +396,10 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 失效",
+  "bookSourceGroup": "qa455355",
   "bookSourceName": "阿甘小说网(日常抽风)",
   "bookSourceUrl": "https://m.8535.org",
-  "enable": true,
+  "enable": false,
   "httpUserAgent": "",
   "loginUrl": "",
   "ruleBookAuthor": "class.dd_box.0@text#作者：",
@@ -462,7 +462,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 未完成; 失效",
+  "bookSourceGroup": "qa455355; 未完成",
   "bookSourceName": "爱看书吧",
   "bookSourceUrl": "https://m.aikanshu8.com",
   "enable": false,
@@ -561,7 +561,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 失效",
+  "bookSourceGroup": "qa455355",
   "bookSourceName": "笔趣阁",
   "bookSourceUrl": "http://www.bqg5200.com",
   "enable": true,
@@ -660,7 +660,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 占坑; 失效",
+  "bookSourceGroup": "qa455355; 占坑",
   "bookSourceName": "杰米哒小说网（正文不完整）",
   "bookSourceUrl": "http://www.xs63.com",
   "enable": false,
@@ -696,7 +696,7 @@
   "bookSourceGroup": "qa455355",
   "bookSourceName": "卡夜阁",
   "bookSourceUrl": "https://www.kayege.com",
-  "enable": true,
+  "enable": false,
   "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
   "loginUrl": "",
   "ruleBookAuthor": "id.maininfo@id.info@tag.p.0@text",
@@ -730,10 +730,10 @@
   "bookSourceName": "卡夜阁手机版",
   "bookSourceUrl": "https://m.kayege.com",
   "enable": true,
-  "httpUserAgent": "",
+  "httpUserAgent": "Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/012.002; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.0 Mobile Safari/533.4 3gpp-gba",
   "loginUrl": "",
   "ruleBookAuthor": "class.info@text#作者：|分类：.+",
-  "ruleBookContent": "class.page-content font-large@textNodes#\\s*第.+章\\s*.+\\(第...页\\).+\\s+",
+  "ruleBookContent": "class.bd@tag.div@tag.p@text#\\s*第.+章\\s*.+\\(第...页\\).+\\s+",
   "ruleBookKind": "class.info@text#.+分类：|更新：.+",
   "ruleBookLastChapter": "class.info@text#.+更新：|",
   "ruleBookName": "class.right@tag.h1@text",
@@ -792,7 +792,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 失效",
+  "bookSourceGroup": "qa455355",
   "bookSourceName": "看书网",
   "bookSourceUrl": "https://www.kanshu.com",
   "enable": true,
@@ -825,10 +825,10 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 失效",
+  "bookSourceGroup": "qa455355",
   "bookSourceName": "看书网（半成品）",
   "bookSourceUrl": "http://so.kanshu.com",
-  "enable": true,
+  "enable": false,
   "httpUserAgent": "",
   "loginUrl": "",
   "ruleBookAuthor": "class.title_h1@tag.div.1@tag.span.1@tag.a@text",
@@ -858,7 +858,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 占坑; 失效",
+  "bookSourceGroup": "qa455355; 占坑",
   "bookSourceName": "乐稀奇",
   "bookSourceUrl": "https://www.49zw.com",
   "enable": false,
@@ -957,8 +957,8 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 失效",
-  "bookSourceName": "\u0001龙腾小说网",
+  "bookSourceGroup": "qa455355",
+  "bookSourceName": "龙腾小说网",
   "bookSourceUrl": "https://m.ltxswang.com",
   "enable": true,
   "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
@@ -1254,7 +1254,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 待修复; 失效",
+  "bookSourceGroup": "qa455355; 待修复",
   "bookSourceName": "神马搜索",
   "bookSourceUrl": "https://m.sm.cn",
   "enable": false,
@@ -1320,7 +1320,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 失效",
+  "bookSourceGroup": "qa455355",
   "bookSourceName": "手牵手小说网",
   "bookSourceUrl": "https://m.sqsxs.com",
   "enable": true,
@@ -1353,7 +1353,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 失效",
+  "bookSourceGroup": "qa455355",
   "bookSourceName": "书包网手机版",
   "bookSourceUrl": "http://m.shubao0.cc",
   "enable": true,
@@ -1386,7 +1386,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 失效",
+  "bookSourceGroup": "qa455355",
   "bookSourceName": "书客吧",
   "bookSourceUrl": "https://m.shukeba.com",
   "enable": true,
@@ -1419,7 +1419,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 待修复; 失效",
+  "bookSourceGroup": "qa455355; 待修复",
   "bookSourceName": "书屋楼",
   "bookSourceUrl": "http://m.shuwulou.com",
   "enable": false,
@@ -1551,10 +1551,10 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 网络导入; 失效",
+  "bookSourceGroup": "qa455355; 网络导入",
   "bookSourceName": "武林中文网",
   "bookSourceUrl": "http://m.50zw.co",
-  "enable": true,
+  "enable": false,
   "httpUserAgent": "",
   "loginUrl": "",
   "ruleBookAuthor": "class.info@tag.p.1@text#作者：",
@@ -1584,7 +1584,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 待修复; 失效",
+  "bookSourceGroup": "qa455355; 待修复",
   "bookSourceName": "舞若小说网",
   "bookSourceUrl": "https://m.wuruo.com",
   "enable": false,
@@ -1683,7 +1683,7 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355; 占坑; 失效",
+  "bookSourceGroup": "qa455355; 占坑",
   "bookSourceName": "新书包网",
   "bookSourceUrl": "http://www.xinshubao.net",
   "enable": false,
@@ -1782,10 +1782,10 @@
   "weight": 0
 },
 {
-  "bookSourceGroup": "qa455355",
-  "bookSourceName": "阅读悦（半成品）",
+  "bookSourceGroup": "qa455355; 未完成",
+  "bookSourceName": "阅读悦",
   "bookSourceUrl": "http://www.yueduyue.com",
-  "enable": true,
+  "enable": false,
   "httpUserAgent": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)",
   "loginUrl": "",
   "ruleBookAuthor": "class.info.0@class.g3.0@text",
