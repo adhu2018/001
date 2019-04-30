@@ -1653,7 +1653,7 @@
     "weight": 128
   },
   {
-    "bookSourceGroup": "JSon",
+    "bookSourceGroup": "JSon; 发现",
     "bookSourceName": "My176",
     "bookSourceUrl": "https://api.zhuishushenqi.com",
     "enable": true,
