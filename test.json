@@ -1,0 +1,61 @@
+{
+  "name": "作品集",
+  "version": 101,
+  "category": 0,
+  "url": "http://zuopinj.com",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["a > h3", "a@js->${this}.match('《(.*)》')[1]"],
+    "author": [".book_info > .infos > span@js->${this}.match('作者：(.*)最后更新')[1]", ".s > a"],
+    "cover": ["a > img@attr->src"],
+    "summary": ["a > p", ".u"],
+    "category": [".tuijian > a.tag-bg-blue"],
+    "status": [".book_info > .infos > span > span@js->${this}.match('状态(.*)')[1]"],
+    "update": [".book_info > .infos > span > span@js->${this}.match('最后更新：(.*)状态')[1]"],
+    "lastChapter": [".book_info > .upd > a"],
+    "link": ["a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": ".book_list > ul > li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#htmlContent"
+  },
+  "search": {
+    "link": "http://so.zuopinj.com/search/index.php@post->tbname=bookname&show=title&tempid=3&keyboard=${key}",
+    "list": ".search-bookele"
+  },
+  "rank": {
+    "link": [
+      {
+        "name": "排行榜",
+        "link": "http://zuopinj.com/alltotal/"
+      },
+      {
+        "name": "推荐榜",
+        "link": "http://zuopinj.com/allisgood/"
+      },
+      {
+        "name": "下载榜",
+        "link": "http://zuopinj.com/alldown/"
+      },
+      {
+        "name": "更新榜",
+        "link": "http://zuopinj.com/newupdate/"
+      }
+    ],
+    "list": ".listbox > ul > li",
+    "page": {
+      "index": 1,
+      "limit": 30,
+      "begin": "",
+      "next": "index_${index}.html"
+    }
+  }
+}
