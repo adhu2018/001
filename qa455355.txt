@@ -1241,7 +1241,7 @@
         "ruleSearchUrl": "http://so.zuopinj.com/search/index.php@keyboard=searchKey&tbname=bookname&show=title&tempid=2",
         "serialNumber": 54,
         "weight": 0
-    }
+    },
 	{
         "bookSourceGroup": "",
         "bookSourceName": "19楼书包网[qa455355](连接不稳定)",
