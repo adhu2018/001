@@ -1,4 +1,4 @@
-{
+[
 	{
         "bookSourceGroup": "发现",
         "bookSourceName": "100本网-PC[qa455355]",
@@ -2613,4 +2613,4 @@
 		"serialNumber": 455,
 		"weight": 0
 	}
-}
+]
