@@ -2601,5 +2601,34 @@
 		"ruleSearchUrl": "https://m.677a.cn/search.html?searchtype=novelname&searchkey=searchKey",
 		"serialNumber": 0,
 		"weight": 0
-	}
+	},
+	{
+  "bookSourceGroup": "请使用最新版阅读",
+  "bookSourceName": "小说宝库[qa455355]",
+  "bookSourceUrl": "https://www.govtz.com",
+  "enable": true,
+  "ruleBookAuthor": "@xpath://meta[@property=\"og:novel:author\"]/@content",
+  "ruleBookContent": "id.content@textNodes",
+  "ruleBookKind": "@xpath://meta[@property=\"og:novel:category\"]/@content",
+  "ruleBookLastChapter": "@xpath://meta[@property=\"og:novel:latest_chapter_name\"]/@content",
+  "ruleBookName": "@xpath://meta[@property=\"og:novel:book_name\"]/@content",
+  "ruleChapterList": "class.read@tag.dl.1@dd",
+  "ruleChapterName": "a@textNodes",
+  "ruleChapterUrl": "text.查看目录@href",
+  "ruleContentUrl": "a@href",
+  "ruleCoverUrl": "@xpath://meta[@property=\"og:image\"]/@content",
+  "ruleFindKind": "",
+  "ruleIntroduce": "@xpath://meta[@property=\"og:description\"]/@content",
+  "ruleSearchAuthor": "tag.a.2@text",
+  "ruleSearchCoverUrl": "tag.a.0@img@src",
+  "ruleSearchIntroduce": "class.intro@text",
+  "ruleSearchKind": "tag.a.3@text",
+  "ruleSearchLastChapter": "tag.a.4@text",
+  "ruleSearchList": "class.library@li",
+  "ruleSearchName": "tag.a.1@text",
+  "ruleSearchNoteUrl": "tag.a.1@href",
+  "ruleSearchUrl": "https://www.govtz.com/search.html?searchkey=searchKey",
+  "serialNumber": 0,
+  "weight": 0
+}
 ]
