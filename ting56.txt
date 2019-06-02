@@ -1,5 +1,5 @@
 {
-	"bookSourceGroup": "有声",
+	"bookSourceGroup": "有声; 发现",
 	"bookSourceName": "56听书网[qa455355]",
 	"bookSourceType": "AUDIO",
 	"bookSourceUrl": "http://m.ting56.com",
