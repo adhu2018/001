@@ -28,7 +28,7 @@
 	"ruleFindList": "",
 	"ruleFindName": "",
 	"ruleFindNoteUrl": "",
-	"ruleFindUrl": "排行榜::/paihangbang.html\n玄幻武侠::/book/1.html\n都市言情::/book/2.html\n恐怖悬疑::/book/3.html\n综艺娱乐::/book/45.html\n网游竞技::/book/4.html\n军事历史::/book/6.html\n刑侦推理::/book/41.html\n单田芳::/byy/shantianfang.html\n刘兰芳::/byy/liulanfang.html\n袁阔成::/byy/yuankuocheng.html\n田连元::/byy/tianlianyuan.html\n连丽如::/byy/lianliru.html\n王玥波::/byy/wangyuebo.html\n孙一::/byy/sunyi.html\n更多::/book/9.html\n职场商战::/book/7.html\n百家讲坛::/book/10.html\n广播剧::/book/40.html\n幽默笑话::/book/44.html\n相声::/book/43.html\n儿童读物::/book/11.html",
+	"ruleFindUrl": "排行榜::/paihangbang{,searchPage}.html\n玄幻武侠::/book/1{,_searchPage}.html\n都市言情::/book/2{,_searchPage}.html\n恐怖悬疑::/book/3{,_searchPage}.html\n综艺娱乐::/book/45{,_searchPage}.html\n网游竞技::/book/4{,_searchPage}.html\n军事历史::/book/6{,_searchPage}.html\n刑侦推理::/book/41{,_searchPage}.html\n单田芳::/byy/shantianfang.html\n刘兰芳::/byy/liulanfang.html\n袁阔成::/byy/yuankuocheng.html\n田连元::/byy/tianlianyuan.html\n连丽如::/byy/lianliru.html\n王玥波::/byy/wangyuebo.html\n孙一::/byy/sunyi.html\n更多::/book/9{,_searchPage}.html\n职场商战::/book/7{,_searchPage}.html\n百家讲坛::/book/10{,_searchPage}.html\n广播剧::/book/40{,_searchPage}.html\n幽默笑话::/book/44{,_searchPage}.html\n相声::/book/43{,_searchPage}.html\n儿童读物::/book/11{,_searchPage}.html",
 	"ruleIntroduce": "class.book_intro@textNodes",
 	"ruleSearchAuthor": "class.zz.0@text#分类.*",
 	"ruleSearchCoverUrl": "img@original",
