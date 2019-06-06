@@ -1212,7 +1212,7 @@
     },
     {
         "bookSourceGroup": "发现",
-        "bookSourceName": "晋江文学[qa455355]",
+        "bookSourceName": "晋江文学城[qa455355]",
         "bookSourceType": "",
         "bookSourceUrl": "http://www.jjwxc.net",
         "enable": true,
@@ -2832,7 +2832,7 @@
     },
     {
         "bookSourceGroup": "",
-        "bookSourceName": "逐浪[qa455355]",
+        "bookSourceName": "逐浪网[qa455355]",
         "bookSourceType": "",
         "bookSourceUrl": "https://m.zhulang.com",
         "enable": true,
