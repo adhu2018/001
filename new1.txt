@@ -389,5 +389,23 @@
 		"ruleSearchUrl": "https://www.so.com/s?q=searchKey&pn=searchPage&site=www.my2852.com&rg=1&src=srp_paging&fr=zz_www.my2852.com",
 		"serialNumber": 0,
 		"weight": 0
+	},
+	{
+		"bookSourceGroup": "仅发现",
+		"bookSourceName": "131tb🔞[qa455355]",
+		"bookSourceUrl": "https://www.131tb.com",
+		"enable": true,
+		"ruleBookContent": "class.xs-details-content text-xs@p@text",
+		"ruleBookName": "title#[wW].+",
+		"ruleChapterList": "class.col-md-14 col-sm-16 col-xs-12 clearfix news-box",
+		"ruleChapterName": "span@text",
+		"ruleChapterUrlNext": "text.下一页@href",
+		"ruleContentUrl": "a@href",
+		"ruleFindList": "class.box-title",
+		"ruleFindName": "h3@text",
+		"ruleFindNoteUrl": "a@href",
+		"ruleFindUrl": "成人小说::/novel/list1",
+		"serialNumber": 0,
+		"weight": 0
 	}
 ]
