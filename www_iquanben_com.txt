@@ -1,0 +1,22 @@
+{
+	"bookSourceName": "全本小说网[qa455355]",
+	"bookSourceUrl": "https://www.iquanben.com",
+	"enable": true,
+	"ruleBookAuthor": "id.at@tag.tr.0@tag.td.1@text#\\s",
+	"ruleBookContent": "id.contents@html",
+	"ruleBookName": "h1@text#txt全集下载",
+	"ruleChapterList": ":\"L\"(?:[^\"]*\")([^\"]*)\">([^<]*)",
+	"ruleChapterName": "$2",
+	"ruleChapterUrl": "class.read@href",
+	"ruleContentUrl": "$1",
+	"ruleCoverUrl": "class.hst@img@src",
+	"ruleIntroduce": "id.at@tag.tr.1@tag.td.1@text&&id.content@tag.dd.3@tag.p.1@textNodes",
+	"ruleSearchAuthor": "$4",
+	"ruleSearchKind": "$1",
+	"ruleSearchList": ":line\">(?:[^\\[]*\\[)([^\\]]*)(?:[^\"]*\")([^\"]*)(?:[^>]*>)([^<]*)(?:[^>]*>){2}([^<]*)",
+	"ruleSearchName": "$3",
+	"ruleSearchNoteUrl": "https://www.iquanben.com$2",
+	"ruleSearchUrl": "https://m.iquanben.com/s.php@type=articlename&s=searchKey&submit=|char=gbk",
+	"serialNumber": 0,
+	"weight": 0
+}
