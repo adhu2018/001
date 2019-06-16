@@ -2913,5 +2913,30 @@
 		"ruleSearchUrl": "http://www.3qxs.com/home/search@action=search&q=searchKey",
 		"serialNumber": 0,
 		"weight": 0
+	},
+	{
+		"bookSourceGroup": "",
+		"bookSourceName": "千千小说网[qa455355]",
+		"bookSourceUrl": "https://www.77xsw.la",
+		"enable": true,
+		"ruleBookAuthor": "//*[@property=\"og:novel:author\"]/@content",
+		"ruleBookContent": "id.htmlContent@textNodes#一秒记住【千千小说网\\s*www.77xsw.la】，更新快，无弹窗，免费读！|\\?\\?",
+		"ruleBookKind": "//*[@property=\"og:novel:category\"]/@content",
+		"ruleBookLastChapter": "//*[@property=\"og:novel:latest_chapter_name\"]/@content",
+		"ruleBookName": "//*[@property=\"og:novel:book_name\"]/@content",
+		"ruleChapterList": "+id.list-chapterAll@dl@dd@a",
+		"ruleContentUrl": "href",
+		"ruleContentUrlNext": "text.下一页@href",
+		"ruleCoverUrl": "//*[@property=\"og:image\"]/@content",
+		"ruleIntroduce": "//*[@property=\"og:description\"]/@content",
+		"ruleSearchAuthor": "tag.td.2@text",
+		"ruleSearchKind": "tag.td.3@text&tag.td.4@text&tag.td.5@text",
+		"ruleSearchLastChapter": "tag.a.1@text",
+		"ruleSearchList": "class.table@tr!0",
+		"ruleSearchName": "tag.a.0@text",
+		"ruleSearchNoteUrl": "tag.a.0@href",
+		"ruleSearchUrl": "/modules/article/search.php?searchkey=searchKey|char=gbk",
+		"serialNumber": 0,
+		"weight": 0
 	}
 ]

@@ -689,5 +689,30 @@
 		"ruleSearchUrl": "/search.asp?word=searchKey&page=searchPage|char=gb2312",
 		"serialNumber": 0,
 		"weight": 0
+	},
+	{
+		"bookSourceGroup": "无正文",
+		"bookSourceName": "得间小说[qa455355]",
+		"bookSourceUrl": "http://m2.ireader.com",
+		"enable": true,
+		"ruleBookAuthor": "class.it red@text",
+		"ruleBookContent": "html|$class.bodytext@text",
+		"ruleBookName": "class.ellipsis2.0@text",
+		"ruleChapterList": "class.catalog_ls@li@a",
+		"ruleChapterName": "textNodes",
+		"ruleChapterUrl": "tag.h2.0@a@href",
+		"ruleChapterUrlNext": "",
+		"ruleContentUrl": "href",
+		"ruleCoverUrl": "class.bookcover@src",
+		"ruleIntroduce": "class.brief_intro_txt@text",
+		"ruleSearchAuthor": "class.author ellipsis@text",
+		"ruleSearchCoverUrl": "class.img@src",
+		"ruleSearchIntroduce": "class.brief@text",
+		"ruleSearchList": "class.section_b@a",
+		"ruleSearchName": "class.name ellipsis@text#\\[.*\\]",
+		"ruleSearchNoteUrl": "href",
+		"ruleSearchUrl": "/search?keyWord=searchKey",
+		"serialNumber": 0,
+		"weight": 0
 	}
 ]
