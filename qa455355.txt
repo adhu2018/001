@@ -3290,5 +3290,29 @@
 		"ruleSearchUrl": "/modules/article/search.php?searchkey=searchKey&page=searchPage|char=gbk",
 		"serialNumber": 0,
 		"weight": 0
+	},
+	{
+		"bookSourceGroup": "",
+		"bookSourceName": "爱灵异[qa455355]",
+		"bookSourceUrl": "https://www.ailingyi.com",
+		"enable": true,
+		"ruleBookAuthor": "h3@a!-1@text",
+		"ruleBookContent": "class.post_entry@textNodes",
+		"ruleBookName": "h3@a!0@text",
+		"ruleBookUrlPattern": "https?://www.ailingyi.com/info/\\d+/\\d+\\.html",
+		"ruleChapterList": "+class.container@li@a",
+		"ruleChapterUrl": "",
+		"ruleContentUrl": "href",
+		"ruleCoverUrl": "class.list_img_info@img@src",
+		"ruleIntroduce": "class.list_desc@html",
+		"ruleSearchAuthor": "span@text#作者:",
+		"ruleSearchIntroduce": "class.list_desc@html",
+		"ruleSearchLastChapter": "tag.a.2@text",
+		"ruleSearchList": "class.list_item",
+		"ruleSearchName": "tag.a.1@text",
+		"ruleSearchNoteUrl": "tag.a.1@href",
+		"ruleSearchUrl": "/search?key=searchKey",
+		"serialNumber": 0,
+		"weight": 0
 	}
 ]
