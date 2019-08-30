@@ -43,7 +43,7 @@
 		"weight": 0
 	},
     {
-        "bookSourceGroup": "正则; 发现",
+        "bookSourceGroup": "发现",
         "bookSourceName": "123言情[qa455355]",
         "bookSourceType": "",
         "bookSourceUrl": "http://www.123yqw.com",
@@ -87,7 +87,7 @@
         "weight": 0
     },
     {
-        "bookSourceGroup": "正则",
+        "bookSourceGroup": "",
         "bookSourceName": "15小说网[qa455355]",
         "bookSourceType": "",
         "bookSourceUrl": "http://www.15xsw.net",
@@ -130,52 +130,33 @@
         "serialNumber": 0,
         "weight": 0
     },
-    {
-        "bookSourceGroup": "优",
-        "bookSourceName": "31小说网[qa455355]",
-        "bookSourceType": "",
-        "bookSourceUrl": "http://m.xx31xs.org",
-        "enable": true,
-        "httpUserAgent": "",
-        "loginUrl": "",
-        "ruleBookAuthor": "##og:novel:author\"\\s*content=\"(.*?)\"##$1###",
-        "ruleBookContent": "class.am-article-bd@p@text##www\\.31xs\\.(net|com|org)|提示：书友, 注册登录后，可享受无漂浮无弹窗广告。|【31小说网\\s*(更新快|31xs.com)】",
-        "ruleBookInfoInit": "",
-        "ruleBookKind": "",
-        "ruleBookLastChapter": "##og:novel:latest_chapter_name\"\\s*content=\"(.*?)\"##$1###",
-        "ruleBookName": "##og:novel:book_name\"\\s*content=\"(.*?)\"##$1###",
-        "ruleBookUrlPattern": "https?://m\\.xx31xs\\.org/\\d+/\\d+/?",
-        "ruleChapterList": "+class.am-list am-list-striped@a",
-        "ruleChapterName": "",
-        "ruleChapterUrl": "class.am-text-center@a@href",
-        "ruleChapterUrlNext": "",
-        "ruleContentUrl": "href",
-        "ruleContentUrlNext": "",
-        "ruleCoverUrl": "##og:image\"\\s*content=\"(.*?)\"##$1###",
-        "ruleFindAuthor": "",
-        "ruleFindCoverUrl": "",
-        "ruleFindIntroduce": "",
-        "ruleFindKind": "",
-        "ruleFindLastChapter": "",
-        "ruleFindList": "",
-        "ruleFindName": "",
-        "ruleFindNoteUrl": "",
-        "ruleFindUrl": "",
-        "ruleIntroduce": "##og:description\"\\s*content=\"(简介：)?(.*?)\"##$2###",
-        "ruleSearchAuthor": "tag.p.0@text##作者：",
-        "ruleSearchCoverUrl": "",
-        "ruleSearchIntroduce": "",
-        "ruleSearchKind": "tag.a.0@text&&dd@tag.p.2@text##更新：|\\[|\\].*",
-        "ruleSearchLastChapter": "tag.a.1@text",
-        "ruleSearchList": "class.user-bookcase@dl",
-        "ruleSearchName": "tag.a.0@text##^\\[.*\\]",
-        "ruleSearchNoteUrl": "tag.a.0@href",
-        "ruleSearchUrl": "/search.php@keyword=searchKey|char=gbk",
-        "serialNumber": 0,
-        "weight": 0
-    },
 	{
-		"bookSourceGroup": "两端合一",
+		"bookSourceGroup": "",
+		"bookSourceName": "31小说网[qa455355]",
+		"bookSourceUrl": "http://www.31xsxs.com",
+		"enable": true,
+		"ruleBookAuthor": "id.info@tag.p.0@text##作\\s*者：",
+		"ruleBookContent": "id.content@p@text",
+		"ruleBookLastChapter": "id.info@tag.a.-1@text",
+		"ruleBookName": "h1@text",
+		"ruleBookUrlPattern": "https?://www\\.31xsxs\\.com/\\d+/\\d+/?",
+		"ruleChapterList": "+id.list@a",
+		"ruleContentUrl": "href",
+		"ruleCoverUrl": "id.fmimg@img@src",
+		"ruleIntroduce": "id.intro@text",
+		"ruleSearchAuthor": "tag.td.2@text",
+		"ruleSearchCoverUrl": "a!1@href##.*/(\\d+)/(\\d+)/?##/img/$1/$2/$2s.jpg",
+		"ruleSearchKind": "td!0:1:2@text",
+		"ruleSearchLastChapter": "a!0@text",
+		"ruleSearchList": "id.bookcase_list@tr",
+		"ruleSearchName": "a!1@text",
+		"ruleSearchNoteUrl": "a!1@href",
+		"ruleSearchUrl": "/search.php@keyword=searchKey|char=gbk",
+		"serialNumber": 0,
+		"weight": 0
+	},
+	{
+		"bookSourceGroup": "",
 		"bookSourceName": "33小说网[qa455355]",
 		"bookSourceUrl": "https://www.33xs.com",
 		"enable": true,
@@ -209,7 +190,7 @@
 		"weight": 0
 	},
     {
-        "bookSourceGroup": "有声; 正则; 发现",
+        "bookSourceGroup": "有声; 发现",
         "bookSourceName": "56听书网[qa455355]",
         "bookSourceType": "AUDIO",
         "bookSourceUrl": "http://m.ting56.com",
@@ -473,7 +454,7 @@
         "ruleBookInfoInit": ""
     },
     {
-        "bookSourceGroup": "JSon; 发现",
+        "bookSourceGroup": "发现",
         "bookSourceName": "My176[qa455355]",
         "bookSourceType": "",
         "bookSourceUrl": "https://api.zhuishushenqi.com",
@@ -604,7 +585,7 @@
 		"weight": 0
 	},
     {
-        "bookSourceGroup": "正则; 30s间隔",
+        "bookSourceGroup": "30s间隔",
         "bookSourceName": "爱看书吧[qa455355]",
         "bookSourceType": "",
         "bookSourceUrl": "http://m.aikanshu8.com",
@@ -858,7 +839,7 @@
         "ruleBookInfoInit": ""
     },
     {
-        "bookSourceGroup": "正则",
+        "bookSourceGroup": "",
         "bookSourceName": "笔趣阁-biquge.cc[qa455355]",
         "bookSourceType": "",
         "bookSourceUrl": "https://m.biquge.cc",
@@ -1297,7 +1278,7 @@
 		"weight": 0
 	},
     {
-        "bookSourceGroup": "仅添加网址; 两端合一",
+        "bookSourceGroup": "仅添加网址",
         "bookSourceName": "帝书阁[qa455355]",
         "bookSourceType": "",
         "bookSourceUrl": "http://m.dishuge.com",
@@ -1604,7 +1585,7 @@
         "weight": 0
     },
     {
-        "bookSourceGroup": "正则",
+        "bookSourceGroup": "",
         "bookSourceName": "红叶书斋[qa455355]",
         "bookSourceType": "",
         "bookSourceUrl": "https://m.hongyeshuzhai.com",
@@ -1648,7 +1629,7 @@
         "weight": 0
     },
     {
-        "bookSourceGroup": "两端合一",
+        "bookSourceGroup": "",
         "bookSourceName": "幻月书院[qa455355]",
         "bookSourceUrl": "http://www.huanyue123.com",
         "enable": true,
@@ -1858,7 +1839,7 @@
         "weight": 0
     },
     {
-        "bookSourceGroup": "正则; 发现",
+        "bookSourceGroup": "发现",
         "bookSourceName": "看书君[qa455355]",
         "bookSourceType": "",
         "bookSourceUrl": "https://www.kanshujun.com",
@@ -2253,6 +2234,40 @@
         "ruleContentUrlNext": "",
         "httpUserAgent": ""
     },
+	{
+		"bookSourceGroup": "",
+		"bookSourceName": "零零看书[qa455355]",
+		"bookSourceUrl": "http://www.00kxs.com",
+		"enable": true,
+		"httpUserAgent": "",
+		"loginUrl": "",
+		"ruleBookAuthor": "id.info@tag.p.0@text##作\\s*者：",
+		"ruleBookContent": "id.content@p@text##www.00ks.org",
+		"ruleBookInfoInit": "",
+		"ruleBookKind": "",
+		"ruleBookLastChapter": "id.info@tag.a.-1@text",
+		"ruleBookName": "h1@text",
+		"ruleBookUrlPattern": "https?://www\\.00kxs\\.com(/html)?/\\d+/\\d+/?",
+		"ruleChapterList": "+class.chapters!0@a",
+		"ruleChapterName": "text",
+		"ruleChapterUrl": "",
+		"ruleChapterUrlNext": "",
+		"ruleContentUrl": "href",
+		"ruleContentUrlNext": "",
+		"ruleCoverUrl": "id.fmimg@img@src",
+		"ruleIntroduce": "id.intro@p@text",
+		"ruleSearchAuthor": "class.s4.0@text",
+		"ruleSearchCoverUrl": "",
+		"ruleSearchIntroduce": "",
+		"ruleSearchKind": "span!0:1:2@text",
+		"ruleSearchLastChapter": "a!0@text",
+		"ruleSearchList": "class.novelslist@li!0",
+		"ruleSearchName": "a!1@text",
+		"ruleSearchNoteUrl": "a!1@href",
+		"ruleSearchUrl": "/search.php@keyword=searchKey|char=gbk",
+		"serialNumber": 0,
+		"weight": 0
+	},
     {
         "bookSourceGroup": "",
         "bookSourceName": "龙腾小说网[qa455355]",
@@ -2464,7 +2479,7 @@
         "ruleBookInfoInit": ""
     },
     {
-        "bookSourceGroup": "正则",
+        "bookSourceGroup": "",
         "bookSourceName": "品书网[qa455355]",
         "bookSourceType": "",
         "bookSourceUrl": "https://www.vodtw.com",
@@ -2991,7 +3006,7 @@
         "weight": 0
     },
     {
-        "bookSourceGroup": "正则",
+        "bookSourceGroup": "",
         "bookSourceName": "闪闪小说书网[qa455355]",
         "bookSourceType": "",
         "bookSourceUrl": "https://www.33shu.net",
@@ -3597,7 +3612,7 @@
         "ruleBookInfoInit": ""
     },
     {
-        "bookSourceGroup": "次等",
+        "bookSourceGroup": "",
         "bookSourceName": "新笔趣阁-x23su.com[qa455355]",
         "bookSourceUrl": "http://www.x23su.com",
         "enable": true,
@@ -4078,6 +4093,39 @@
         "ruleContentUrlNext": "",
         "httpUserAgent": ""
     },
+	{
+		"bookSourceGroup": "",
+		"bookSourceName": "早安电子书[qa455355]",
+		"bookSourceUrl": "http://m.zadzs.com",
+		"enable": true,
+		"httpUserAgent": "",
+		"loginUrl": "",
+		"ruleBookAuthor": "class.info@a@text",
+		"ruleBookContent": "class.area@textNodes",
+		"ruleBookKind": "",
+		"ruleBookLastChapter": "",
+		"ruleBookName": "h1@text##\\((校对|精校)\\)",
+		"ruleBookUrlPattern": "https?://m\\.zadzs\\.com/wap\\.php\\?action=txt&id=\\d+",
+		"ruleChapterList": "+class.area@a",
+		"ruleChapterName": "text",
+		"ruleChapterUrl": "text.在线阅读@href",
+		"ruleChapterUrlNext": "",
+		"ruleContentUrl": "href",
+		"ruleContentUrlNext": "",
+		"ruleCoverUrl": "class.img@img@src",
+		"ruleIntroduce": "class.m-book-detail@p@text",
+		"ruleSearchAuthor": "tag.p.0@text",
+		"ruleSearchCoverUrl": "img@src",
+		"ruleSearchIntroduce": "class.abstract@text",
+		"ruleSearchKind": "tag.p.1@text##(.+)\\s*\\|\\s*(.+)##$1,$2",
+		"ruleSearchLastChapter": "",
+		"ruleSearchList": "class.wrap f-cb",
+		"ruleSearchName": "h3@text",
+		"ruleSearchNoteUrl": "href",
+		"ruleSearchUrl": "/wap.php?action=search@keyword=searchKey",
+		"serialNumber": 0,
+		"weight": 0
+	},
 	{
 		"bookSourceGroup": "发现",
 		"bookSourceName": "掌阅书城[qa455355]",
