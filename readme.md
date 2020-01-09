@@ -1,6 +1,10 @@
 # 001
 
-#由于时间上的原因，书源停止维护，抱歉。\[20190927\]
+
+为避免因版本原因引起可能出现的未知问题，以后只发[新版(3.x)](https://github.com/gedoor/legado)的书源。\[20200109\]  
+>[旧版最后一次提交](https://github.com/adhu2018/001/tree/d6d573870d4d17172679327ffc5ad65590a60747)
+
+由于时间上的原因，书源停止维护，抱歉。\[20190927\]
 
 ## 蓝奏云更新：https://www.lanzous.com/b802936
 
@@ -19,12 +23,11 @@
 >#### 在书源内填写“登录URL(loginUrl)”并登陆你的账号即可查看你已经在书源网站上购买订阅的书籍，同样可以支持小说作者哦！
 >>当然，和小说作者互动什么的功能是没有的。
 
-### [阅读](https://github.com/gedoor/MyBookshelf)
+### [~~阅读~~](https://github.com/gedoor/MyBookshelf)
+>依旧能用，但此GitHub页面不再提供书源更新。
+### [阅读3.x](https://github.com/gedoor/legado)
 >阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 
-### [在线书源编辑](https://gedoor.github.io/MyBookshelf/sourceEdit/index.html)
->就字面意思。。。不过好像很久没更新了。。。
-<hr/>
 
 ### 免责声明（Disclaimer）
 
