@@ -37,5 +37,22 @@
   "ruleToc": "{\n  \"chapterList\": \"class.col-md-3@tag.a\",\n  \"chapterName\": \"text\",\n  \"chapterUrl\": \"href\"\n}",
   "searchUrl": "/?a=search&,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
   "weight": 0
+  },
+  {
+  "bookSourceGroup": "qa455355",
+  "bookSourceName": "万界小说网[自动换源]",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.wanjiexianwang.com",
+  "customOrder": 0,
+  "enabled": true,
+  "enabledExplore": false,
+  "lastUpdateTime": 0,
+  "ruleBookInfo": "{\n  \"author\": \"class.detail@tag.a.1@text\",\n  \"coverUrl\": \"class.detail@tag.img@src\",\n  \"intro\": \"class.intro@text\",\n  \"lastChapter\": \"class.layui-rim layui-icon i_history.1@text\",\n  \"name\": \"tag.h1@text\",\n  \"tocUrl\": \"text.查看目录@href\"\n}",
+  "ruleContent": "{\n  \"content\": \"<js>\\n//自动换源，如果默认链接无内容，加载时间会有所增加\\nimportClass(org.jsoup.Jsoup);\\nvar content=Jsoup.parse(result).select('#content');\\nvar content_t=String(content).replace(/<div\\\\s*id=['\\\"]content['\\\"][^>]*>\\\\s*<\\\\/div>/g,\\\"\\\");\\nif (content_t){\\n content=String(content).replace(/书客居阅读网址：|[\\\\s\\\\S]*?正在手打中，请稍等片刻[\\\\s\\\\S]*/g,\\\"\\\");//正文净化\\n content;\\n}\\nelse{\\n var myurl=Jsoup.parse(result).select('.xialas>select>option');\\n var mylist=String(myurl).match(/value=['\\\"]([^'\\\"]+)/g);\\n var i=0;\\n while(i<mylist.length){\\n myurl=\\\"https://www.wanjiexianwang.com\\\"+String(mylist[i]).replace(/value=['\\\"](javascript:void\\\\(0\\\\);,?)?/g,\\\"\\\");\\n content=Jsoup.parse(java.ajax(myurl))\\n.select('#content');\\n content_t=String(content)\\n.replace(/<div\\\\s*id=['\\\"]content['\\\"][^>]*>\\\\s*<\\\\/div>/g,\\\"\\\");\\n if (content_t){\\n i=mylist.length+1;\\n content=String(content).replace(/书客居阅读网址：|[\\\\s\\\\S]*?正在手打中，请稍等片刻[\\\\s\\\\S]*/g,\\\"\\\");//正文净化，两个要同时改\\n content;\\n }\\n else\\n i=i+1;\\n }\\n if(i==mylist.length)\\n  \\\"\\\";//个人看法，我更喜欢它报错😂\\n  //\\\"所有来源均无内容，请切换书源！\\\";\\n}\\n</js>\"\n}",
+  "ruleExplore": "{}",
+  "ruleSearch": "{\n  \"author\": \"tag.a.2@text\",\n  \"bookList\": \"class.library@tag.li\",\n  \"bookUrl\": \"tag.a.1@href\",\n  \"coverUrl\": \"tag.img@src\",\n  \"intro\": \"class.intro@text\",\n  \"kind\": \"tag.span@text&&tag.a.3@text\",\n  \"lastChapter\": \"tag.a.4@text\",\n  \"name\": \"tag.a.1@text\"\n}",
+  "ruleToc": "{\n  \"chapterList\": \"class.read@tag.dl!0@tag.a\",\n  \"chapterName\": \"textNodes\",\n  \"chapterUrl\": \"href\",\n  \"updateTime\": \"class.time@text##更新：\"\n}",
+  "searchUrl": "/so/search.html?searchkey={{key}}",
+  "weight": 0
   }
 ]
