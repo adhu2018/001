@@ -31,9 +31,9 @@
     "lastUpdateTime": 0,
     "loginUrl": "",
     "ruleBookInfo": "{\n  \"author\": \"class.booktag@tag.a.0@text\",\n  \"coverUrl\": \"class.col-md-2 col-xs-4 hidden-xs@tag.img@src\",\n  \"intro\": \"id.bookIntro@html\",\n  \"kind\": \"class.booktag@tag.a.1@text&&class.booktag@tag.span.1@text\",\n  \"lastChapter\": \"class.col-md-10@tag.p.1@tag.a.0@text\",\n  \"name\": \"tag.h1@text\",\n  \"wordCount\": \"class.booktag@tag.span.0@text##字数：(\\\\d+)##$1字\"\n}",
-    "ruleContent": "{\n  \"content\": \"id.htmlContent@html##<(center)>[\\\\s\\\\S]*?</\\\\1>\",\n  \"nextContentUrl\": \"id.linkNext@href##$##,{\\\"webView\\\":true}\"\n}",
+    "ruleContent": "{\n  \"content\": \"id.htmlContent@html##<(center)>[\\\\s\\\\S]*?</\\\\1>\",\n  \"nextContentUrl\": \"##id=(['\\\"])linkNext\\\\1[\\\\s\\\\S]*?href=(['\\\"])(https?:\\\\/\\\\/www\\\\.ffbook\\\\.cc\\\\/\\\\d+\\\\/\\\\d+_\\\\d+\\\\.html)\\\\2>下一页##$3,{\\\"webView\\\":true}###\"\n}",
     "ruleExplore": "{}",
-    "ruleSearch": "{\n  \"author\": \"tag.td.2@text\",\n  \"bookList\": \"tag.tbody@tag.tr!0\",\n  \"bookUrl\": \"tag.a.0@href\",\n  \"kind\": \"tag.td.4@text&&tag.td.5@text\",\n  \"lastChapter\": \"tag.a.1@text\",\n  \"name\": \"tag.a.0@text\"\n}",
+    "ruleSearch": "{\n  \"author\": \"tag.td.2@text\",\n  \"bookList\": \"tag.tbody@tag.tr!0\",\n  \"bookUrl\": \"tag.a.0@href##$##,{\\\"webView\\\":true}\",\n  \"kind\": \"tag.td.4@text&&tag.td.5@text\",\n  \"lastChapter\": \"tag.a.1@text\",\n  \"name\": \"tag.a.0@text\"\n}",
     "ruleToc": "{\n  \"chapterList\": \"class.col-md-3@tag.a\",\n  \"chapterName\": \"text\",\n  \"chapterUrl\": \"href##$##,{\\\"webView\\\":true}\"\n}",
     "searchUrl": "/?a=search&,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
     "weight": 0
