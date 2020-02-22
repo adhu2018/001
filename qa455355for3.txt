@@ -54,24 +54,5 @@
     "ruleToc": "{\n  \"chapterList\": \"class.read@tag.dl!0@tag.a\",\n  \"chapterName\": \"textNodes\",\n  \"chapterUrl\": \"href\",\n  \"updateTime\": \"class.time@text##更新：\"\n}",
     "searchUrl": "/so/search.html?searchkey={{key}}",
     "weight": 0
-  },
-  {
-    "bookSourceGroup": "qa455355",
-    "bookSourceName": "新笔趣阁",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.2bqg.com",
-    "bookUrlPattern": "https?://www.2bqg.com/\\d+_\\d+/?",
-    "customOrder": 0,
-    "enabled": true,
-    "enabledExplore": false,
-    "lastUpdateTime": 0,
-    "loginUrl": "",
-    "ruleBookInfo": "{\n  \"author\": \"id.info@tag.a.0@text\",\n  \"coverUrl\": \"id.fmimg@tag.img@src\",\n  \"intro\": \"id.intro@html\",\n  \"kind\": \"id.info@tag.p.2@text##^最后更新：\",\n  \"lastChapter\": \"id.info@tag.a.-1@text\",\n  \"name\": \"tag.h1@text\"\n}",
-    "ruleContent": "{\n  \"content\": \"id.content@html\"\n}",
-    "ruleExplore": "{}",
-    "ruleSearch": "{\n  \"bookList\": \"class.item-cover\",\n  \"bookUrl\": \"tag.a@href##$##,{\\\"webView\\\":true}\",\n  \"coverUrl\": \"tag.img@src\",\n  \"name\": \"tag.h3@text\"\n}",
-    "ruleToc": "{\n  \"chapterList\": \"id.list@tag.dd@tag.a\",\n  \"chapterName\": \"text\",\n  \"chapterUrl\": \"href##$##,{\\\"webView\\\":true}\"\n}",
-    "searchUrl": "/home/search,{\n  \"body\": \"action=search&q={{key}}\",\n  \"method\": \"POST\"\n}",
-    "weight": 0
   }
 ]
