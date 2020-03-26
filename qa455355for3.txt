@@ -59,5 +59,26 @@
     "ruleToc": "{\n  \"chapterList\": \"+id.list@a\",\n  \"chapterName\": \"text\",\n  \"chapterUrl\": \"href\",\n  \"nextTocUrl\": \"\"\n}",
     "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
     "weight": 0
+  },
+  {
+    "bookSourceGroup": "qa455355",
+    "bookSourceName": "笔趣阁-com.cn",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biquge.com.cn",
+    "bookUrlPattern": "https?://www.biquge.com.cn/book/\\d+/?",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": "{\n  \"author\": \"$2\",\n  \"coverUrl\": \"$7\",\n  \"init\": \":<h1>([\\\\s\\\\S]*?)</h1>\\\\s*<p> 作(?:&nbsp;)*者：([\\\\s\\\\S]*?)</p>\\\\s*<p>状(?:&nbsp;)*态：([^,]*),[\\\\s\\\\S]*?最后更新：([\\\\s\\\\S]*?)</p>[\\\\s\\\\S]*?最新章节：<a[^>]*>([\\\\s\\\\S]*?)</a></p>[\\\\s\\\\S]*?(<div id=\\\"intro\\\">[\\\\s\\\\S]*?</div>)\\\\s*</div>\\\\s*<div id=\\\"sidebar\\\">[\\\\s\\\\S]*?src=\\\"([^\\\"]*)\",\n  \"intro\": \"$6\",\n  \"kind\": \"$3,$4\",\n  \"lastChapter\": \"$5\",\n  \"name\": \"$1\",\n  \"tocUrl\": \"\",\n  \"wordCount\": \"\"\n}",
+    "ruleContent": "{\n  \"content\": \"id.content@textNodes\",\n  \"nextContentUrl\": \"\",\n  \"sourceRegex\": \"\",\n  \"webJs\": \"\"\n}",
+    "ruleExplore": "{\n  \"author\": \"\",\n  \"bookList\": \"\",\n  \"bookUrl\": \"\",\n  \"coverUrl\": \"\",\n  \"intro\": \"\",\n  \"kind\": \"\",\n  \"lastChapter\": \"\",\n  \"name\": \"\",\n  \"wordCount\": \"\"\n}",
+    "ruleSearch": "{\n  \"author\": \"$5\",\n  \"bookList\": \":\\\"result-item\\\\sresult-game-item\\\">[\\\\s\\\\S]*?src=\\\"([^\\\"]*)\\\"[\\\\s\\\\S]*?href=\\\"([^\\\"]*)\\\"[\\\\s\\\\S]*?<span>\\\\s*([\\\\s\\\\S]*?)\\\\s*</span>[\\\\s\\\\S]*?(<p\\\\s*class=\\\"result-game-item-desc\\\">[\\\\s\\\\S]*?)\\\\s*<div class=\\\"result-game-item-info\\\">[\\\\s\\\\S]*?>作者：</span>\\\\s*<span>([\\\\s\\\\S]*?)</span>[\\\\s\\\\S]*?\\\"result-game-item-info-tag-title\\\">([\\\\s\\\\S]*?)</span>[\\\\s\\\\S]*?\\\"result-game-item-info-tag-title\\\">([\\\\s\\\\S]*?)</span>[\\\\s\\\\S]*?\\\"result-game-item-info-tag-item\\\"[^>]*>([\\\\s\\\\S]*?)</a>\",\n  \"bookUrl\": \"$2\",\n  \"coverUrl\": \"$1\",\n  \"intro\": \"$4\",\n  \"kind\": \"$6,$7\",\n  \"lastChapter\": \"$8\",\n  \"name\": \"$3\",\n  \"wordCount\": \"\"\n}",
+    "ruleToc": "{\n  \"chapterList\": \":<dd><a href=\\\"(/book/\\\\d+/\\\\d+\\\\.html)\\\"[^>]*>([\\\\s\\\\S]*?)</a></dd>\",\n  \"chapterName\": \"$2\",\n  \"chapterUrl\": \"$1\",\n  \"isVip\": \"\",\n  \"nextTocUrl\": \"\",\n  \"updateTime\": \"\"\n}",
+    "searchUrl": "https://www.biquge.com.cn/search.php?q={{key}}",
+    "weight": 0
   }
 ]
