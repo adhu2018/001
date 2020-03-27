@@ -80,5 +80,26 @@
     "ruleToc": "{\n  \"chapterList\": \":<dd><a href=\\\"(/book/\\\\d+/\\\\d+\\\\.html)\\\"[^>]*>([\\\\s\\\\S]*?)</a></dd>\",\n  \"chapterName\": \"$2\",\n  \"chapterUrl\": \"$1\",\n  \"isVip\": \"\",\n  \"nextTocUrl\": \"\",\n  \"updateTime\": \"\"\n}",
     "searchUrl": "https://www.biquge.com.cn/search.php?q={{key}}",
     "weight": 0
+  },
+  {
+    "bookSourceGroup": "qa455355; 仅发现",
+    "bookSourceName": "100本网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.100ben.net",
+    "bookUrlPattern": "https?://www\\.100ben\\.net/\\w+/?",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "一百本书清单::/\n世界名著::/shijiemingzhu/list_{{page}}.html\n现代文学::/xiandaiwenxue/list_{{page}}.html\n外国小说::/waiguoxiaoshuo/list_{{page}}.html\n励志书籍::/lizhishuji/list_{{page}}.html\n古典小说::/gudianwenxue/list_{{page}}.html\n武侠小说::/wuxiaxiaoshuo/list_{{page}}.html\n言情小说::/yanqingxiaoshuo/list_{{page}}.html\n推理小说::/tuilixiaoshuo/list_{{page}}.html\n科幻小说::/kehuanxiaoshuo/list_{{page}}.html\n人物传记::/renwuzhuanji/list_{{page}}.html\n盗墓悬疑::/daomuxuanyi/list_{{page}}.html\n玄幻穿越::/xuanhuanchuanyue/list_{{page}}.html\n科普书籍::/kepushuji/list_{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": "{\n  \"author\": \"$3\",\n  \"coverUrl\": \"$1\",\n  \"init\": \":\\\"book_info finish\\\">[\\\\s\\\\S]*?src=\\\"([^\\\"]*)\\\"[^<]*<h2>\\\\s*([\\\\s\\\\S]*?)\\\\s*</h2>[\\\\s\\\\S]*?作者：([\\\\s\\\\S]*?)</div>\\\\s*(<div class=\\\"intro\\\">[\\\\s\\\\S]*?</div>)\\\\s*<div class=\\\"nav\\\">\",\n  \"intro\": \"$4\",\n  \"kind\": \"\",\n  \"lastChapter\": \"\",\n  \"name\": \"$2\",\n  \"tocUrl\": \"\",\n  \"wordCount\": \"\"\n}",
+    "ruleContent": "{\n  \"content\": \"id.content@p@text||id.content@textNodes\",\n  \"nextContentUrl\": \"\",\n  \"sourceRegex\": \"\",\n  \"webJs\": \"\"\n}",
+    "ruleExplore": "{\n  \"author\": \"$4\",\n  \"bookList\": \":<img src=\\\"([^\\\"]*)[\\\\s\\\\S]*? <h3><a href=\\\"([^\\\"]*)\\\">\\\\s*([\\\\s\\\\S]*?)\\\\s*</a>[\\\\s\\\\S]*?作者：\\\\s*([\\\\s\\\\S]*?)\\\\s*</div>\\\\s*<div class=\\\"intro\\\">([\\\\s\\\\S]*?)</div>\\\\s*</li>\",\n  \"bookUrl\": \"$2\",\n  \"coverUrl\": \"$1\",\n  \"intro\": \"$5\",\n  \"kind\": \"\",\n  \"lastChapter\": \"\",\n  \"name\": \"$3\",\n  \"wordCount\": \"\"\n}",
+    "ruleSearch": "{\n  \"author\": \"\",\n  \"bookList\": \"\",\n  \"bookUrl\": \"\",\n  \"coverUrl\": \"\",\n  \"intro\": \"\",\n  \"kind\": \"\",\n  \"lastChapter\": \"\",\n  \"name\": \"\",\n  \"wordCount\": \"\"\n}",
+    "ruleToc": "{\n  \"chapterList\": \":<dd>\\\\s*<a[^\\\"]*\\\"([^\\\"]*)\\\"[^>]*>([\\\\s\\\\S]*?)</a>\\\\s*</dd>\",\n  \"chapterName\": \"$2\",\n  \"chapterUrl\": \"https://www.100ben.net$1\",\n  \"isVip\": \"\",\n  \"nextTocUrl\": \"\",\n  \"updateTime\": \"\"\n}",
+    "searchUrl": "-",
+    "weight": 0
   }
 ]
