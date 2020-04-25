@@ -11,11 +11,39 @@
     "exploreUrl": "全部::/library/0_0_0_{{page}}.html\n玄幻奇幻::/library/0_1_0_{{page}}.html\n武侠修真::/library/0_2_0_{{page}}.html\n都市生活::/library/0_3_0_{{page}}.html\n历史军事::/library/0_4_0_{{page}}.html\n游戏竞技::/library/0_5_0_{{page}}.html\n科幻未来::/library/0_6_0_{{page}}.html\n悬疑灵异::/library/0_7_0_{{page}}.html\n二次元::/library/0_8_0_{{page}}.html\n经典短篇::/library/0_9_0_{{page}}.html\n古代言情::/library/0_10_0_{{page}}.html\n现代言情::/library/0_11_0_{{page}}.html\n幻想奇缘::/library/0_12_0_{{page}}.html\n浪漫青春::/library/0_13_0_{{page}}.html\n网络情缘::/library/0_14_0_{{page}}.html\n科幻空间::/library/0_15_0_{{page}}.html\n恐怖灵异::/library/0_16_0_{{page}}.html\nN次元::/library/0_17_0_{{page}}.html\n言情美文::/library/0_18_0_{{page}}.html\n其他类型::/library/0_19_0_{{page}}.html",
     "lastUpdateTime": 0,
     "loginUrl": "",
-    "ruleBookInfo": "{\n  \"author\": \"$4\",\n  \"coverUrl\": \"$2\",\n  \"init\": \":class=\\\"bookimg[\\\\s\\\\S]*?(src=\\\"([^\\\"]*?)\\\"[\\\\s\\\\S]*?)?<h1>([^<]*?)<(?:[^>]*?>){3}([^<]*?)<(?:[^>]*?>){2}([^<]*?)</a>字数：([^<]*?)<[\\\\s\\\\S]*?\\\"[\\\\s\\\\S]*?最新：[^>]*?>([^<]*?)<[\\\\s\\\\S]*?([^\\\"]*?)\\\">阅读目录[\\\\s\\\\S]*?\\\"intro\\\">([\\\\s\\\\S]*?)</p>\",\n  \"intro\": \"<br>$9\",\n  \"kind\": \"$5\",\n  \"lastChapter\": \"$7\",\n  \"name\": \"$3\",\n  \"tocUrl\": \"$8\",\n  \"wordCount\": \"$6字\"\n}",
-    "ruleContent": "{\n  \"content\": \"id.content@tag.p@html\",\n  \"nextContentUrl\": \"\"\n}",
-    "ruleExplore": "{}",
-    "ruleSearch": "{\n  \"author\": \"$5\",\n  \"bookList\": \":<li>[\\\\s\\\\S]*?img\\\\s*?src=\\\"([^\\\"]*?)\\\"[\\\\s\\\\S]*?href=\\\"([^\\\"]*?)\\\">([^<]*?)<(?:[^>]*?>){2}([^<]*?)<(?:[^>]*?>){3}([^<]*?)<(?:[^>]*?>){4}([^<]*?)<(?:[^>]*?>){3}([^<]*?)<[\\\\s\\\\S]*?intro\\\">([\\\\s\\\\S]*?)</p>\\\\s*?<a\\\\s*?class=\\\"chapter\\\"[^>]*?>(最新章节：)?([^<]*?)</a\",\n  \"bookUrl\": \"$2\",\n  \"coverUrl\": \"$1\",\n  \"intro\": \"$8\",\n  \"kind\": \"$4,$6\",\n  \"lastChapter\": \"$10\",\n  \"name\": \"$3\",\n  \"wordCount\": \"$7\"\n}",
-    "ruleToc": "{\n  \"chapterList\": \":</dl>\\\\s*?<dl>[\\\\s\\\\S]*?</div>&&\\\"([^\\\"]*?)\\\">([^<]*?)</a\",\n  \"chapterName\": \"$2\",\n  \"chapterUrl\": \"$1\",\n  \"nextTocUrl\": \"\"\n}",
+    "ruleBookInfo": {
+      "author": "$4",
+      "coverUrl": "$2",
+      "init": ":class=\"bookimg[\\s\\S]*?(src=\"([^\"]*?)\"[\\s\\S]*?)?<h1>([^<]*?)<(?:[^>]*?>){3}([^<]*?)<(?:[^>]*?>){2}([^<]*?)</a>字数：([^<]*?)<[\\s\\S]*?\"[\\s\\S]*?最新：[^>]*?>([^<]*?)<[\\s\\S]*?([^\"]*?)\">阅读目录[\\s\\S]*?\"intro\">([\\s\\S]*?)</p>",
+      "intro": "<br>$9",
+      "kind": "$5",
+      "lastChapter": "$7",
+      "name": "$3##免费阅读全文$",
+      "tocUrl": "$8",
+      "wordCount": "$6字"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p@html",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$5",
+      "bookList": ":<li>[\\s\\S]*?img\\s*?src=\"([^\"]*?)\"[\\s\\S]*?href=\"([^\"]*?)\">([^<]*?)<(?:[^>]*?>){2}([^<]*?)<(?:[^>]*?>){3}([^<]*?)<(?:[^>]*?>){4}([^<]*?)<(?:[^>]*?>){3}([^<]*?)<[\\s\\S]*?intro\">([\\s\\S]*?)</p>\\s*?<a\\s*?class=\"chapter\"[^>]*?>(最新章节：)?([^<]*?)</a",
+      "bookUrl": "$2",
+      "coverUrl": "$1",
+      "intro": "$8",
+      "kind": "$4,$6",
+      "lastChapter": "$10",
+      "name": "$3##免费阅读全文$",
+      "wordCount": "$7"
+    },
+    "ruleToc": {
+      "chapterList": ":</dl>\\s*?<dl>[\\s\\S]*?</div>&&\"([^\"]*?)\">([^<]*?)</a",
+      "chapterName": "$2",
+      "chapterUrl": "$1",
+      "nextTocUrl": ""
+    },
     "searchUrl": "/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
     "weight": 0
   },
@@ -31,12 +59,34 @@
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.93 Safari/537.36\"\n}",
     "lastUpdateTime": 0,
     "loginUrl": "",
-    "ruleBookInfo": "{\n  \"author\": \"class.booktag@tag.a.0@text\",\n  \"coverUrl\": \"class.col-md-2 col-xs-4 hidden-xs@tag.img@src\",\n  \"intro\": \"id.bookIntro@html\",\n  \"kind\": \"class.booktag@tag.a.1@text\",\n  \"lastChapter\": \"class.col-md-10@tag.p.1@tag.a.0@text\",\n  \"name\": \"tag.h1@text\",\n  \"wordCount\": \"class.booktag@tag.span@text## 字数：(\\\\d+)##$1字\"\n}",
-    "ruleContent": "{\n  \"content\": \"<js>\\nvar key=\\\"wudidexiaoxiao=\\\"+encodeURIComponent(String(result)\\n.replace(/[\\\\s\\\\S]*?ApiShowView\\\\((['\\\"])([^'\\\"]*)\\\\1\\\\);[\\\\s\\\\S]*/g,\\\"$2\\\"));\\nvar ua=\\\"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.93 Safari/537.36\\\";\\nvar headers={\\\"User-Agent\\\":ua,\\\"referer\\\":baseUrl,\\\"origin\\\":\\\"https://www.ffbook.cc\\\"};\\nvar option={\\\"method\\\":\\\"POST\\\",\\\"body\\\":String(key),\\\"headers\\\":JSON.stringify(headers)}\\nvar url0=\\\"https://www.ffbook.cc/?a=api&action=view,\\\"+JSON.stringify(option);\\nvar json0=JSON.parse(java.ajax(url0));\\nString(json0.data).replace(/dizhu\\\\.org/g,\\\"\\\");\\n</js>\",\n  \"nextContentUrl\": \"id.linkNext@href<js>\\nif (/https?:\\\\/\\\\/www\\\\.ffbook\\\\.cc\\\\/\\\\d+\\\\/\\\\d+\\\\.html/.test(String(result)))\\n \\\"\\\";\\nelse\\n result;\\n</js>\"\n}",
-    "ruleExplore": "{}",
-    "ruleSearch": "{\n  \"author\": \"tag.td.2@text\",\n  \"bookList\": \"tag.tbody@tag.tr!0\",\n  \"bookUrl\": \"tag.a.0@href\",\n  \"kind\": \"tag.td.4@text&&tag.td.5@text\",\n  \"lastChapter\": \"tag.a.1@text\",\n  \"name\": \"tag.a.0@text\"\n}",
-    "ruleToc": "{\n  \"chapterList\": \"class.col-md-3@tag.a\",\n  \"chapterName\": \"text\",\n  \"chapterUrl\": \"href\"\n}",
-    "searchUrl": "/?a=search&,{\n  \"body\": \"keyword={{key}}\",\n  \"method\": \"POST\"\n}",
+    "ruleBookInfo": {
+      "author": "class.booktag@tag.a.0@text",
+      "coverUrl": "class.col-md-2 col-xs-4 hidden-xs@tag.img@src",
+      "intro": "id.bookIntro@html",
+      "kind": "class.booktag@tag.a.1@text",
+      "lastChapter": "class.col-md-10@tag.p.1@tag.a.0@text",
+      "name": "tag.h1@text",
+      "wordCount": "class.booktag@tag.span@text## 字数：(\\d+)##$1字"
+    },
+    "ruleContent": {
+      "content": "id.wudidexiaoxiao@html##<p>喜欢([\\s\\S]*?)请大家收藏：\\(www\\.ffbook\\.cc\\)\\1若晨文学更新速度最快。</p>",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "tag.tbody@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.td.4@text&&tag.td.5@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.col-md-3@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
     "weight": 0
   },
   {
@@ -52,11 +102,35 @@
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0\"\n}",
     "lastUpdateTime": 0,
     "loginUrl": "",
-    "ruleBookInfo": "{\n  \"author\": \"id.info@tag.a.0@text\",\n  \"coverUrl\": \"id.fmimg@img@src\",\n  \"intro\": \"id.intro@textNodes##^\\\\s*|\\\\s+##<br>\",\n  \"kind\": \"\",\n  \"lastChapter\": \"id.info@tag.a.-1@text##^\\\\s*?\\\\d*?\\\\s*?(第[\\\\s\\\\S]*)##$1\",\n  \"name\": \"h1@text\",\n  \"tocUrl\": \"\"\n}",
-    "ruleContent": "{\n  \"content\": \"id.content@textNodes##笔趣阁\\\\s*www.xbiquge.cc，最快更新.+最新章节！\",\n  \"nextContentUrl\": \"\"\n}",
-    "ruleExplore": "{}",
-    "ruleSearch": "{\n  \"author\": \"class.s4@text\",\n  \"bookList\": \"class.novelslistss@li\",\n  \"bookUrl\": \"tag.a.0@href\",\n  \"coverUrl\": \"\",\n  \"kind\": \"class.s1@text\",\n  \"lastChapter\": \"tag.a.1@texr\",\n  \"name\": \"tag.a.0@text\"\n}",
-    "ruleToc": "{\n  \"chapterList\": \"+id.list@a\",\n  \"chapterName\": \"text\",\n  \"chapterUrl\": \"href\",\n  \"nextTocUrl\": \"\"\n}",
+    "ruleBookInfo": {
+      "author": "id.info@tag.a.0@text",
+      "coverUrl": "id.fmimg@img@src",
+      "intro": "id.intro@textNodes##^\\s*|\\s+##<br>",
+      "kind": "",
+      "lastChapter": "id.info@tag.a.-1@text##^\\s*?\\d*?\\s*?(第[\\s\\S]*)##$1",
+      "name": "h1@text",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##笔趣阁\\s*www.xbiquge.cc，最快更新.+最新章节！",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslistss@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "kind": "class.s1@text",
+      "lastChapter": "tag.a.1@texr",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "+id.list@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ""
+    },
     "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
     "weight": 0
   },
@@ -73,11 +147,53 @@
     "header": "",
     "lastUpdateTime": 0,
     "loginUrl": "",
-    "ruleBookInfo": "{\n  \"author\": \"$2\",\n  \"coverUrl\": \"$7\",\n  \"init\": \":<h1>([\\\\s\\\\S]*?)</h1>\\\\s*<p> 作(?:&nbsp;)*者：([\\\\s\\\\S]*?)</p>\\\\s*<p>状(?:&nbsp;)*态：([^,]*),[\\\\s\\\\S]*?最后更新：([\\\\s\\\\S]*?)</p>[\\\\s\\\\S]*?最新章节：<a[^>]*>([\\\\s\\\\S]*?)</a></p>[\\\\s\\\\S]*?(<div id=\\\"intro\\\">[\\\\s\\\\S]*?</div>)\\\\s*</div>\\\\s*<div id=\\\"sidebar\\\">[\\\\s\\\\S]*?src=\\\"([^\\\"]*)\",\n  \"intro\": \"$6\",\n  \"kind\": \"$3,$4\",\n  \"lastChapter\": \"$5\",\n  \"name\": \"$1\",\n  \"tocUrl\": \"\",\n  \"wordCount\": \"\"\n}",
-    "ruleContent": "{\n  \"content\": \"id.content@textNodes\",\n  \"nextContentUrl\": \"\",\n  \"sourceRegex\": \"\",\n  \"webJs\": \"\"\n}",
-    "ruleExplore": "{\n  \"author\": \"\",\n  \"bookList\": \"\",\n  \"bookUrl\": \"\",\n  \"coverUrl\": \"\",\n  \"intro\": \"\",\n  \"kind\": \"\",\n  \"lastChapter\": \"\",\n  \"name\": \"\",\n  \"wordCount\": \"\"\n}",
-    "ruleSearch": "{\n  \"author\": \"$5\",\n  \"bookList\": \":\\\"result-item\\\\sresult-game-item\\\">[\\\\s\\\\S]*?src=\\\"([^\\\"]*)\\\"[\\\\s\\\\S]*?href=\\\"([^\\\"]*)\\\"[\\\\s\\\\S]*?<span>\\\\s*([\\\\s\\\\S]*?)\\\\s*</span>[\\\\s\\\\S]*?(<p\\\\s*class=\\\"result-game-item-desc\\\">[\\\\s\\\\S]*?)\\\\s*<div class=\\\"result-game-item-info\\\">[\\\\s\\\\S]*?>作者：</span>\\\\s*<span>([\\\\s\\\\S]*?)</span>[\\\\s\\\\S]*?\\\"result-game-item-info-tag-title\\\">([\\\\s\\\\S]*?)</span>[\\\\s\\\\S]*?\\\"result-game-item-info-tag-title\\\">([\\\\s\\\\S]*?)</span>[\\\\s\\\\S]*?\\\"result-game-item-info-tag-item\\\"[^>]*>([\\\\s\\\\S]*?)</a>\",\n  \"bookUrl\": \"$2\",\n  \"coverUrl\": \"$1\",\n  \"intro\": \"$4\",\n  \"kind\": \"$6,$7\",\n  \"lastChapter\": \"$8\",\n  \"name\": \"$3\",\n  \"wordCount\": \"\"\n}",
-    "ruleToc": "{\n  \"chapterList\": \":<dd><a href=\\\"(/book/\\\\d+/\\\\d+\\\\.html)\\\"[^>]*>([\\\\s\\\\S]*?)</a></dd>\",\n  \"chapterName\": \"$2\",\n  \"chapterUrl\": \"$1\",\n  \"isVip\": \"\",\n  \"nextTocUrl\": \"\",\n  \"updateTime\": \"\"\n}",
+    "ruleBookInfo": {
+      "author": "$2",
+      "coverUrl": "$7",
+      "init": ":<h1>([\\s\\S]*?)</h1>\\s*<p>作(?:&nbsp;)*者：([\\s\\S]*?)</p>\\s*<p>状(?:&nbsp;)*态：([^,]*),[\\s\\S]*?最后更新：([\\s\\S]*?)</p>[\\s\\S]*?最新章节：<a[^>]*>([\\s\\S]*?)</a></p>[\\s\\S]*?(<div id=\"intro\">[\\s\\S]*?</div>)\\s*</div>\\s*<div id=\"sidebar\">[\\s\\S]*?src=\"([^\"]*)",
+      "intro": "$6",
+      "kind": "$3,$4",
+      "lastChapter": "$5",
+      "name": "$1",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes<js>result.replace(/\\[?嘀嗒小说\\s*www.didaxs.info\\]?/g,\"\");</js>",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "$5",
+      "bookList": ":\"result-item\\sresult-game-item\">[\\s\\S]*?src=\"([^\"]*)\"[\\s\\S]*?href=\"([^\"]*)\"[\\s\\S]*?<span>\\s*([\\s\\S]*?)\\s*</span>[\\s\\S]*?(<p\\s*class=\"result-game-item-desc\">[\\s\\S]*?)\\s*<div class=\"result-game-item-info\">[\\s\\S]*?>作者：</span>\\s*<span>([\\s\\S]*?)</span>[\\s\\S]*?\"result-game-item-info-tag-title\">([\\s\\S]*?)</span>[\\s\\S]*?\"result-game-item-info-tag-title\">([\\s\\S]*?)</span>[\\s\\S]*?\"result-game-item-info-tag-item\"[^>]*>([\\s\\S]*?)</a>",
+      "bookUrl": "$2",
+      "coverUrl": "$1",
+      "intro": "$4",
+      "kind": "$6,$7",
+      "lastChapter": "$8",
+      "name": "$3",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": ":<dd><a href=\"(/book/\\d+/\\d+\\.html)\"[^>]*>([\\s\\S]*?)</a></dd>",
+      "chapterName": "$2",
+      "chapterUrl": "$1",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
     "searchUrl": "https://www.biquge.com.cn/search.php?q={{key}}",
     "weight": 0
   },
@@ -94,11 +210,53 @@
     "header": "",
     "lastUpdateTime": 0,
     "loginUrl": "",
-    "ruleBookInfo": "{\n  \"author\": \"$3\",\n  \"coverUrl\": \"$1\",\n  \"init\": \":\\\"book_info finish\\\">[\\\\s\\\\S]*?src=\\\"([^\\\"]*)\\\"[^<]*<h2>\\\\s*([\\\\s\\\\S]*?)\\\\s*</h2>[\\\\s\\\\S]*?作者：([\\\\s\\\\S]*?)</div>\\\\s*(<div class=\\\"intro\\\">[\\\\s\\\\S]*?</div>)\\\\s*<div class=\\\"nav\\\">\",\n  \"intro\": \"$4\",\n  \"kind\": \"\",\n  \"lastChapter\": \"\",\n  \"name\": \"$2\",\n  \"tocUrl\": \"\",\n  \"wordCount\": \"\"\n}",
-    "ruleContent": "{\n  \"content\": \"id.content@p@text||id.content@textNodes\",\n  \"nextContentUrl\": \"\",\n  \"sourceRegex\": \"\",\n  \"webJs\": \"\"\n}",
-    "ruleExplore": "{\n  \"author\": \"$4\",\n  \"bookList\": \":<img src=\\\"([^\\\"]*)[\\\\s\\\\S]*? <h3><a href=\\\"([^\\\"]*)\\\">\\\\s*([\\\\s\\\\S]*?)\\\\s*</a>[\\\\s\\\\S]*?作者：\\\\s*([\\\\s\\\\S]*?)\\\\s*</div>\\\\s*<div class=\\\"intro\\\">([\\\\s\\\\S]*?)</div>\\\\s*</li>\",\n  \"bookUrl\": \"$2\",\n  \"coverUrl\": \"$1\",\n  \"intro\": \"$5\",\n  \"kind\": \"\",\n  \"lastChapter\": \"\",\n  \"name\": \"$3\",\n  \"wordCount\": \"\"\n}",
-    "ruleSearch": "{\n  \"author\": \"\",\n  \"bookList\": \"\",\n  \"bookUrl\": \"\",\n  \"coverUrl\": \"\",\n  \"intro\": \"\",\n  \"kind\": \"\",\n  \"lastChapter\": \"\",\n  \"name\": \"\",\n  \"wordCount\": \"\"\n}",
-    "ruleToc": "{\n  \"chapterList\": \":<dd>\\\\s*<a[^\\\"]*\\\"([^\\\"]*)\\\"[^>]*>([\\\\s\\\\S]*?)</a>\\\\s*</dd>\",\n  \"chapterName\": \"$2\",\n  \"chapterUrl\": \"https://www.100ben.net$1\",\n  \"isVip\": \"\",\n  \"nextTocUrl\": \"\",\n  \"updateTime\": \"\"\n}",
+    "ruleBookInfo": {
+      "author": "$3",
+      "coverUrl": "$1",
+      "init": ":\"book_info finish\">[\\s\\S]*?src=\"([^\"]*)\"[^<]*<h2>\\s*([\\s\\S]*?)\\s*</h2>[\\s\\S]*?作者：([\\s\\S]*?)</div>\\s*(<div class=\"intro\">[\\s\\S]*?</div>)\\s*<div class=\"nav\">",
+      "intro": "$4",
+      "kind": "",
+      "lastChapter": "",
+      "name": "$2",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.content@p@text||id.content@textNodes",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "$4",
+      "bookList": ":<img src=\"([^\"]*)[\\s\\S]*? <h3><a href=\"([^\"]*)\">\\s*([\\s\\S]*?)\\s*</a>[\\s\\S]*?作者：\\s*([\\s\\S]*?)\\s*</div>\\s*<div class=\"intro\">([\\s\\S]*?)</div>\\s*</li>",
+      "bookUrl": "$2",
+      "coverUrl": "$1",
+      "intro": "$5",
+      "kind": "",
+      "lastChapter": "",
+      "name": "$3",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": ":<dd>\\s*<a[^\"]*\"([^\"]*)\"[^>]*>([\\s\\S]*?)</a>\\s*</dd>",
+      "chapterName": "$2",
+      "chapterUrl": "https://www.100ben.net$1",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
     "searchUrl": "-",
     "weight": 0
   },
@@ -114,11 +272,50 @@
     "exploreUrl": "全部小说::/web/all/-1/-1/-1/-1/0/{{page}}/100\n免费小说::/web/all/-1/-1/1/-1/0/{{page}}/100\n收费小说::/web/all/-1/-1/0/-1/0/{{page}}/100\n完结小说::/web/all/-1/-1/-1/1/0/{{page}}/100\n连载小说::/web/all/-1/-1/-1/0/0/{{page}}/100\n历史全部::/web/all/3/-1/-1/-1/0/{{page}}/100\n历史免费::/web/all/3/-1/1/-1/0/{{page}}/100\n历史收费::/web/all/3/-1/0/-1/0/{{page}}/100\n历史完结::/web/all/3/-1/-1/1/0/{{page}}/100\n历史连载::/web/all/3/-1/-1/0/0/{{page}}/100\n军事全部::/web/all/5/-1/-1/-1/0/{{page}}/100\n军事免费::/web/all/5/-1/1/-1/0/{{page}}/100\n军事收费::/web/all/5/-1/0/-1/0/{{page}}/100\n军事完结::/web/all/5/-1/-1/1/0/{{page}}/100\n军事连载::/web/all/5/-1/-1/0/0/{{page}}/100\n玄幻全部::/web/all/6/-1/-1/-1/0/{{page}}/100\n玄幻免费::/web/all/6/-1/1/-1/0/{{page}}/100\n玄幻收费::/web/all/6/-1/0/-1/0/{{page}}/100\n玄幻完结::/web/all/6/-1/-1/1/0/{{page}}/100\n玄幻连载::/web/all/6/-1/-1/0/0/{{page}}/100\n奇幻全部::/web/all/14/-1/-1/-1/0/{{page}}/100\n奇幻免费::/web/all/14/-1/1/-1/0/{{page}}/100\n奇幻收费::/web/all/14/-1/0/-1/0/{{page}}/100\n奇幻完结::/web/all/14/-1/-1/1/0/{{page}}/100\n奇幻连载::/web/all/14/-1/-1/0/0/{{page}}/100\n仙侠全部::/web/all/7/-1/-1/-1/0/{{page}}/100\n仙侠免费::/web/all/7/-1/1/-1/0/{{page}}/100\n仙侠收费::/web/all/7/-1/0/-1/0/{{page}}/100\n仙侠完结::/web/all/7/-1/-1/1/0/{{page}}/100\n仙侠连载::/web/all/7/-1/-1/0/0/{{page}}/100\n武侠全部::/web/all/8/-1/-1/-1/0/{{page}}/100\n武侠免费::/web/all/8/-1/1/-1/0/{{page}}/100\n武侠收费::/web/all/8/-1/0/-1/0/{{page}}/100\n武侠完结::/web/all/8/-1/-1/1/0/{{page}}/100\n武侠连载::/web/all/8/-1/-1/0/0/{{page}}/100\n科幻全部::/web/all/10/-1/-1/-1/0/{{page}}/100\n科幻免费::/web/all/10/-1/1/-1/0/{{page}}/100\n科幻收费::/web/all/10/-1/0/-1/0/{{page}}/100\n科幻完结::/web/all/10/-1/-1/1/0/{{page}}/100\n科幻连载::/web/all/10/-1/-1/0/0/{{page}}/100\n游戏全部::/web/all/9/-1/-1/-1/0/{{page}}/100\n游戏免费::/web/all/9/-1/1/-1/0/{{page}}/100\n游戏收费::/web/all/9/-1/0/-1/0/{{page}}/100\n游戏完结::/web/all/9/-1/-1/1/0/{{page}}/100\n游戏连载::/web/all/9/-1/-1/0/0/{{page}}/100\n现代全部::/web/all/25/-1/-1/-1/0/{{page}}/100\n现代免费::/web/all/25/-1/1/-1/0/{{page}}/100\n现代收费::/web/all/25/-1/0/-1/0/{{page}}/100\n现代完结::/web/all/25/-1/-1/1/0/{{page}}/100\n现代连载::/web/all/25/-1/-1/0/0/{{page}}/100\n古言全部::/web/all/37/-1/-1/-1/0/{{page}}/100\n古言免费::/web/all/37/-1/1/-1/0/{{page}}/100\n古言收费::/web/all/37/-1/0/-1/0/{{page}}/100\n古言完结::/web/all/37/-1/-1/1/0/{{page}}/100\n古言连载::/web/all/37/-1/-1/0/0/{{page}}/100",
     "lastUpdateTime": 0,
     "loginUrl": "https://www.heiyan.com/accounts/login",
-    "ruleBookInfo": "{\n  \"author\": \"//strong/text()\",\n  \"coverUrl\": \"//*[@class=\\\"book-cover\\\"]/@src##@.*\",\n  \"init\": \"\",\n  \"intro\": \"//*[@class=\\\"note\\\"]/text()\",\n  \"kind\": \"//*[@class=\\\"cate\\\"]/a/text()&&//*[@class=\\\"icon-cover book-status is-finished\\\"]/@class&&//*[@class=\\\"icon-cover book-status is-serialize\\\"]/@class<js>String(result).replace(/icon-cover book-status is-finished/g,\\\"完结\\\").replace(/icon-cover book-status is-serialize/g,\\\"连载\\\").replace(/^\\\\[|\\\\]$/g,\\\"\\\");</js>\",\n  \"lastChapter\": \"\",\n  \"name\": \"//*[@class=\\\"hd\\\"]/h1/text()\",\n  \"tocUrl\": \"//*[@class=\\\"read\\\"]/@href\",\n  \"wordCount\": \"//*[@class=\\\"words\\\"]/text()\"\n}",
-    "ruleContent": "{\n  \"content\": \"class.page-content@html\",\n  \"nextContentUrl\": \"\"\n}",
-    "ruleExplore": "{\n  \"author\": \"//a[@class=\\\"author\\\"]/text()\",\n  \"bookList\": \"//*[@id=\\\"resultDiv\\\"]/tr\",\n  \"bookUrl\": \"//*[@class=\\\"title\\\"]/@href\",\n  \"coverUrl\": \"//*[@class=\\\"title\\\"]/@href<js>result.replace(/.*\\\\/(\\\\d+)/,\\\"https://b.heiyanimg.com/book/$1.jpg\\\")</js>\",\n  \"intro\": \"//*[@class=\\\"words\\\"][2]/text()##^##总点击：\",\n  \"kind\": \"//*[@class=\\\"time\\\"]/text()\",\n  \"lastChapter\": \"//*[@class=\\\"chapter\\\"]/text()\",\n  \"name\": \"//*[@class=\\\"title\\\"]/text()\",\n  \"wordCount\": \"//*[@class=\\\"words\\\"][1]/text()##$##字\"\n}",
-    "ruleSearch": "{\n  \"author\": \"\",\n  \"bookList\": \"\",\n  \"bookUrl\": \"\",\n  \"coverUrl\": \"\",\n  \"intro\": \"\",\n  \"kind\": \"\",\n  \"lastChapter\": \"\",\n  \"name\": \"\"\n}",
-    "ruleToc": "{\n  \"chapterList\": \"class.float-list fill-block@tag.li\",\n  \"chapterName\": \"tag.a@text\",\n  \"chapterUrl\": \"tag.a@href\",\n  \"isVip\": \"class.isvip@class\",\n  \"nextTocUrl\": \"\",\n  \"updateTime\": \"createdate\"\n}",
+    "ruleBookInfo": {
+      "author": "//strong/text()",
+      "coverUrl": "//*[@class=\"book-cover\"]/@src##@.*",
+      "init": "",
+      "intro": "//*[@class=\"note\"]/text()",
+      "kind": "//*[@class=\"cate\"]/a/text()&&//*[@class=\"icon-cover book-status is-finished\"]/@class&&//*[@class=\"icon-cover book-status is-serialize\"]/@class<js>String(result).replace(/icon-cover book-status is-finished/g,\"完结\").replace(/icon-cover book-status is-serialize/g,\"连载\").replace(/^\\[|\\]$/g,\"\");</js>",
+      "lastChapter": "",
+      "name": "//*[@class=\"hd\"]/h1/text()",
+      "tocUrl": "//*[@class=\"read\"]/@href",
+      "wordCount": "//*[@class=\"words\"]/text()"
+    },
+    "ruleContent": {
+      "content": "class.page-content@html",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "author": "//a[@class=\"author\"]/text()",
+      "bookList": "//*[@id=\"resultDiv\"]/tr",
+      "bookUrl": "//*[@class=\"title\"]/@href",
+      "coverUrl": "//*[@class=\"title\"]/@href<js>result.replace(/.*\\/(\\d+)/,\"https://b.heiyanimg.com/book/$1.jpg\")</js>",
+      "intro": "//*[@class=\"words\"][2]/text()##^##总点击：",
+      "kind": "//*[@class=\"time\"]/text()",
+      "lastChapter": "//*[@class=\"chapter\"]/text()",
+      "name": "//*[@class=\"title\"]/text()",
+      "wordCount": "//*[@class=\"words\"][1]/text()##$##字"
+    },
+    "ruleSearch": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.float-list fill-block@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "class.isvip@class",
+      "nextTocUrl": "",
+      "updateTime": "createdate"
+    },
     "searchUrl": "-",
     "weight": 0
   },
@@ -135,11 +332,53 @@
     "header": "",
     "lastUpdateTime": 0,
     "loginUrl": "",
-    "ruleBookInfo": "{\n  \"author\": \"id.author@tag.a@text\",\n  \"coverUrl\": \"id.bookimg@tag.img@src\",\n  \"init\": \"\",\n  \"intro\": \"id.bookintro@html\",\n  \"kind\": \"class.count.0@tag.span.0@text&&class.count.0@tag.span.1@text\",\n  \"lastChapter\": \"id.newlist@tag.a.0@title##^\\\\s+\",\n  \"name\": \"tag.h1@text\",\n  \"tocUrl\": \"class.tgcj.0@href\",\n  \"wordCount\": \"class.count.0@tag.span.3@text##$##字\"\n}",
-    "ruleContent": "{\n  \"content\": \"all\",\n  \"nextContentUrl\": \"\",\n  \"sourceRegex\": \"\",\n  \"webJs\": \"getDecode();$('#content').html();\"\n}",
-    "ruleExplore": "{\n  \"author\": \"tag.a.2@text\",\n  \"bookList\": \"class.shulist@tag.ul\",\n  \"bookUrl\": \"tag.a.0@href\",\n  \"coverUrl\": \"tag.a.0@href##/book/(\\\\d+)##https://img.zhaishuyuan.com/bookpic/s$1.jpg\",\n  \"intro\": \"tag.li.-1@text\",\n  \"kind\": \"tag.li.1@text##^\\\\[|\\\\]$\",\n  \"lastChapter\": \"tag.a.1@text\",\n  \"name\": \"tag.a.0@text\",\n  \"wordCount\": \"tag.li.-2@text\"\n}",
-    "ruleSearch": "{\n  \"author\": \"class.book_other.0@tag.span.0@text\",\n  \"bookList\": \"id.sitembox@tag.dl\",\n  \"bookUrl\": \"tag.a.0@href\",\n  \"coverUrl\": \"class.lazyload@_src\",\n  \"intro\": \"class.book_des@html\",\n  \"kind\": \"class.book_other.0@tag.span!0:3@text\",\n  \"lastChapter\": \"class.book_other.1@tag.a@text\",\n  \"name\": \"tag.h3@tag.a@text\",\n  \"wordCount\": \"class.book_other.0@tag.span.3@text\"\n}",
-    "ruleToc": "{\n  \"chapterList\": \"<js>\\nvar chapter1=result.replace(/id=[\\\"']readerlists[\\\"']/g,\\\"id=\\\\\\\"readerlist\\\\\\\"\\\");\\nvar x=org.jsoup.Jsoup.parse(result).select(\\\"#more-chapter\\\");\\nif (String(x)){\\n var bid=baseUrl.match(/.*read\\\\/(\\\\d+)/)[1];\\n var page=\\\"1\\\";\\n var headers={\\\"Content-Type\\\": \\\"application/x-www-form-urlencoded; charset=UTF-8\\\",\\n\\\"Cookie\\\": \\\"history=\\\"+bid};\\n var option;\\n var url2;\\n var data2;\\n var list2=[];\\n var list3=[];\\n\\n do{\\n  option = {\\n   \\\"method\\\": \\\"POST\\\",\\n   \\\"body\\\":\\\"action=list&bid=\\\"+bid+\\\"&page=\\\"+page,\\n   \\\"headers\\\":JSON.stringify(headers)\\n  };\\n  url2=\\\"https://www.zhaishuyuan.com/api/,\\\"+JSON.stringify(option);\\n  data2=java.ajax(url2);\\n\\n  page=String(data2).replace(/[\\\\s\\\\S]*\\\\],\\\"page\\\":([^,]+),\\\"count\\\":\\\\d+}/g,\\\"$1\\\");\\n\\n  list2=data2.match(/({\\\"cN\\\":\\\"([\\\\s\\\\S]*?)\\\",\\\"uT\\\":\\\"([\\\\s\\\\S]*?)\\\",\\\"id\\\":\\\\s*(\\\\d+)\\\\s*})/g);\\n  for(a in list2){\\n   t=list2[a].match(/{\\\"cN\\\":\\\"([\\\\s\\\\S]*?)\\\",\\\"uT\\\":\\\"([\\\\s\\\\S]*?)\\\",\\\"id\\\":\\\\s*(\\\\d+)\\\\s*}/);\\n   na=t[1];\\n   ot=t[2];\\n   id=t[3];\\n   list3.push(\\\"<li><a href=\\\\\\\"/chapter/\\\"+bid+\\\"/\\\"+String(parseInt(id)-parseInt(bid))+\\\"\\\\\\\">\\\"+na+\\\"</a>\\\"+ot+\\\"</li>\\\");\\n  }\\n }while(parseInt(page)>1);\\n\\n list3=list3.map(a=>a);\\n chapter1=chapter1.replace(/<div\\\\s+id=\\\"more-chapter\\\"[\\\\s\\\\S]*?<\\\\/div>/g,String(list3));\\n}\\nchapter1;\\n</js>id.readerlist@tag.li\",\n  \"chapterName\": \"tag.a@text\",\n  \"chapterUrl\": \"tag.a@href##$##,{\\\"webView\\\":true}\",\n  \"isVip\": \"\",\n  \"nextTocUrl\": \"\",\n  \"updateTime\": \"textNodes\"\n}",
+    "ruleBookInfo": {
+      "author": "id.author@tag.a@text",
+      "coverUrl": "id.bookimg@tag.img@src",
+      "init": "",
+      "intro": "id.bookintro@html",
+      "kind": "class.count.0@tag.span.0@text&&class.count.0@tag.span.1@text",
+      "lastChapter": "id.newlist@tag.a.0@title##^\\s+",
+      "name": "tag.h1@text",
+      "tocUrl": "class.tgcj.0@href",
+      "wordCount": "class.count.0@tag.span.3@text##$##字"
+    },
+    "ruleContent": {
+      "content": "all",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": "getDecode();$('#content').html();"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "class.shulist@tag.ul",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/book/(\\d+)##https://img.zhaishuyuan.com/bookpic/s$1.jpg",
+      "intro": "tag.li.-1@text",
+      "kind": "tag.li.1@text##^\\[|\\]$",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text",
+      "wordCount": "tag.li.-2@text"
+    },
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span.0@text",
+      "bookList": "id.sitembox@tag.dl",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.lazyload@_src",
+      "intro": "class.book_des@html",
+      "kind": "class.book_other.0@tag.span!0:3@text",
+      "lastChapter": "class.book_other.1@tag.a@text",
+      "name": "tag.h3@tag.a@text",
+      "wordCount": "class.book_other.0@tag.span.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "<js>\nvar chapter1=result.replace(/id=[\"']readerlists[\"']/g,\"id=\\\"readerlist\\\"\");\nvar x=org.jsoup.Jsoup.parse(result).select(\"#more-chapter\");\nif (String(x)){\n var bid=baseUrl.match(/.*read\\/(\\d+)/)[1];\n var page=\"1\";\n var headers={\"Content-Type\": \"application/x-www-form-urlencoded; charset=UTF-8\",\n\"Cookie\": \"history=\"+bid};\n var option;\n var url2;\n var data2;\n var list2=[];\n var list3=[];\n\n do{\n  option = {\n   \"method\": \"POST\",\n   \"body\":\"action=list&bid=\"+bid+\"&page=\"+page,\n   \"headers\":JSON.stringify(headers)\n  };\n  url2=\"https://www.zhaishuyuan.com/api/,\"+JSON.stringify(option);\n  data2=java.ajax(url2);\n\n  page=String(data2).replace(/[\\s\\S]*\\],\"page\":([^,]+),\"count\":\\d+}/g,\"$1\");\n\n  list2=data2.match(/({\"cN\":\"([\\s\\S]*?)\",\"uT\":\"([\\s\\S]*?)\",\"id\":\\s*(\\d+)\\s*})/g);\n  for(a in list2){\n   t=list2[a].match(/{\"cN\":\"([\\s\\S]*?)\",\"uT\":\"([\\s\\S]*?)\",\"id\":\\s*(\\d+)\\s*}/);\n   na=t[1];\n   ot=t[2];\n   id=t[3];\n   list3.push(\"<li><a href=\\\"/chapter/\"+bid+\"/\"+String(parseInt(id)-parseInt(bid))+\"\\\">\"+na+\"</a>\"+ot+\"</li>\");\n  }\n }while(parseInt(page)>1);\n\n list3=list3.map(a=>a);\n chapter1=chapter1.replace(/<div\\s+id=\"more-chapter\"[\\s\\S]*?<\\/div>/g,String(list3));\n}\nchapter1;\n</js>id.readerlist@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href##$##,{\"webView\":true}",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": "textNodes"
+    },
     "searchUrl": "/search/,{\n  \"charset\": \"gb2312\",\n  \"body\": \"key={{key}}\",\n  \"method\": \"POST\"\n}",
     "weight": 0
   }
