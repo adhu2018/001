@@ -66,7 +66,7 @@
       "kind": "class.booktag@tag.a.1@text",
       "lastChapter": "class.col-md-10@tag.p.1@tag.a.0@text",
       "name": "tag.h1@text",
-      "wordCount": "class.booktag@tag.span@text## 字数：(\\d+)##$1字"
+      "wordCount": "class.booktag@tag.span@text##字数：(\\d+)##$1字"
     },
     "ruleContent": {
       "content": "id.wudidexiaoxiao@html##<p>喜欢([\\s\\S]*?)请大家收藏：\\(www\\.ffbook\\.cc\\)\\1若晨文学更新速度最快。</p>",
@@ -229,7 +229,7 @@
     },
     "ruleExplore": {
       "author": "$4",
-      "bookList": ":<img src=\"([^\"]*)[\\s\\S]*? <h3><a href=\"([^\"]*)\">\\s*([\\s\\S]*?)\\s*</a>[\\s\\S]*?作者：\\s*([\\s\\S]*?)\\s*</div>\\s*<div class=\"intro\">([\\s\\S]*?)</div>\\s*</li>",
+      "bookList": ":<img src=\"([^\"]*)[\\s\\S]*?<h3><a href=\"([^\"]*)\">\\s*([\\s\\S]*?)\\s*</a>[\\s\\S]*?作者：\\s*([\\s\\S]*?)\\s*</div>\\s*<div class=\"intro\">([\\s\\S]*?)</div>\\s*</li>",
       "bookUrl": "$2",
       "coverUrl": "$1",
       "intro": "$5",
@@ -328,7 +328,7 @@
     "customOrder": 0,
     "enabled": true,
     "enabledExplore": true,
-    "exploreUrl": "男生书库::/shuku/0_1_0_0_0_{{page}}_0_0\n男频连载::/shuku/0_2_0_0_0_{{page}}_0_0\n男频完结::/shuku/0_3_0_0_0_{{page}}_0_0\n添加时间::/shuku/0_1_0_0_8_{{page}}_0_0\n总点击榜::/shuku/0_1_0_0_2_{{page}}_0_0\n月点击榜::/shuku/0_1_0_0_5_{{page}}_0_0\n周点击榜::/shuku/0_1_0_0_4_{{page}}_0_0\n总推荐榜::/shuku/0_1_0_0_1_{{page}}_0_0\n月推荐榜::/shuku/0_1_0_0_7_{{page}}_0_0\n周推荐榜::/shuku/0_1_0_0_6_{{page}}_0_0\n总收藏榜::/shuku/0_1_0_0_3_{{page}}_0_0\n总字数榜::/shuku/0_1_0_0_9_{{page}}_0_0\n玄幻奇幻::/shuku/1_1_0_0_0_{{page}}_0_0\n武侠仙侠::/shuku/2_1_0_0_0_{{page}}_0_0\n都市青春::/shuku/3_1_0_0_0_{{page}}_0_0\n历史军事::/shuku/4_1_0_0_0_{{page}}_0_0\n科幻灵异::/shuku/5_1_0_0_0_{{page}}_0_0\n游戏竞技::/shuku/6_1_0_0_0_{{page}}_0_0\n 女生书库::/shuku/9_1_0_0_0_{{page}}_0_0\n女频连载::/shuku/9_2_0_0_0_{{page}}_0_0\n女频完结::/shuku/9_3_0_0_0_{{page}}_0_0\n添加时间::/shuku/9_1_0_0_8_{{page}}_0_0\n总点击榜::/shuku/9_1_0_0_2_{{page}}_0_0\n月点击榜::/shuku/9_1_0_0_5_{{page}}_0_0\n周点击榜::/shuku/9_1_0_0_4_{{page}}_0_0\n总推荐榜::/shuku/9_1_0_0_1_{{page}}_0_0\n月推荐榜::/shuku/9_1_0_0_7_{{page}}_0_0\n周推荐榜::/shuku/9_1_0_0_6_{{page}}_0_0\n总收藏榜::/shuku/9_1_0_0_3_{{page}}_0_0\n总字数榜::/shuku/9_1_0_0_9_{{page}}_0_0",
+    "exploreUrl": "男生书库::/shuku/0_1_0_0_0_{{page}}_0_0\n男频连载::/shuku/0_2_0_0_0_{{page}}_0_0\n男频完结::/shuku/0_3_0_0_0_{{page}}_0_0\n添加时间::/shuku/0_1_0_0_8_{{page}}_0_0\n总点击榜::/shuku/0_1_0_0_2_{{page}}_0_0\n月点击榜::/shuku/0_1_0_0_5_{{page}}_0_0\n周点击榜::/shuku/0_1_0_0_4_{{page}}_0_0\n总推荐榜::/shuku/0_1_0_0_1_{{page}}_0_0\n月推荐榜::/shuku/0_1_0_0_7_{{page}}_0_0\n周推荐榜::/shuku/0_1_0_0_6_{{page}}_0_0\n总收藏榜::/shuku/0_1_0_0_3_{{page}}_0_0\n总字数榜::/shuku/0_1_0_0_9_{{page}}_0_0\n玄幻奇幻::/shuku/1_1_0_0_0_{{page}}_0_0\n武侠仙侠::/shuku/2_1_0_0_0_{{page}}_0_0\n都市青春::/shuku/3_1_0_0_0_{{page}}_0_0\n历史军事::/shuku/4_1_0_0_0_{{page}}_0_0\n科幻灵异::/shuku/5_1_0_0_0_{{page}}_0_0\n游戏竞技::/shuku/6_1_0_0_0_{{page}}_0_0\n女生书库::/shuku/9_1_0_0_0_{{page}}_0_0\n女频连载::/shuku/9_2_0_0_0_{{page}}_0_0\n女频完结::/shuku/9_3_0_0_0_{{page}}_0_0\n添加时间::/shuku/9_1_0_0_8_{{page}}_0_0\n总点击榜::/shuku/9_1_0_0_2_{{page}}_0_0\n月点击榜::/shuku/9_1_0_0_5_{{page}}_0_0\n周点击榜::/shuku/9_1_0_0_4_{{page}}_0_0\n总推荐榜::/shuku/9_1_0_0_1_{{page}}_0_0\n月推荐榜::/shuku/9_1_0_0_7_{{page}}_0_0\n周推荐榜::/shuku/9_1_0_0_6_{{page}}_0_0\n总收藏榜::/shuku/9_1_0_0_3_{{page}}_0_0\n总字数榜::/shuku/9_1_0_0_9_{{page}}_0_0",
     "header": "",
     "lastUpdateTime": 0,
     "loginUrl": "",
