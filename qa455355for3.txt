@@ -51,7 +51,7 @@
     "bookSourceGroup": "qa455355",
     "bookSourceName": "若晨文学",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://www.ffbook.cc",
+    "bookSourceUrl": "https://www.ruochenwx.com",
     "bookUrlPattern": "https?://www\\.ffbook\\.cc/\\d+/?",
     "customOrder": 0,
     "enabled": true,
@@ -69,7 +69,7 @@
       "wordCount": "class.booktag@tag.span@text##字数：(\\d+)##$1字"
     },
     "ruleContent": {
-      "content": "id.wudidexiaoxiao@html##<p>喜欢([\\s\\S]*?)请大家收藏：\\(www\\.ffbook\\.cc\\)\\1若晨文学更新速度最快。</p>",
+      "content": "id.wudidexiaoxiao@html##<p>喜欢([\\s\\S]*?)请大家收藏：\\(www\\.[^\\)]*\\)\\1若晨文学更新速度最快。</p>",
       "nextContentUrl": "text.下一页@href"
     },
     "ruleExplore": {},
