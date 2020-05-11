@@ -52,7 +52,7 @@
     "bookSourceName": "若晨文学",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.ruochenwx.com",
-    "bookUrlPattern": "https?://www\\.ffbook\\.cc/\\d+/?",
+    "bookUrlPattern": "https?://www\\.ruochenwx\\.com/\\d+/?",
     "customOrder": 0,
     "enabled": true,
     "enabledExplore": false,
