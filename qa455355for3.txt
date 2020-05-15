@@ -381,5 +381,46 @@
     },
     "searchUrl": "/search/,{\n  \"charset\": \"gb2312\",\n  \"body\": \"key={{key}}\",\n  \"method\": \"POST\"\n}",
     "weight": 0
+  },
+  {
+    "bookSourceGroup": "qa455355",
+    "bookSourceName": "中文书城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://shenma.cread.com",
+    "bookUrlPattern": "https?://shenma\\.cread\\.com/book/\\d+\\.html",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.ui_bookinfo_detail@tag.p.0@text##作者：",
+      "coverUrl": "class.ui_bookinfo_cover@tag.img@src",
+      "intro": "class.jianjie_intro@textNodes",
+      "kind": "class.zw_flex.0@text",
+      "lastChapter": "class.zw_flex.0@text##最新：",
+      "name": "class.bookname.0@text",
+      "tocUrl": "class.ui_bookinfo_catalog zw_box@tag.a.0@href",
+      "wordCount": "class.ui_bookinfo_detail@tag.p.1@text##&nbsp;|.*?\\|\\s*"
+    },
+    "ruleContent": {
+      "content": "class.r-content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.ui_authorname@text",
+      "bookList": "id.uiUL@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@html",
+      "kind": "class.lb_score@text##(.+)$##$1分",
+      "name": "class.bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ui_catalog@tag.a",
+      "chapterName": "tag.span.0@text",
+      "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "/searchbook.aspx?key={{key}}&type=1",
+    "weight": 0
   }
 ]
