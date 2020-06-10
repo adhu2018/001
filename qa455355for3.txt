@@ -276,7 +276,7 @@
       "author": "//strong/text()",
       "coverUrl": "//*[@class=\"book-cover\"]/@src##@.*",
       "init": "",
-      "intro": "//*[@class=\"note\"]/text()",
+      "intro": "//meta[@property=\"og:description\"]/@content",
       "kind": "//*[@class=\"cate\"]/a/text()&&//*[@class=\"icon-cover book-status is-finished\"]/@class&&//*[@class=\"icon-cover book-status is-serialize\"]/@class<js>String(result).replace(/icon-cover book-status is-finished/g,\"完结\").replace(/icon-cover book-status is-serialize/g,\"连载\").replace(/^\\[|\\]$/g,\"\");</js>",
       "lastChapter": "",
       "name": "//*[@class=\"hd\"]/h1/text()",
