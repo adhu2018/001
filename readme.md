@@ -1,5 +1,7 @@
 # 001
 
+- 更新详情：[https://adhu2018.github.io/test/](https://adhu2018.github.io/test/)
+  
 - emmm，由于书源过于稳定，更新就。。缘分到了，更新就到了。。。
 
 - 为避免因版本原因引起可能出现的未知问题，以后只发[新版(3.x)](https://github.com/gedoor/legado)的书源。\[20200109\]  
